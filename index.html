@@ -50,18 +50,29 @@
           </select>
         </div>
 
+        <!-- Category Type Filter -->
+        <div class="control-group">
+          <label for="category-select" class="label-with-icon">📦 Categoria de Origem:</label>
+          <select id="category-select" class="select-input">
+            <option value="ALL" selected>Todas as Categorias</option>
+            <option value="MACHINES">🏭 Produtos de Máquinas</option>
+            <option value="CROPS">🌱 Plantio / Cultivo (Crops)</option>
+            <option value="TREES">🍎 Árvores & Arbustos</option>
+          </select>
+        </div>
+
         <!-- Machine Filter -->
         <div class="control-group">
-          <label for="building-select" class="label-with-icon">🏭 Máquina / Construção:</label>
+          <label for="building-select" class="label-with-icon">🏭 Máquina / Origem Especifica:</label>
           <select id="building-select" class="select-input">
-            <option value="ALL">Todas as Máquinas</option>
+            <option value="ALL">Todas as Origens</option>
           </select>
         </div>
 
         <!-- Search Input -->
         <div class="control-group">
           <label for="search-input" class="label-with-icon">🔍 Buscar Item:</label>
-          <input type="text" id="search-input" placeholder="Ex: Bread, Muffin, Pizza..." class="search-input">
+          <input type="text" id="search-input" placeholder="Ex: Wheat, Bread, Muffin..." class="search-input">
         </div>
       </div>
     </section>

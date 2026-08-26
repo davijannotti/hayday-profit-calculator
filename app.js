@@ -7,6 +7,7 @@ const levelSlider = document.getElementById('level-slider');
 const levelInput = document.getElementById('level-input');
 const levelDisplay = document.getElementById('level-display');
 const sortSelect = document.getElementById('sort-select');
+const categorySelect = document.getElementById('category-select');
 const buildingSelect = document.getElementById('building-select');
 const searchInput = document.getElementById('search-input');
 const itemsGrid = document.getElementById('items-grid');
@@ -31,9 +32,22 @@ async function loadData() {
 
 // Populate building select options dynamically
 function populateBuildingFilter() {
+  const selectedCategory = categorySelect.value;
+  buildingSelect.innerHTML = '<option value="ALL">Todas as Origens</option>';
+
   const buildings = new Set();
   allItems.forEach(item => {
-    if (item.building) buildings.add(item.building);
+    if (!item.building) return;
+
+    // Filter buildings based on category selection
+    const isCrop = item.building === 'Plantio / Cultivo';
+    const isTree = item.building === 'Árvores & Arbustos';
+    const isMachine = !isCrop && !isTree;
+
+    if (selectedCategory === 'CROPS' && isCrop) buildings.add(item.building);
+    else if (selectedCategory === 'TREES' && isTree) buildings.add(item.building);
+    else if (selectedCategory === 'MACHINES' && isMachine) buildings.add(item.building);
+    else if (selectedCategory === 'ALL') buildings.add(item.building);
   });
 
   const sortedBuildings = Array.from(buildings).sort();
@@ -72,20 +86,37 @@ function formatCurrency(val) {
   return `$${Math.round(val).toLocaleString('pt-BR')}`;
 }
 
+// Helper to determine category icon
+function getCategoryIcon(building) {
+  if (building === 'Plantio / Cultivo') return '🌱';
+  if (building === 'Árvores & Arbustos') return '🍎';
+  return '🏭';
+}
+
 // Render filtered and sorted items
 function render() {
   const currentLevel = parseInt(levelInput.value) || 1;
   const currentSort = sortSelect.value;
+  const currentCategory = categorySelect.value;
   const currentBuilding = buildingSelect.value;
   const searchText = searchInput.value.toLowerCase().trim();
 
-  // 1. Filter by level, building, and search
+  // 1. Filter items
   let filtered = allItems.filter(item => {
     const isUnlocked = item.level <= currentLevel;
     const matchesBuilding = currentBuilding === 'ALL' || item.building === currentBuilding;
     const matchesSearch = !searchText || item.name.toLowerCase().includes(searchText);
 
-    return isUnlocked && matchesBuilding && matchesSearch;
+    const isCrop = item.building === 'Plantio / Cultivo';
+    const isTree = item.building === 'Árvores & Arbustos';
+    const isMachine = !isCrop && !isTree;
+
+    let matchesCategory = true;
+    if (currentCategory === 'CROPS') matchesCategory = isCrop;
+    else if (currentCategory === 'TREES') matchesCategory = isTree;
+    else if (currentCategory === 'MACHINES') matchesCategory = isMachine;
+
+    return isUnlocked && matchesCategory && matchesBuilding && matchesSearch;
   });
 
   // 2. Sort items
@@ -100,7 +131,6 @@ function render() {
   countUnlockedEl.textContent = filtered.length;
 
   if (filtered.length > 0) {
-    // Find top item by maxPerHour among unlocked
     const topByProfit = [...filtered].sort((a, b) => b.maxPerHour - a.maxPerHour)[0];
     topItemNameEl.textContent = topByProfit ? topByProfit.name : '-';
     topItemProfitEl.textContent = topByProfit ? `${formatCurrency(topByProfit.maxPerHour)}/hr` : '$0/hr';
@@ -126,6 +156,7 @@ function render() {
     const isProfitHighlight = currentSort === 'maxPerHour';
     const isPriceHighlight = currentSort === 'maxPrice';
     const isXpHighlight = currentSort === 'xpPerHour';
+    const icon = getCategoryIcon(item.building);
 
     card.innerHTML = `
       <div>
@@ -134,7 +165,7 @@ function render() {
           <span class="item-level-tag">Lvl ${item.level}</span>
         </div>
         <div class="item-building">
-          <span>🏭</span> ${item.building || 'Desconhecido'}
+          <span>${icon}</span> ${item.building || 'Desconhecido'}
         </div>
       </div>
 
@@ -166,6 +197,10 @@ function render() {
 levelSlider.addEventListener('input', (e) => syncLevel(e.target.value));
 levelInput.addEventListener('input', (e) => syncLevel(e.target.value));
 sortSelect.addEventListener('change', render);
+categorySelect.addEventListener('change', () => {
+  populateBuildingFilter();
+  render();
+});
 buildingSelect.addEventListener('change', render);
 searchInput.addEventListener('input', render);
 
