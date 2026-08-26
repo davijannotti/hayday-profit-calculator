@@ -1,4 +1,4 @@
-// Hay Day Profit Calculator - Main JavaScript (Pro Edition v2.0)
+// Hay Day Profit Calculator - Main JavaScript (Pro Edition v3.0)
 
 let allItems = [];
 
@@ -92,30 +92,41 @@ function getCategoryIcon(category) {
 }
 
 /**
- * ACCURATE REAL-WORLD HAY DAY PRODUCTION CALCULATOR
+ * ACCURATE REAL-WORLD HAY DAY PRODUCTION CALCULATOR (v3.0)
  * 
- * Calculates the exact profit generated during the user's AFK window (e.g. 1 hour)
- * considering machine slot bottlenecks and fractional progress for long items!
+ * 1. CROPS (Plantio): Assumes 1 single harvest per login access session!
+ *    If crop time <= afkHours: It yields 1 full harvest per field (represented as unit price * 10 fields standard).
+ *    If crop time > afkHours: It yields fractional growth progress during the AFK period.
+ * 
+ * 2. TREES (Árvores): Yields fractional growth progress during the AFK period.
+ * 
+ * 3. MACHINES: Limited by slot capacity during the AFK period.
  */
 function calculateSessionProfit(item, afkHours, slotsCount, isNetMode) {
   const unitProfit = isNetMode ? (item.netProfit !== undefined ? item.netProfit : item.maxPrice) : item.maxPrice;
   const prodTime = item.timeHours && item.timeHours > 0 ? item.timeHours : 0.0833;
 
-  // 1. Crops (Field): Unlimited parallel fields. Produced count = afkHours / prodTime
+  // 1. Crops (Field): Single harvest per AFK login access (Standardized per 10 fields for clear comparison!)
   if (item.category === 'CROPS') {
-    const unitsProduced = Math.max(0.1, afkHours / prodTime);
-    return unitsProduced * unitProfit;
+    // Standard batch size of 10 fields for crop comparison
+    const batchPrice = unitProfit * 10;
+    if (prodTime <= afkHours) {
+      // Crop finishes growing while AFK -> 1 full harvest per access session!
+      return batchPrice;
+    } else {
+      // Crop takes longer than AFK window -> fractional progress during AFK
+      const progressFraction = afkHours / prodTime;
+      return batchPrice * progressFraction;
+    }
   }
 
-  // 2. Trees / Bushes: Fixed harvest per cycle. Yields rate based on time
+  // 2. Trees / Bushes: Fractional progress during AFK window
   if (item.category === 'TREES') {
-    const unitsProduced = Math.max(0.1, afkHours / prodTime);
-    return unitsProduced * unitProfit;
+    const progressFraction = afkHours / prodTime;
+    return unitProfit * progressFraction;
   }
 
   // 3. Machines: Limited by slot capacity during the AFK period
-  // If item takes LONGER than AFK window (e.g. 16h item vs 1h AFK):
-  // You generate fractional progress during that 1h (e.g., 1/16th of a bar per slot = 1/16 * 3 slots = 3/16 bars in 1 hour).
   const maxUnitsMachineCanProduceInAfk = afkHours / prodTime;
   const actualUnitsProducedInAfk = Math.min(slotsCount, maxUnitsMachineCanProduceInAfk);
 
@@ -199,7 +210,8 @@ function render() {
     if (topItemNameEl) topItemNameEl.textContent = topItem ? topItem.name : '-';
     if (topItemProfitEl) {
       if (currentSort === 'sessionProfit') {
-        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} em ${currentAfkHours}h` : '$0';
+        const batchSuffix = topItem.category === 'CROPS' ? ' (10 canteiros)' : '';
+        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)}${batchSuffix} em ${currentAfkHours}h` : '$0';
       } else if (currentSort === 'maxPerHour') {
         topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.effectivePerHour)}/hr` : '$0/hr';
       } else if (currentSort === 'maxPrice') {
@@ -275,6 +287,10 @@ function render() {
       `;
     }
 
+    const sessionLabel = item.category === 'CROPS' 
+      ? `🏆 Lucro / Acesso (${currentAfkHours}h - 10 canteiros):` 
+      : `🏆 Lucro / Acesso (${currentAfkHours}h AFK):`;
+
     card.innerHTML = `
       <div class="card-header-wrapper">
         <div class="card-top">
@@ -292,7 +308,7 @@ function render() {
       <div class="card-body-wrapper">
         <div class="item-stats">
           <div class="stat-row highlight-row">
-            <span class="stat-label">🏆 Lucro Real (${currentAfkHours}h AFK):</span>
+            <span class="stat-label">${sessionLabel}</span>
             <span class="stat-val ${isSessionHighlight ? 'highlight' : ''}">${formatCurrency(item.sessionProfit)}</span>
           </div>
           <div class="stat-row">
