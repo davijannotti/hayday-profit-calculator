@@ -1,4 +1,4 @@
-// Hay Day Profit Calculator - Main JavaScript (Pro Edition)
+// Hay Day Profit Calculator - Main JavaScript (Pro Edition v2.0)
 
 let allItems = [];
 
@@ -91,27 +91,41 @@ function getCategoryIcon(category) {
   return '🏭';
 }
 
-// Calculate AFK Session Profit
+/**
+ * ACCURATE REAL-WORLD HAY DAY PRODUCTION CALCULATOR
+ * 
+ * Calculates the exact profit generated during the user's AFK window (e.g. 1 hour)
+ * considering machine slot bottlenecks and fractional progress for long items!
+ */
 function calculateSessionProfit(item, afkHours, slotsCount, isNetMode) {
-  const basePrice = isNetMode ? (item.netProfit !== undefined ? item.netProfit : item.maxPrice) : item.maxPrice;
+  const unitProfit = isNetMode ? (item.netProfit !== undefined ? item.netProfit : item.maxPrice) : item.maxPrice;
   const prodTime = item.timeHours && item.timeHours > 0 ? item.timeHours : 0.0833;
 
-  if (item.category !== 'MACHINES') {
-    const itemsProduced = Math.max(1, Math.floor(afkHours / prodTime));
-    return itemsProduced * basePrice;
+  // 1. Crops (Field): Unlimited parallel fields. Produced count = afkHours / prodTime
+  if (item.category === 'CROPS') {
+    const unitsProduced = Math.max(0.1, afkHours / prodTime);
+    return unitsProduced * unitProfit;
   }
 
-  // For Machines: limited by machine slots during the AFK period
-  const itemsFitInAfkWindow = Math.floor(afkHours / prodTime);
-  const actualItemsProduced = Math.max(1, Math.min(slotsCount, itemsFitInAfkWindow));
+  // 2. Trees / Bushes: Fixed harvest per cycle. Yields rate based on time
+  if (item.category === 'TREES') {
+    const unitsProduced = Math.max(0.1, afkHours / prodTime);
+    return unitsProduced * unitProfit;
+  }
 
-  return actualItemsProduced * basePrice;
+  // 3. Machines: Limited by slot capacity during the AFK period
+  // If item takes LONGER than AFK window (e.g. 16h item vs 1h AFK):
+  // You generate fractional progress during that 1h (e.g., 1/16th of a bar per slot = 1/16 * 3 slots = 3/16 bars in 1 hour).
+  const maxUnitsMachineCanProduceInAfk = afkHours / prodTime;
+  const actualUnitsProducedInAfk = Math.min(slotsCount, maxUnitsMachineCanProduceInAfk);
+
+  return actualUnitsProducedInAfk * unitProfit;
 }
 
 // Render filtered and sorted items
 function render() {
   const currentLevel = parseInt(levelInput.value) || 1;
-  const currentAfkHours = parseFloat(afkSelect.value) || 2.0;
+  const currentAfkHours = parseFloat(afkSelect.value) || 1.0;
   const isNetMode = profitModeSelect.value === 'NET';
   const currentSlots = parseInt(slotsSlider.value) || 3;
   const currentSort = sortSelect.value;
@@ -124,7 +138,7 @@ function render() {
     slotsDisplay.textContent = `${currentSlots} Slots`;
   }
 
-  // 1. Process items with calculated session metrics
+  // 1. Process items with accurate session metrics
   let processedItems = allItems.map(item => {
     const sessionProfit = calculateSessionProfit(item, currentAfkHours, currentSlots, isNetMode);
     const effectivePrice = isNetMode ? (item.netProfit !== undefined ? item.netProfit : item.maxPrice) : item.maxPrice;
@@ -185,13 +199,13 @@ function render() {
     if (topItemNameEl) topItemNameEl.textContent = topItem ? topItem.name : '-';
     if (topItemProfitEl) {
       if (currentSort === 'sessionProfit') {
-        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} / acesso` : '$0';
+        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} em ${currentAfkHours}h` : '$0';
       } else if (currentSort === 'maxPerHour') {
         topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.effectivePerHour)}/hr` : '$0/hr';
       } else if (currentSort === 'maxPrice') {
         topItemProfitEl.textContent = topItem ? formatCurrency(topItem.effectivePrice) : '$0';
       } else {
-        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} / acesso` : '$0';
+        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} em ${currentAfkHours}h` : '$0';
       }
     }
   } else {
@@ -278,7 +292,7 @@ function render() {
       <div class="card-body-wrapper">
         <div class="item-stats">
           <div class="stat-row highlight-row">
-            <span class="stat-label">🏆 Lucro / Acesso (${currentAfkHours}h):</span>
+            <span class="stat-label">🏆 Lucro Real (${currentAfkHours}h AFK):</span>
             <span class="stat-val ${isSessionHighlight ? 'highlight' : ''}">${formatCurrency(item.sessionProfit)}</span>
           </div>
           <div class="stat-row">
