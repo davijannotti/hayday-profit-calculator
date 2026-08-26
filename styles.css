@@ -202,6 +202,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 20px;
+  align-items: stretch;
 }
 
 /* Item Card */
@@ -217,6 +218,7 @@ h1 {
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .item-card:hover {
@@ -225,11 +227,24 @@ h1 {
   border-color: #cbd5e1;
 }
 
+.card-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
 .card-top {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .item-title {
@@ -256,6 +271,7 @@ h1 {
   margin-bottom: 12px;
   gap: 8px;
   flex-wrap: wrap;
+  min-height: 24px;
 }
 
 .item-building {

@@ -18,7 +18,13 @@ def parse_needs(needs_str):
             items.append({'item': part, 'count': 1})
     return items
 
-def get_bottleneck_level(ingredients):
+def get_bottleneck_level(building_name, ingredients):
+    building_lower = building_name.lower() if building_name else ''
+    
+    # 1. Smelter (Fundição) & Jeweler (Joalheria) -> High Bottleneck due to mining tools & ores!
+    if any(m in building_lower for m in ['smelter', 'jeweler', 'fundi', 'joalhe']):
+        return 'HIGH'
+    
     if not ingredients:
         return 'EASY'
     
@@ -27,7 +33,8 @@ def get_bottleneck_level(ingredients):
     
     for ing in ingredients:
         iname = ing['item'].lower()
-        if any(b in iname for b in ['cheese', 'butter', 'cream', 'white sugar', 'brown sugar', 'syrup', 'mayonnaise', 'olive oil', 'toffee', 'jam']):
+        # High bottleneck items (scarce sub-ingredients & ores)
+        if any(b in iname for b in ['cheese', 'butter', 'cream', 'white sugar', 'brown sugar', 'syrup', 'mayonnaise', 'olive oil', 'toffee', 'jam', 'ore', 'bar', 'gold', 'silver', 'platinum', 'iron', 'coal']):
             has_high_bottleneck = True
         elif any(b in iname for b in ['milk', 'egg', 'bacon', 'bread', 'cotton fabric']):
             has_med_bottleneck = True
@@ -39,7 +46,7 @@ def get_bottleneck_level(ingredients):
     return 'EASY'
 
 crops_data = [
-    # Field crops
+    # Field crops - Crops never have bottlenecks!
     {'name': 'Wheat', 'level': 1, 'maxPrice': 3, 'timeHours': 2/60, 'xp': 1, 'building': 'Plantio / Cultivo', 'category': 'CROPS'},
     {'name': 'Corn', 'level': 2, 'maxPrice': 7, 'timeHours': 5/60, 'xp': 1, 'building': 'Plantio / Cultivo', 'category': 'CROPS'},
     {'name': 'Soybean', 'level': 5, 'maxPrice': 10, 'timeHours': 20/60, 'xp': 2, 'building': 'Plantio / Cultivo', 'category': 'CROPS'},
@@ -106,7 +113,7 @@ for c in crops_data:
         'ingredients': [],
         'ingredientCost': 0.0,
         'netProfit': float(c['maxPrice']),
-        'bottleneck': 'EASY'
+        'bottleneck': None # Crops and trees do not show bottleneck badge!
     }
     if 'toolReq' in c:
         item_obj['toolReq'] = c['toolReq']
@@ -157,7 +164,7 @@ for g in goods_rows:
     for ing in raw_ingredients:
         iname = ing['item']
         cnt = ing['count']
-        unit_price = price_dict.get(iname.lower(), 10.0) # default fallback if unmapped
+        unit_price = price_dict.get(iname.lower(), 10.0) # default fallback
         total_ing_price = unit_price * cnt
         cost += total_ing_price
         detailed_ingredients.append({
@@ -171,7 +178,7 @@ for g in goods_rows:
     max_per_hour = (g['maxPrice'] / g['timeHours']) if g['timeHours'] > 0 else g['maxPrice']
     net_per_hour = (net_profit / g['timeHours']) if g['timeHours'] > 0 else net_profit
     xp_per_hour = (g['xp'] / g['timeHours']) if g['timeHours'] > 0 else g['xp']
-    bottleneck = get_bottleneck_level(raw_ingredients)
+    bottleneck = get_bottleneck_level(g['building'], raw_ingredients)
 
     items.append({
         'name': g['name'],
@@ -193,7 +200,7 @@ for g in goods_rows:
         'bottleneck': bottleneck
     })
 
-print(f"Rebuilt data.json with detailed ingredient prices for {len(items)} items!")
+print(f"Rebuilt data.json with ores/smelter bottleneck fixes! Total: {len(items)} items.")
 
 with open('data.json', 'w', encoding='utf-8') as f:
     json.dump(items, f, indent=2, ensure_ascii=False)

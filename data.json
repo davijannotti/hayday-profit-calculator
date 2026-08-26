@@ -15,7 +15,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 3.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Corn",
@@ -33,7 +33,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 7.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Soybean",
@@ -51,7 +51,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 10.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Sugarcane",
@@ -69,7 +69,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 14.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Carrot",
@@ -87,7 +87,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 7.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Indigo",
@@ -105,7 +105,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 25.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Pumpkin",
@@ -123,7 +123,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 32.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Cotton",
@@ -141,7 +141,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 28.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Chili Pepper",
@@ -159,7 +159,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 36.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Tomato",
@@ -177,7 +177,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 43.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Strawberries",
@@ -195,7 +195,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 50.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Potato",
@@ -213,7 +213,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 36.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Sesame",
@@ -231,7 +231,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 54.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Pineapple",
@@ -249,7 +249,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 57.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Lily",
@@ -267,7 +267,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 61.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Rice",
@@ -285,7 +285,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 18.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Garlic",
@@ -303,7 +303,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 14.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Peony",
@@ -321,7 +321,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 72.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Beetroot",
@@ -339,7 +339,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 36.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Bell pepper",
@@ -357,7 +357,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 36.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Cucumber",
@@ -375,7 +375,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 46.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Onion",
@@ -393,7 +393,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 36.0,
-    "bottleneck": "EASY"
+    "bottleneck": null
   },
   {
     "name": "Apple",
@@ -411,7 +411,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 39.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -430,7 +430,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 46.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "✂️ Tesoura de Poda (Axes)"
   },
   {
@@ -449,7 +449,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 82.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "✂️ Tesoura de Poda (Axes)"
   },
   {
@@ -468,7 +468,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 68.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -487,7 +487,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 86.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -506,7 +506,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 64.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "✂️ Tesoura de Poda (Axes)"
   },
   {
@@ -525,7 +525,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 82.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -544,7 +544,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 93.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -563,7 +563,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 97.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -582,7 +582,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 100.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -601,7 +601,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 104.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -620,7 +620,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 82.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -639,7 +639,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 100.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -658,7 +658,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 108.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -677,7 +677,7 @@
     "ingredients": [],
     "ingredientCost": 0.0,
     "netProfit": 112.0,
-    "bottleneck": "EASY",
+    "bottleneck": null,
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -874,7 +874,7 @@
         "totalPrice": 410.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Seafood salad",
@@ -1082,7 +1082,7 @@
         "totalPrice": 294.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "BLT salad",
@@ -1208,7 +1208,7 @@
         "totalPrice": 360.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Jelly beans",
@@ -1360,7 +1360,7 @@
         "totalPrice": 147.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fried candy bar",
@@ -1720,7 +1720,7 @@
         "totalPrice": 108.0
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Peanut butter milkshake",
@@ -3050,7 +3050,7 @@
         "totalPrice": 294.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chocolate pie",
@@ -3258,7 +3258,7 @@
         "totalPrice": 10.0
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cheese fondue",
@@ -6250,7 +6250,7 @@
         "totalPrice": 50.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cherry jam",
@@ -10137,7 +10137,7 @@
         "totalPrice": 10.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mushroom salad",
@@ -10373,7 +10373,7 @@
         "totalPrice": 30.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Berry juice",
@@ -10743,7 +10743,7 @@
         "totalPrice": 30.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Toffee",
@@ -11401,7 +11401,7 @@
         "totalPrice": 30.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chamomile Tea",
@@ -11611,7 +11611,7 @@
         "totalPrice": 30.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Apple juice",
@@ -11978,7 +11978,7 @@
         "totalPrice": 30.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cookie",

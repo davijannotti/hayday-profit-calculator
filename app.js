@@ -225,13 +225,13 @@ function render() {
 
     // Bottleneck Badge
     let bottleneckBadge = '';
-    if (item.category === 'MACHINES') {
+    if (item.category === 'MACHINES' && item.bottleneck) {
       if (item.bottleneck === 'HIGH') {
-        bottleneckBadge = `<span class="badge badge-high" title="Exige ingredientes escassos de Laticínio/Açúcar">🔴 Gargalo Alto</span>`;
+        bottleneckBadge = `<span class="badge badge-high" title="Exige ferramentas da mina (dinamites) ou ingredientes escassos">🔴 Gargalo Alto</span>`;
       } else if (item.bottleneck === 'MED') {
         bottleneckBadge = `<span class="badge badge-med" title="Exige ovos, leite, bacon ou pão">🟡 Gargalo Médio</span>`;
-      } else {
-        bottleneckBadge = `<span class="badge badge-easy" title="Apenas colheitas/plantio básico">🟢 Sem Gargalo</span>`;
+      } else if (item.bottleneck === 'EASY') {
+        bottleneckBadge = `<span class="badge badge-easy" title="Apenas plantio básico ou receitas simples">🟢 Sem Gargalo</span>`;
       }
     }
 
@@ -262,7 +262,7 @@ function render() {
     }
 
     card.innerHTML = `
-      <div>
+      <div class="card-header-wrapper">
         <div class="card-top">
           <h3 class="item-title">${item.name}</h3>
           <span class="item-level-tag">Lvl ${item.level}</span>
@@ -275,29 +275,31 @@ function render() {
         </div>
       </div>
 
-      <div class="item-stats">
-        <div class="stat-row highlight-row">
-          <span class="stat-label">🏆 Lucro / Acesso (${currentAfkHours}h):</span>
-          <span class="stat-val ${isSessionHighlight ? 'highlight' : ''}">${formatCurrency(item.sessionProfit)}</span>
+      <div class="card-body-wrapper">
+        <div class="item-stats">
+          <div class="stat-row highlight-row">
+            <span class="stat-label">🏆 Lucro / Acesso (${currentAfkHours}h):</span>
+            <span class="stat-val ${isSessionHighlight ? 'highlight' : ''}">${formatCurrency(item.sessionProfit)}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">${isNetMode ? '💰 Lucro Líquido Unit.:' : '💰 Preço Máximo Unit.:'}</span>
+            <span class="stat-val ${isPriceHighlight ? 'primary-highlight' : ''}">${formatCurrency(item.effectivePrice)}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">${isNetMode ? '⚡ Lucro Liq. / Hora:' : '⚡ Lucro Bruto / Hora:'}</span>
+            <span class="stat-val ${isProfitHighlight ? 'highlight' : ''}">${formatCurrency(item.effectivePerHour)}/hr</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">⏱️ Tempo Produção:</span>
+            <span class="stat-val">${formatTime(item.timeHours)}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">⭐ XP por Hora:</span>
+            <span class="stat-val ${isXpHighlight ? 'primary-highlight' : ''}">${item.xpPerHour ? Math.round(item.xpPerHour) + ' XP/hr' : '-'}</span>
+          </div>
+          ${toolBadge}
+          ${ingredientsHtml}
         </div>
-        <div class="stat-row">
-          <span class="stat-label">${isNetMode ? '💰 Lucro Líquido Unit.:' : '💰 Preço Máximo Unit.:'}</span>
-          <span class="stat-val ${isPriceHighlight ? 'primary-highlight' : ''}">${formatCurrency(item.effectivePrice)}</span>
-        </div>
-        <div class="stat-row">
-          <span class="stat-label">${isNetMode ? '⚡ Lucro Liq. / Hora:' : '⚡ Lucro Bruto / Hora:'}</span>
-          <span class="stat-val ${isProfitHighlight ? 'highlight' : ''}">${formatCurrency(item.effectivePerHour)}/hr</span>
-        </div>
-        <div class="stat-row">
-          <span class="stat-label">⏱️ Tempo Produção:</span>
-          <span class="stat-val">${formatTime(item.timeHours)}</span>
-        </div>
-        <div class="stat-row">
-          <span class="stat-label">⭐ XP por Hora:</span>
-          <span class="stat-val ${isXpHighlight ? 'primary-highlight' : ''}">${item.xpPerHour ? Math.round(item.xpPerHour) + ' XP/hr' : '-'}</span>
-        </div>
-        ${toolBadge}
-        ${ingredientsHtml}
       </div>
     `;
 
