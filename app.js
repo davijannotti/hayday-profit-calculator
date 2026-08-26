@@ -25,7 +25,7 @@ const topItemProfitEl = document.getElementById('top-item-profit');
 // Fetch items data
 async function loadData() {
   try {
-    const res = await fetch('data.json');
+    const res = await fetch(`data.json?v=${Date.now()}`);
     allItems = await res.json();
     populateBuildingFilter();
     render();
@@ -97,12 +97,11 @@ function calculateSessionProfit(item, afkHours, slotsCount, isNetMode) {
   const prodTime = item.timeHours && item.timeHours > 0 ? item.timeHours : 0.0833;
 
   if (item.category !== 'MACHINES') {
-    // For crops and trees, produced count during the AFK period
     const itemsProduced = Math.max(1, Math.floor(afkHours / prodTime));
     return itemsProduced * basePrice;
   }
 
-  // For Machines: limited by available machine slots during the AFK window
+  // For Machines: limited by machine slots during the AFK period
   const itemsFitInAfkWindow = Math.floor(afkHours / prodTime);
   const actualItemsProduced = Math.max(1, Math.min(slotsCount, itemsFitInAfkWindow));
 
@@ -120,7 +119,7 @@ function render() {
   const currentBuilding = buildingSelect.value;
   const searchText = searchInput.value.toLowerCase().trim();
 
-  // Update UI text for slots
+  // Update UI text for slots slider
   if (slotsDisplay) {
     slotsDisplay.textContent = `${currentSlots} Slots`;
   }
@@ -236,10 +235,31 @@ function render() {
       }
     }
 
-    // Ingredients List String
-    const ingredientsText = item.ingredients && item.ingredients.length > 0
-      ? item.ingredients.map(i => `${i.count}x ${i.item}`).join(', ')
-      : 'Sem ingredientes adicionais';
+    // Detailed Ingredients List HTML
+    let ingredientsHtml = '';
+    if (item.category === 'MACHINES' && item.ingredients && item.ingredients.length > 0) {
+      const ingListItems = item.ingredients.map(ing => {
+        const uPrice = ing.unitPrice ? formatCurrency(ing.unitPrice) : '$0';
+        const tPrice = ing.totalPrice ? formatCurrency(ing.totalPrice) : '$0';
+        return `<li><span class="ing-name">${ing.count}x ${ing.item}</span> <span class="ing-calc">(${uPrice} un = ${tPrice})</span></li>`;
+      }).join('');
+
+      ingredientsHtml = `
+        <div class="ingredients-box">
+          <div class="ing-header">
+            <span>🧬 Receita & Custo dos Ingredientes</span>
+            <span class="ing-cost-total">Total: ${formatCurrency(item.ingredientCost || 0)}</span>
+          </div>
+          <ul class="ing-list">
+            ${ingListItems}
+          </ul>
+          <div class="profit-breakdown">
+            <span>Venda ($${item.maxPrice}) - Custo ($${item.ingredientCost || 0}) = </span>
+            <strong class="net-value">${formatCurrency(item.netProfit || item.maxPrice)} Líquido</strong>
+          </div>
+        </div>
+      `;
+    }
 
     card.innerHTML = `
       <div>
@@ -277,7 +297,7 @@ function render() {
           <span class="stat-val ${isXpHighlight ? 'primary-highlight' : ''}">${item.xpPerHour ? Math.round(item.xpPerHour) + ' XP/hr' : '-'}</span>
         </div>
         ${toolBadge}
-        ${item.category === 'MACHINES' ? `<div class="ingredients-info"><strong>Ingredientes:</strong> ${ingredientsText}</div>` : ''}
+        ${ingredientsHtml}
       </div>
     `;
 
@@ -285,12 +305,24 @@ function render() {
   });
 }
 
-// Event Listeners
+// Event Listeners - supporting both input and change for instant slider reactivity
 levelSlider.addEventListener('input', (e) => syncLevel(e.target.value));
+levelSlider.addEventListener('change', (e) => syncLevel(e.target.value));
 levelInput.addEventListener('input', (e) => syncLevel(e.target.value));
+levelInput.addEventListener('change', (e) => syncLevel(e.target.value));
+
 afkSelect.addEventListener('change', render);
 profitModeSelect.addEventListener('change', render);
-slotsSlider.addEventListener('input', render);
+
+slotsSlider.addEventListener('input', (e) => {
+  if (slotsDisplay) slotsDisplay.textContent = `${e.target.value} Slots`;
+  render();
+});
+slotsSlider.addEventListener('change', (e) => {
+  if (slotsDisplay) slotsDisplay.textContent = `${e.target.value} Slots`;
+  render();
+});
+
 sortSelect.addEventListener('change', render);
 categorySelect.addEventListener('change', () => {
   populateBuildingFilter();

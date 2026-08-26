@@ -699,19 +699,27 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82.0,
+        "totalPrice": 164.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Peanuts",
-        "count": 2
+        "count": 2,
+        "unitPrice": 234.0,
+        "totalPrice": 468.0
       }
     ],
     "bottleneck": "HIGH"
@@ -735,15 +743,21 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 3
+        "count": 3,
+        "unitPrice": 108.0,
+        "totalPrice": 324.0
       },
       {
         "item": "Duck feather",
-        "count": 5
+        "count": 5,
+        "unitPrice": 140.0,
+        "totalPrice": 700.0
       },
       {
         "item": "Pumpkin",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32,
+        "totalPrice": 32
       }
     ],
     "bottleneck": "MED"
@@ -767,19 +781,27 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Lemon curd",
-        "count": 2
+        "count": 2,
+        "unitPrice": 378.0,
+        "totalPrice": 756.0
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       }
     ],
     "bottleneck": "HIGH"
@@ -803,11 +825,15 @@
     "ingredients": [
       {
         "item": "Chocolate ice cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 342.0,
+        "totalPrice": 342.0
       },
       {
         "item": "Espresso",
-        "count": 2
+        "count": 2,
+        "unitPrice": 248.0,
+        "totalPrice": 496.0
       }
     ],
     "bottleneck": "HIGH"
@@ -831,15 +857,21 @@
     "ingredients": [
       {
         "item": "Diamond",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Gold bar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 180.0,
+        "totalPrice": 360.0
       },
       {
         "item": "Platinum bar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 205.0,
+        "totalPrice": 410.0
       }
     ],
     "bottleneck": "EASY"
@@ -863,19 +895,27 @@
     "ingredients": [
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Lobster tail",
-        "count": 1
+        "count": 1,
+        "unitPrice": 201.0,
+        "totalPrice": 201.0
       },
       {
         "item": "Mayonnaise",
-        "count": 1
+        "count": 1,
+        "unitPrice": 367.0,
+        "totalPrice": 367.0
       }
     ],
     "bottleneck": "HIGH"
@@ -899,22 +939,30 @@
     "ingredients": [
       {
         "item": "Fresh pasta",
-        "count": 4
+        "count": 4,
+        "unitPrice": 43.0,
+        "totalPrice": 172.0
       },
       {
         "item": "Lemon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 93,
+        "totalPrice": 186
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fruity milkshake",
@@ -935,15 +983,21 @@
     "ingredients": [
       {
         "item": "Peach ice cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 450.0,
+        "totalPrice": 450.0
       },
       {
         "item": "Orange",
-        "count": 2
+        "count": 2,
+        "unitPrice": 97,
+        "totalPrice": 194
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       }
     ],
     "bottleneck": "HIGH"
@@ -967,19 +1021,27 @@
     "ingredients": [
       {
         "item": "Goat cheese",
-        "count": 2
+        "count": 2,
+        "unitPrice": 162.0,
+        "totalPrice": 324.0
       },
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Olive",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82,
+        "totalPrice": 164
       },
       {
         "item": "Roasted tomatoes",
-        "count": 1
+        "count": 1,
+        "unitPrice": 118.0,
+        "totalPrice": 118.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1003,15 +1065,21 @@
     "ingredients": [
       {
         "item": "Gold bar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 180.0,
+        "totalPrice": 180.0
       },
       {
         "item": "Platinum bar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 205.0,
+        "totalPrice": 205.0
       },
       {
         "item": "Silver bar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 147.0,
+        "totalPrice": 294.0
       }
     ],
     "bottleneck": "EASY"
@@ -1035,19 +1103,27 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Mayonnaise",
-        "count": 1
+        "count": 1,
+        "unitPrice": 367.0,
+        "totalPrice": 367.0
       },
       {
         "item": "Roasted tomatoes",
-        "count": 1
+        "count": 1,
+        "unitPrice": 118.0,
+        "totalPrice": 118.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1071,19 +1147,27 @@
     "ingredients": [
       {
         "item": "Plain cupcake",
-        "count": 1
+        "count": 1,
+        "unitPrice": 280.0,
+        "totalPrice": 280.0
       },
       {
         "item": "Cream",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Cookie",
-        "count": 2
+        "count": 2,
+        "unitPrice": 104.0,
+        "totalPrice": 208.0
       },
       {
         "item": "Cacao",
-        "count": 1
+        "count": 1,
+        "unitPrice": 86,
+        "totalPrice": 86
       }
     ],
     "bottleneck": "HIGH"
@@ -1107,15 +1191,21 @@
     "ingredients": [
       {
         "item": "Peony",
-        "count": 3
+        "count": 3,
+        "unitPrice": 72,
+        "totalPrice": 216
       },
       {
         "item": "Platinum bar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 205.0,
+        "totalPrice": 205.0
       },
       {
         "item": "Gold bar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 180.0,
+        "totalPrice": 360.0
       }
     ],
     "bottleneck": "EASY"
@@ -1139,15 +1229,21 @@
     "ingredients": [
       {
         "item": "Blackberry jam",
-        "count": 1
+        "count": 1,
+        "unitPrice": 388.0,
+        "totalPrice": 388.0
       },
       {
         "item": "Raspberry jam",
-        "count": 1
+        "count": 1,
+        "unitPrice": 252.0,
+        "totalPrice": 252.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1171,11 +1267,15 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108.0,
+        "totalPrice": 216.0
       },
       {
         "item": "Duck feather",
-        "count": 3
+        "count": 3,
+        "unitPrice": 140.0,
+        "totalPrice": 420.0
       }
     ],
     "bottleneck": "MED"
@@ -1199,19 +1299,27 @@
     "ingredients": [
       {
         "item": "Vanilla ice cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 172.0,
+        "totalPrice": 172.0
       },
       {
         "item": "Cookie",
-        "count": 2
+        "count": 2,
+        "unitPrice": 104.0,
+        "totalPrice": 208.0
       },
       {
         "item": "Toffee",
-        "count": 1
+        "count": 1,
+        "unitPrice": 176.0,
+        "totalPrice": 176.0
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1235,15 +1343,21 @@
     "ingredients": [
       {
         "item": "Iron bar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 129.0,
+        "totalPrice": 258.0
       },
       {
         "item": "Refined coal",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108.0,
+        "totalPrice": 216.0
       },
       {
         "item": "Silver bar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 147.0,
+        "totalPrice": 147.0
       }
     ],
     "bottleneck": "EASY"
@@ -1267,15 +1381,21 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 3
+        "count": 3,
+        "unitPrice": 86,
+        "totalPrice": 258
       },
       {
         "item": "Cookie",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104.0,
+        "totalPrice": 104.0
       },
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       }
     ],
     "bottleneck": "EASY"
@@ -1299,19 +1419,27 @@
     "ingredients": [
       {
         "item": "Lettuce",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Rice",
-        "count": 20
+        "count": 20,
+        "unitPrice": 18,
+        "totalPrice": 360
       },
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Egg",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18.0,
+        "totalPrice": 54.0
       }
     ],
     "bottleneck": "MED"
@@ -1335,19 +1463,27 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Mayonnaise",
-        "count": 1
+        "count": 1,
+        "unitPrice": 367.0,
+        "totalPrice": 367.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1371,15 +1507,21 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 3
+        "count": 3,
+        "unitPrice": 86,
+        "totalPrice": 258
       },
       {
         "item": "Butter",
-        "count": 3
+        "count": 3,
+        "unitPrice": 82.0,
+        "totalPrice": 246.0
       },
       {
         "item": "White sugar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1403,15 +1545,21 @@
     "ingredients": [
       {
         "item": "Lobster tail",
-        "count": 1
+        "count": 1,
+        "unitPrice": 201.0,
+        "totalPrice": 201.0
       },
       {
         "item": "Rice",
-        "count": 15
+        "count": 15,
+        "unitPrice": 18,
+        "totalPrice": 270
       },
       {
         "item": "Soy sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       }
     ],
     "bottleneck": "EASY"
@@ -1435,19 +1583,27 @@
     "ingredients": [
       {
         "item": "Lobster tail",
-        "count": 1
+        "count": 1,
+        "unitPrice": 201.0,
+        "totalPrice": 201.0
       },
       {
         "item": "Cream",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Fresh pasta",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Tomato",
-        "count": 4
+        "count": 4,
+        "unitPrice": 43,
+        "totalPrice": 172
       }
     ],
     "bottleneck": "HIGH"
@@ -1471,19 +1627,27 @@
     "ingredients": [
       {
         "item": "Plain waffles",
-        "count": 1
+        "count": 1,
+        "unitPrice": 198.0,
+        "totalPrice": 198.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "Strawberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Banana",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104,
+        "totalPrice": 104
       }
     ],
     "bottleneck": "EASY"
@@ -1507,11 +1671,15 @@
     "ingredients": [
       {
         "item": "Chocolate",
-        "count": 1
+        "count": 1,
+        "unitPrice": 460.0,
+        "totalPrice": 460.0
       },
       {
         "item": "Strawberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -1535,15 +1703,21 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 3
+        "count": 3,
+        "unitPrice": 108.0,
+        "totalPrice": 324.0
       },
       {
         "item": "Duck feather",
-        "count": 1
+        "count": 1,
+        "unitPrice": 140.0,
+        "totalPrice": 140.0
       },
       {
         "item": "Refined coal",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108.0,
+        "totalPrice": 108.0
       }
     ],
     "bottleneck": "MED"
@@ -1567,19 +1741,27 @@
     "ingredients": [
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Cacao",
-        "count": 3
+        "count": 3,
+        "unitPrice": 86,
+        "totalPrice": 258
       }
     ],
     "bottleneck": "HIGH"
@@ -1603,19 +1785,27 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Lobster tail",
-        "count": 2
+        "count": 2,
+        "unitPrice": 201.0,
+        "totalPrice": 402.0
       },
       {
         "item": "Tomato",
-        "count": 1
+        "count": 1,
+        "unitPrice": 43,
+        "totalPrice": 43
       }
     ],
     "bottleneck": "HIGH"
@@ -1639,19 +1829,27 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 5
+        "count": 5,
+        "unitPrice": 86,
+        "totalPrice": 430
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       },
       {
         "item": "Mint",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1675,19 +1873,27 @@
     "ingredients": [
       {
         "item": "Plain yogurt",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Oats",
-        "count": 4
+        "count": 4,
+        "unitPrice": 10.0,
+        "totalPrice": 40.0
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Blackberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82,
+        "totalPrice": 164
       }
     ],
     "bottleneck": "EASY"
@@ -1711,19 +1917,27 @@
     "ingredients": [
       {
         "item": "Plain waffles",
-        "count": 1
+        "count": 1,
+        "unitPrice": 198.0,
+        "totalPrice": 198.0
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       },
       {
         "item": "Raspberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 46,
+        "totalPrice": 138
       },
       {
         "item": "Blackberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82,
+        "totalPrice": 164
       }
     ],
     "bottleneck": "HIGH"
@@ -1747,18 +1961,24 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Raspberry jam",
-        "count": 1
+        "count": 1,
+        "unitPrice": 252.0,
+        "totalPrice": 252.0
       },
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Peanut noodles",
@@ -1779,19 +1999,27 @@
     "ingredients": [
       {
         "item": "Ginger",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Rice noodles",
-        "count": 1
+        "count": 1,
+        "unitPrice": 100.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Soy sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       }
     ],
     "bottleneck": "EASY"
@@ -1815,19 +2043,27 @@
     "ingredients": [
       {
         "item": "Blackberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82,
+        "totalPrice": 164
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Orange",
-        "count": 1
+        "count": 1,
+        "unitPrice": 97,
+        "totalPrice": 97
       },
       {
         "item": "Strawberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -1851,15 +2087,21 @@
     "ingredients": [
       {
         "item": "Plain donut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 129.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Cacao",
-        "count": 1
+        "count": 1,
+        "unitPrice": 86,
+        "totalPrice": 86
       },
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       }
     ],
     "bottleneck": "EASY"
@@ -1883,19 +2125,27 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82.0,
+        "totalPrice": 164.0
       },
       {
         "item": "Lemon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 93,
+        "totalPrice": 186
       },
       {
         "item": "White sugar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Milk",
-        "count": 3
+        "count": 3,
+        "unitPrice": 32.0,
+        "totalPrice": 96.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1919,19 +2169,27 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Mayonnaise",
-        "count": 1
+        "count": 1,
+        "unitPrice": 367.0,
+        "totalPrice": 367.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1955,15 +2213,21 @@
     "ingredients": [
       {
         "item": "Plain cupcake",
-        "count": 1
+        "count": 1,
+        "unitPrice": 280.0,
+        "totalPrice": 280.0
       },
       {
         "item": "Guava",
-        "count": 2
+        "count": 2,
+        "unitPrice": 112,
+        "totalPrice": 224
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -1987,19 +2251,27 @@
     "ingredients": [
       {
         "item": "Fresh pasta",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Tomato sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 230.0,
+        "totalPrice": 230.0
       },
       {
         "item": "Chili pepper",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       }
     ],
     "bottleneck": "EASY"
@@ -2023,15 +2295,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Tomato Sauce",
-        "count": 2
+        "count": 2,
+        "unitPrice": 230.0,
+        "totalPrice": 460.0
       },
       {
         "item": "Rice",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18,
+        "totalPrice": 18
       }
     ],
     "bottleneck": "MED"
@@ -2055,15 +2333,21 @@
     "ingredients": [
       {
         "item": "Plain cupcake",
-        "count": 1
+        "count": 1,
+        "unitPrice": 280.0,
+        "totalPrice": 280.0
       },
       {
         "item": "Pineapple",
-        "count": 3
+        "count": 3,
+        "unitPrice": 57,
+        "totalPrice": 171
       },
       {
         "item": "Coconut",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108,
+        "totalPrice": 216
       }
     ],
     "bottleneck": "EASY"
@@ -2087,19 +2371,27 @@
     "ingredients": [
       {
         "item": "Duck feather",
-        "count": 2
+        "count": 2,
+        "unitPrice": 140.0,
+        "totalPrice": 280.0
       },
       {
         "item": "Indigo",
-        "count": 1
+        "count": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       },
       {
         "item": "Wool",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54.0,
+        "totalPrice": 162.0
       }
     ],
     "bottleneck": "EASY"
@@ -2123,19 +2415,27 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Pomegranate",
-        "count": 1
+        "count": 1,
+        "unitPrice": 111.0,
+        "totalPrice": 111.0
       },
       {
         "item": "Orange",
-        "count": 2
+        "count": 2,
+        "unitPrice": 97,
+        "totalPrice": 194
       }
     ],
     "bottleneck": "HIGH"
@@ -2159,18 +2459,24 @@
     "ingredients": [
       {
         "item": "Peony",
-        "count": 3
+        "count": 3,
+        "unitPrice": 72,
+        "totalPrice": 216
       },
       {
         "item": "Toffee",
-        "count": 1
+        "count": 1,
+        "unitPrice": 176.0,
+        "totalPrice": 176.0
       },
       {
         "item": "Caramel apple",
-        "count": 1
+        "count": 1,
+        "unitPrice": 255.0,
+        "totalPrice": 255.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Summer salad",
@@ -2191,19 +2497,27 @@
     "ingredients": [
       {
         "item": "Goat cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Onion",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Peach",
-        "count": 1
+        "count": 1,
+        "unitPrice": 100,
+        "totalPrice": 100
       },
       {
         "item": "Tomato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43,
+        "totalPrice": 129
       }
     ],
     "bottleneck": "HIGH"
@@ -2227,19 +2541,27 @@
     "ingredients": [
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Egg",
-        "count": 4
+        "count": 4,
+        "unitPrice": 18.0,
+        "totalPrice": 72.0
       },
       {
         "item": "Rice",
-        "count": 15
+        "count": 15,
+        "unitPrice": 18,
+        "totalPrice": 270
       },
       {
         "item": "Soy sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       }
     ],
     "bottleneck": "HIGH"
@@ -2263,15 +2585,21 @@
     "ingredients": [
       {
         "item": "Blackberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 82,
+        "totalPrice": 246
       },
       {
         "item": "Strawberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Raspberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 46,
+        "totalPrice": 138
       }
     ],
     "bottleneck": "EASY"
@@ -2295,22 +2623,30 @@
     "ingredients": [
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Chili pepper",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Garlic",
-        "count": 5
+        "count": 5,
+        "unitPrice": 14,
+        "totalPrice": 70
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chili fudge",
@@ -2331,19 +2667,27 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82.0,
+        "totalPrice": 164.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Chili pepper",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "HIGH"
@@ -2367,22 +2711,30 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Veggie lasagna",
@@ -2403,19 +2755,27 @@
     "ingredients": [
       {
         "item": "Tomato sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 230.0,
+        "totalPrice": 230.0
       },
       {
         "item": "Fresh pasta",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Carrot",
-        "count": 1
+        "count": 1,
+        "unitPrice": 7,
+        "totalPrice": 7
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       }
     ],
     "bottleneck": "HIGH"
@@ -2439,14 +2799,18 @@
     "ingredients": [
       {
         "item": "Plain yogurt",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Strawberry jam",
-        "count": 1
+        "count": 1,
+        "unitPrice": 270.0,
+        "totalPrice": 270.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Corn dog",
@@ -2467,18 +2831,24 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 4
+        "count": 4,
+        "unitPrice": 50.0,
+        "totalPrice": 200.0
       },
       {
         "item": "Corn",
-        "count": 4
+        "count": 4,
+        "unitPrice": 7,
+        "totalPrice": 28
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Plum smoothie",
@@ -2499,19 +2869,27 @@
     "ingredients": [
       {
         "item": "Plum",
-        "count": 3
+        "count": 3,
+        "unitPrice": 82,
+        "totalPrice": 246
       },
       {
         "item": "Grapes",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Mint",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       }
     ],
     "bottleneck": "EASY"
@@ -2535,19 +2913,27 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82.0,
+        "totalPrice": 164.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Mint",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "HIGH"
@@ -2571,18 +2957,24 @@
     "ingredients": [
       {
         "item": "Apple",
-        "count": 1
+        "count": 1,
+        "unitPrice": 39,
+        "totalPrice": 39
       },
       {
         "item": "Apple jam",
-        "count": 2
+        "count": 2,
+        "unitPrice": 219.0,
+        "totalPrice": 438.0
       },
       {
         "item": "Oats",
-        "count": 4
+        "count": 4,
+        "unitPrice": 10.0,
+        "totalPrice": 40.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fruit sorbet",
@@ -2603,19 +2995,27 @@
     "ingredients": [
       {
         "item": "Guava",
-        "count": 1
+        "count": 1,
+        "unitPrice": 112,
+        "totalPrice": 112
       },
       {
         "item": "Passion fruit",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Mango",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100,
+        "totalPrice": 200
       },
       {
         "item": "White sugar",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       }
     ],
     "bottleneck": "HIGH"
@@ -2639,11 +3039,15 @@
     "ingredients": [
       {
         "item": "Gold bar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 180.0,
+        "totalPrice": 180.0
       },
       {
         "item": "Silver bar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 147.0,
+        "totalPrice": 294.0
       }
     ],
     "bottleneck": "EASY"
@@ -2667,19 +3071,27 @@
     "ingredients": [
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       },
       {
         "item": "Cacao",
-        "count": 3
+        "count": 3,
+        "unitPrice": 86,
+        "totalPrice": 258
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       }
     ],
     "bottleneck": "MED"
@@ -2703,15 +3115,21 @@
     "ingredients": [
       {
         "item": "Banana",
-        "count": 2
+        "count": 2,
+        "unitPrice": 104,
+        "totalPrice": 208
       },
       {
         "item": "Cacao",
-        "count": 3
+        "count": 3,
+        "unitPrice": 86,
+        "totalPrice": 258
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       }
     ],
     "bottleneck": "MED"
@@ -2735,22 +3153,30 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Broccoli",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Bell pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mixed smoothie",
@@ -2771,15 +3197,21 @@
     "ingredients": [
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       },
       {
         "item": "Orange",
-        "count": 2
+        "count": 2,
+        "unitPrice": 97,
+        "totalPrice": 194
       },
       {
         "item": "Peach",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100,
+        "totalPrice": 200
       }
     ],
     "bottleneck": "EASY"
@@ -2803,19 +3235,27 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108.0,
+        "totalPrice": 108.0
       },
       {
         "item": "Lily",
-        "count": 5
+        "count": 5,
+        "unitPrice": 61,
+        "totalPrice": 305
       },
       {
         "item": "Gold ore",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Diamond",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "MED"
@@ -2839,19 +3279,27 @@
     "ingredients": [
       {
         "item": "Potato bread",
-        "count": 1
+        "count": 1,
+        "unitPrice": 284.0,
+        "totalPrice": 284.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Mushroom",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Tomato",
-        "count": 1
+        "count": 1,
+        "unitPrice": 43,
+        "totalPrice": 43
       }
     ],
     "bottleneck": "HIGH"
@@ -2875,15 +3323,21 @@
     "ingredients": [
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Rice",
-        "count": 15
+        "count": 15,
+        "unitPrice": 18,
+        "totalPrice": 270
       },
       {
         "item": "Soy sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       }
     ],
     "bottleneck": "EASY"
@@ -2907,15 +3361,21 @@
     "ingredients": [
       {
         "item": "Asparagus",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Bacon",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       }
     ],
     "bottleneck": "MED"
@@ -2939,19 +3399,27 @@
     "ingredients": [
       {
         "item": "Apple",
-        "count": 2
+        "count": 2,
+        "unitPrice": 39,
+        "totalPrice": 78
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Honey",
-        "count": 2
+        "count": 2,
+        "unitPrice": 154.0,
+        "totalPrice": 308.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -2975,19 +3443,27 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Goat cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Tomato juice",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       }
     ],
     "bottleneck": "HIGH"
@@ -3011,19 +3487,27 @@
     "ingredients": [
       {
         "item": "Potato",
-        "count": 4
+        "count": 4,
+        "unitPrice": 36,
+        "totalPrice": 144
       },
       {
         "item": "Tomato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43,
+        "totalPrice": 129
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       },
       {
         "item": "Butter",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82.0,
+        "totalPrice": 164.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3047,19 +3531,27 @@
     "ingredients": [
       {
         "item": "Coconut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108,
+        "totalPrice": 108
       },
       {
         "item": "Banana",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104,
+        "totalPrice": 104
       },
       {
         "item": "Passion fruit",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Mango",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100,
+        "totalPrice": 200
       }
     ],
     "bottleneck": "EASY"
@@ -3083,18 +3575,24 @@
     "ingredients": [
       {
         "item": "Fish fillet",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Honey peanuts",
@@ -3115,11 +3613,15 @@
     "ingredients": [
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       }
     ],
     "bottleneck": "EASY"
@@ -3143,11 +3645,15 @@
     "ingredients": [
       {
         "item": "Strawberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Wool",
-        "count": 6
+        "count": 6,
+        "unitPrice": 54.0,
+        "totalPrice": 324.0
       }
     ],
     "bottleneck": "EASY"
@@ -3171,15 +3677,21 @@
     "ingredients": [
       {
         "item": "Cabbage",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Mayonnaise",
-        "count": 1
+        "count": 1,
+        "unitPrice": 367.0,
+        "totalPrice": 367.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3203,19 +3715,27 @@
     "ingredients": [
       {
         "item": "Olive",
-        "count": 3
+        "count": 3,
+        "unitPrice": 82,
+        "totalPrice": 246
       },
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       },
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       }
     ],
     "bottleneck": "MED"
@@ -3239,15 +3759,21 @@
     "ingredients": [
       {
         "item": "Peach",
-        "count": 1
+        "count": 1,
+        "unitPrice": 100,
+        "totalPrice": 100
       },
       {
         "item": "Honey",
-        "count": 2
+        "count": 2,
+        "unitPrice": 154.0,
+        "totalPrice": 308.0
       },
       {
         "item": "Oats",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -3271,19 +3797,27 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Cheese",
-        "count": 2
+        "count": 2,
+        "unitPrice": 122.0,
+        "totalPrice": 244.0
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       },
       {
         "item": "Onion",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       }
     ],
     "bottleneck": "HIGH"
@@ -3307,15 +3841,21 @@
     "ingredients": [
       {
         "item": "Rice",
-        "count": 20
+        "count": 20,
+        "unitPrice": 18,
+        "totalPrice": 360
       },
       {
         "item": "Sesame",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54,
+        "totalPrice": 54
       },
       {
         "item": "Plum",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82,
+        "totalPrice": 82
       }
     ],
     "bottleneck": "EASY"
@@ -3339,15 +3879,21 @@
     "ingredients": [
       {
         "item": "Cucumber",
-        "count": 2
+        "count": 2,
+        "unitPrice": 46,
+        "totalPrice": 92
       },
       {
         "item": "Mayonnaise",
-        "count": 1
+        "count": 1,
+        "unitPrice": 367.0,
+        "totalPrice": 367.0
       },
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3371,7 +3917,9 @@
     "ingredients": [
       {
         "item": "Peach",
-        "count": 3
+        "count": 3,
+        "unitPrice": 100,
+        "totalPrice": 300
       }
     ],
     "bottleneck": "EASY"
@@ -3395,15 +3943,21 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 3
+        "count": 3,
+        "unitPrice": 86,
+        "totalPrice": 258
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3427,11 +3981,15 @@
     "ingredients": [
       {
         "item": "Beeswax",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Lemon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 93,
+        "totalPrice": 186
       }
     ],
     "bottleneck": "EASY"
@@ -3455,7 +4013,9 @@
     "ingredients": [
       {
         "item": "Orange",
-        "count": 3
+        "count": 3,
+        "unitPrice": 97,
+        "totalPrice": 291
       }
     ],
     "bottleneck": "EASY"
@@ -3479,19 +4039,27 @@
     "ingredients": [
       {
         "item": "Plain yogurt",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Raspberry",
-        "count": 4
+        "count": 4,
+        "unitPrice": 46,
+        "totalPrice": 184
       },
       {
         "item": "Passion fruit",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Mango",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100,
+        "totalPrice": 200
       }
     ],
     "bottleneck": "EASY"
@@ -3515,19 +4083,27 @@
     "ingredients": [
       {
         "item": "Cream cake",
-        "count": 1
+        "count": 1,
+        "unitPrice": 219.0,
+        "totalPrice": 219.0
       },
       {
         "item": "Lily",
-        "count": 3
+        "count": 3,
+        "unitPrice": 61,
+        "totalPrice": 183
       },
       {
         "item": "Raspberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 46,
+        "totalPrice": 138
       },
       {
         "item": "Gold ore",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3551,15 +4127,21 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Peach",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100,
+        "totalPrice": 200
       }
     ],
     "bottleneck": "HIGH"
@@ -3583,19 +4165,27 @@
     "ingredients": [
       {
         "item": "Cherry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 68,
+        "totalPrice": 136
       },
       {
         "item": "Grapes",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Orange",
-        "count": 2
+        "count": 2,
+        "unitPrice": 97,
+        "totalPrice": 194
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       }
     ],
     "bottleneck": "EASY"
@@ -3619,15 +4209,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Lemon curd",
-        "count": 1
+        "count": 1,
+        "unitPrice": 378.0,
+        "totalPrice": 378.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -3651,19 +4247,27 @@
     "ingredients": [
       {
         "item": "Beeswax",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Peony",
-        "count": 2
+        "count": 2,
+        "unitPrice": 72,
+        "totalPrice": 144
       },
       {
         "item": "Sunflower",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Indigo",
-        "count": 3
+        "count": 3,
+        "unitPrice": 25,
+        "totalPrice": 75
       }
     ],
     "bottleneck": "EASY"
@@ -3687,15 +4291,21 @@
     "ingredients": [
       {
         "item": "Eggplant",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Tomato sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 230.0,
+        "totalPrice": 230.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3719,22 +4329,30 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 1
+        "count": 1,
+        "unitPrice": 21.0,
+        "totalPrice": 21.0
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Bell pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Affogato",
@@ -3755,11 +4373,15 @@
     "ingredients": [
       {
         "item": "Vanilla ice cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 172.0,
+        "totalPrice": 172.0
       },
       {
         "item": "Espresso",
-        "count": 1
+        "count": 1,
+        "unitPrice": 248.0,
+        "totalPrice": 248.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3783,19 +4405,27 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Peach",
-        "count": 3
+        "count": 3,
+        "unitPrice": 100,
+        "totalPrice": 300
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "HIGH"
@@ -3819,19 +4449,27 @@
     "ingredients": [
       {
         "item": "Pomegranate",
-        "count": 1
+        "count": 1,
+        "unitPrice": 111.0,
+        "totalPrice": 111.0
       },
       {
         "item": "Mint",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Coconut",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108,
+        "totalPrice": 216
       },
       {
         "item": "Oats",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -3855,19 +4493,27 @@
     "ingredients": [
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Rice noodles",
-        "count": 3
+        "count": 3,
+        "unitPrice": 100.0,
+        "totalPrice": 300.0
       }
     ],
     "bottleneck": "MED"
@@ -3891,15 +4537,21 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Corn",
-        "count": 4
+        "count": 4,
+        "unitPrice": 7,
+        "totalPrice": 28
       },
       {
         "item": "Salsa",
-        "count": 1
+        "count": 1,
+        "unitPrice": 252.0,
+        "totalPrice": 252.0
       }
     ],
     "bottleneck": "HIGH"
@@ -3923,19 +4575,27 @@
     "ingredients": [
       {
         "item": "Plain waffles",
-        "count": 1
+        "count": 1,
+        "unitPrice": 198.0,
+        "totalPrice": 198.0
       },
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Asparagus",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       }
     ],
     "bottleneck": "MED"
@@ -3959,19 +4619,27 @@
     "ingredients": [
       {
         "item": "Banana",
-        "count": 3
+        "count": 3,
+        "unitPrice": 104,
+        "totalPrice": 312
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Grapes",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       }
     ],
     "bottleneck": "MED"
@@ -3995,15 +4663,21 @@
     "ingredients": [
       {
         "item": "Guava",
-        "count": 2
+        "count": 2,
+        "unitPrice": 112,
+        "totalPrice": 224
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4027,15 +4701,21 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 1
+        "count": 1,
+        "unitPrice": 86,
+        "totalPrice": 86
       },
       {
         "item": "Coconut",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108,
+        "totalPrice": 216
       },
       {
         "item": "White sugar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4059,15 +4739,21 @@
     "ingredients": [
       {
         "item": "Corn bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 72.0,
+        "totalPrice": 144.0
       },
       {
         "item": "Onion",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4091,15 +4777,21 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Lobster tail",
-        "count": 1
+        "count": 1,
+        "unitPrice": 201.0,
+        "totalPrice": 201.0
       }
     ],
     "bottleneck": "EASY"
@@ -4123,19 +4815,27 @@
     "ingredients": [
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Cream",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Pineapple",
-        "count": 3
+        "count": 3,
+        "unitPrice": 57,
+        "totalPrice": 171
       },
       {
         "item": "Mango",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100,
+        "totalPrice": 200
       }
     ],
     "bottleneck": "HIGH"
@@ -4159,19 +4859,27 @@
     "ingredients": [
       {
         "item": "Fresh pasta",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4195,19 +4903,27 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Wheat",
-        "count": 1
+        "count": 1,
+        "unitPrice": 3,
+        "totalPrice": 3
       },
       {
         "item": "Bacon",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4231,14 +4947,18 @@
     "ingredients": [
       {
         "item": "Plain donut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 129.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Raspberry jam",
-        "count": 1
+        "count": 1,
+        "unitPrice": 252.0,
+        "totalPrice": 252.0
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Frutti di Mare pizza",
@@ -4259,19 +4979,27 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Lobster tail",
-        "count": 1
+        "count": 1,
+        "unitPrice": 201.0,
+        "totalPrice": 201.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "HIGH"
@@ -4295,14 +5023,18 @@
     "ingredients": [
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       }
     ],
-    "bottleneck": "EASY"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Banana split",
@@ -4323,15 +5055,21 @@
     "ingredients": [
       {
         "item": "Banana",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104,
+        "totalPrice": 104
       },
       {
         "item": "Cherry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 68,
+        "totalPrice": 204
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4355,11 +5093,15 @@
     "ingredients": [
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Orange",
-        "count": 2
+        "count": 2,
+        "unitPrice": 97,
+        "totalPrice": 194
       }
     ],
     "bottleneck": "EASY"
@@ -4383,15 +5125,21 @@
     "ingredients": [
       {
         "item": "Corn bread",
-        "count": 1
+        "count": 1,
+        "unitPrice": 72.0,
+        "totalPrice": 72.0
       },
       {
         "item": "Bacon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Salsa",
-        "count": 1
+        "count": 1,
+        "unitPrice": 252.0,
+        "totalPrice": 252.0
       }
     ],
     "bottleneck": "MED"
@@ -4415,19 +5163,27 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Pumpkin",
-        "count": 3
+        "count": 3,
+        "unitPrice": 32,
+        "totalPrice": 96
       }
     ],
     "bottleneck": "HIGH"
@@ -4451,19 +5207,27 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Corn bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 72.0,
+        "totalPrice": 144.0
       },
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       }
     ],
     "bottleneck": "MED"
@@ -4487,11 +5251,15 @@
     "ingredients": [
       {
         "item": "Lemon Essential Oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 288.0,
+        "totalPrice": 288.0
       },
       {
         "item": "Ginger",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -4515,15 +5283,21 @@
     "ingredients": [
       {
         "item": "Plain donut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 129.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Bacon",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4547,7 +5321,9 @@
     "ingredients": [
       {
         "item": "Blackberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 82,
+        "totalPrice": 246
       }
     ],
     "bottleneck": "EASY"
@@ -4571,7 +5347,9 @@
     "ingredients": [
       {
         "item": "Plum",
-        "count": 3
+        "count": 3,
+        "unitPrice": 82,
+        "totalPrice": 246
       }
     ],
     "bottleneck": "EASY"
@@ -4595,19 +5373,27 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Lemon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 93,
+        "totalPrice": 186
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4631,15 +5417,21 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Lettuce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Hummus",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       }
     ],
     "bottleneck": "MED"
@@ -4663,11 +5455,15 @@
     "ingredients": [
       {
         "item": "Beeswax",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Strawberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       }
     ],
     "bottleneck": "EASY"
@@ -4691,19 +5487,27 @@
     "ingredients": [
       {
         "item": "Chili Pepper",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -4727,15 +5531,21 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Bread",
-        "count": 1
+        "count": 1,
+        "unitPrice": 21.0,
+        "totalPrice": 21.0
       },
       {
         "item": "Tomato sauce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 230.0,
+        "totalPrice": 230.0
       }
     ],
     "bottleneck": "MED"
@@ -4759,15 +5569,21 @@
     "ingredients": [
       {
         "item": "Lettuce",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Soybean",
-        "count": 6
+        "count": 6,
+        "unitPrice": 10,
+        "totalPrice": 60
       },
       {
         "item": "Tomato",
-        "count": 4
+        "count": 4,
+        "unitPrice": 43,
+        "totalPrice": 172
       }
     ],
     "bottleneck": "EASY"
@@ -4791,19 +5607,27 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Potato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       }
     ],
     "bottleneck": "HIGH"
@@ -4827,14 +5651,18 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 4
+        "count": 4,
+        "unitPrice": 18.0,
+        "totalPrice": 72.0
       },
       {
         "item": "Olive oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 277.0,
+        "totalPrice": 277.0
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Exfoliating soap",
@@ -4855,15 +5683,21 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "Coffee bean",
-        "count": 2
+        "count": 2,
+        "unitPrice": 64,
+        "totalPrice": 128
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       }
     ],
     "bottleneck": "EASY"
@@ -4887,11 +5721,15 @@
     "ingredients": [
       {
         "item": "Corn",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Honey",
-        "count": 2
+        "count": 2,
+        "unitPrice": 154.0,
+        "totalPrice": 308.0
       }
     ],
     "bottleneck": "EASY"
@@ -4915,11 +5753,15 @@
     "ingredients": [
       {
         "item": "Beeswax",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Raspberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 46,
+        "totalPrice": 92
       }
     ],
     "bottleneck": "EASY"
@@ -4943,19 +5785,27 @@
     "ingredients": [
       {
         "item": "Broccoli",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Tomato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43,
+        "totalPrice": 129
       },
       {
         "item": "Mushroom",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Cotton fabric",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108.0,
+        "totalPrice": 108.0
       }
     ],
     "bottleneck": "MED"
@@ -4979,19 +5829,27 @@
     "ingredients": [
       {
         "item": "Bell pepper",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Bacon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Rice",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18,
+        "totalPrice": 54
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5015,11 +5873,15 @@
     "ingredients": [
       {
         "item": "Cherry juice",
-        "count": 1
+        "count": 1,
+        "unitPrice": 216.0,
+        "totalPrice": 216.0
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5043,19 +5905,27 @@
     "ingredients": [
       {
         "item": "Banana",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104,
+        "totalPrice": 104
       },
       {
         "item": "Blackberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82,
+        "totalPrice": 164
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       }
     ],
     "bottleneck": "HIGH"
@@ -5079,11 +5949,15 @@
     "ingredients": [
       {
         "item": "Ginger essential oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Mint essential oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 172.0,
+        "totalPrice": 172.0
       }
     ],
     "bottleneck": "EASY"
@@ -5107,19 +5981,27 @@
     "ingredients": [
       {
         "item": "Cherry Juice",
-        "count": 1
+        "count": 1,
+        "unitPrice": 216.0,
+        "totalPrice": 216.0
       },
       {
         "item": "Peony",
-        "count": 3
+        "count": 3,
+        "unitPrice": 72,
+        "totalPrice": 216
       },
       {
         "item": "Lily",
-        "count": 1
+        "count": 1,
+        "unitPrice": 61,
+        "totalPrice": 61
       },
       {
         "item": "Indigo",
-        "count": 1
+        "count": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
       }
     ],
     "bottleneck": "EASY"
@@ -5143,19 +6025,27 @@
     "ingredients": [
       {
         "item": "Cherry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 68,
+        "totalPrice": 68
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Raspberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 46,
+        "totalPrice": 92
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5179,15 +6069,21 @@
     "ingredients": [
       {
         "item": "Broccoli",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Fresh pasta",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43.0,
+        "totalPrice": 129.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5211,18 +6107,24 @@
     "ingredients": [
       {
         "item": "Coffee bean",
-        "count": 2
+        "count": 2,
+        "unitPrice": 64,
+        "totalPrice": 128
       },
       {
         "item": "Toffee",
-        "count": 1
+        "count": 1,
+        "unitPrice": 176.0,
+        "totalPrice": 176.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chocolate ice cream",
@@ -5243,19 +6145,27 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5279,15 +6189,21 @@
     "ingredients": [
       {
         "item": "Cherry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 68,
+        "totalPrice": 68
       },
       {
         "item": "Strawberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5311,19 +6227,27 @@
     "ingredients": [
       {
         "item": "Sunflower",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Indigo",
-        "count": 3
+        "count": 3,
+        "unitPrice": 25,
+        "totalPrice": 75
       },
       {
         "item": "Cotton",
-        "count": 1
+        "count": 1,
+        "unitPrice": 28,
+        "totalPrice": 28
       },
       {
         "item": "Iron ore",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "EASY"
@@ -5347,7 +6271,9 @@
     "ingredients": [
       {
         "item": "Cherry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 68,
+        "totalPrice": 204
       }
     ],
     "bottleneck": "EASY"
@@ -5371,11 +6297,15 @@
     "ingredients": [
       {
         "item": "Peony",
-        "count": 5
+        "count": 5,
+        "unitPrice": 72,
+        "totalPrice": 360
       },
       {
         "item": "Cotton",
-        "count": 4
+        "count": 4,
+        "unitPrice": 28,
+        "totalPrice": 112
       }
     ],
     "bottleneck": "EASY"
@@ -5399,19 +6329,27 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Strawberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5435,15 +6373,21 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Onion",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "HIGH"
@@ -5467,15 +6411,21 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108.0,
+        "totalPrice": 216.0
       },
       {
         "item": "Indigo",
-        "count": 1
+        "count": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       }
     ],
     "bottleneck": "MED"
@@ -5499,15 +6449,21 @@
     "ingredients": [
       {
         "item": "Goat milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 64.0,
+        "totalPrice": 64.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "Honeycomb",
-        "count": 1
+        "count": 1,
+        "unitPrice": 68.0,
+        "totalPrice": 68.0
       }
     ],
     "bottleneck": "MED"
@@ -5531,15 +6487,21 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108.0,
+        "totalPrice": 216.0
       },
       {
         "item": "Wheat",
-        "count": 5
+        "count": 5,
+        "unitPrice": 3,
+        "totalPrice": 15
       },
       {
         "item": "Chamomile",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "MED"
@@ -5563,11 +6525,15 @@
     "ingredients": [
       {
         "item": "Eggplant",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Salsa",
-        "count": 1
+        "count": 1,
+        "unitPrice": 252.0,
+        "totalPrice": 252.0
       }
     ],
     "bottleneck": "MED"
@@ -5591,15 +6557,21 @@
     "ingredients": [
       {
         "item": "Beeswax",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       },
       {
         "item": "Carrot",
-        "count": 1
+        "count": 1,
+        "unitPrice": 7,
+        "totalPrice": 7
       }
     ],
     "bottleneck": "EASY"
@@ -5623,15 +6595,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       }
     ],
     "bottleneck": "MED"
@@ -5655,11 +6633,15 @@
     "ingredients": [
       {
         "item": "Coconut",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108,
+        "totalPrice": 216
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5683,15 +6665,21 @@
     "ingredients": [
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       }
     ],
     "bottleneck": "HIGH"
@@ -5715,15 +6703,21 @@
     "ingredients": [
       {
         "item": "Apple",
-        "count": 1
+        "count": 1,
+        "unitPrice": 39,
+        "totalPrice": 39
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       },
       {
         "item": "Lettuce",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "EASY"
@@ -5747,19 +6741,27 @@
     "ingredients": [
       {
         "item": "Rice noodles",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100.0,
+        "totalPrice": 200.0
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Lettuce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       }
     ],
     "bottleneck": "EASY"
@@ -5783,19 +6785,27 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Strawberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5819,19 +6829,27 @@
     "ingredients": [
       {
         "item": "Pomegranate",
-        "count": 1
+        "count": 1,
+        "unitPrice": 111.0,
+        "totalPrice": 111.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Cream",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Wheat",
-        "count": 6
+        "count": 6,
+        "unitPrice": 3,
+        "totalPrice": 18
       }
     ],
     "bottleneck": "HIGH"
@@ -5855,19 +6873,27 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -5891,11 +6917,15 @@
     "ingredients": [
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Tea leaf",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -5919,11 +6949,15 @@
     "ingredients": [
       {
         "item": "Pomegranate",
-        "count": 1
+        "count": 1,
+        "unitPrice": 111.0,
+        "totalPrice": 111.0
       },
       {
         "item": "Tea leaf",
-        "count": 4
+        "count": 4,
+        "unitPrice": 10.0,
+        "totalPrice": 40.0
       }
     ],
     "bottleneck": "EASY"
@@ -5947,15 +6981,21 @@
     "ingredients": [
       {
         "item": "Sesame",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54,
+        "totalPrice": 162
       },
       {
         "item": "Banana",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104,
+        "totalPrice": 104
       },
       {
         "item": "Goat milk",
-        "count": 2
+        "count": 2,
+        "unitPrice": 64.0,
+        "totalPrice": 128.0
       }
     ],
     "bottleneck": "MED"
@@ -5979,11 +7019,15 @@
     "ingredients": [
       {
         "item": "Plain Donut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 129.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       }
     ],
     "bottleneck": "EASY"
@@ -6007,15 +7051,21 @@
     "ingredients": [
       {
         "item": "Corn",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Sesame",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54,
+        "totalPrice": 54
       },
       {
         "item": "Peanuts",
-        "count": 1
+        "count": 1,
+        "unitPrice": 234.0,
+        "totalPrice": 234.0
       }
     ],
     "bottleneck": "EASY"
@@ -6039,11 +7089,15 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108.0,
+        "totalPrice": 108.0
       },
       {
         "item": "Wool",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54.0,
+        "totalPrice": 162.0
       }
     ],
     "bottleneck": "MED"
@@ -6067,15 +7121,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 4
+        "count": 4,
+        "unitPrice": 18.0,
+        "totalPrice": 72.0
       },
       {
         "item": "Goat cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Potato",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       }
     ],
     "bottleneck": "HIGH"
@@ -6099,19 +7159,27 @@
     "ingredients": [
       {
         "item": "Soybean",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10,
+        "totalPrice": 30
       },
       {
         "item": "Onion",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Broccoli",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Sesame",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54,
+        "totalPrice": 162
       }
     ],
     "bottleneck": "EASY"
@@ -6135,19 +7203,27 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Bread",
-        "count": 1
+        "count": 1,
+        "unitPrice": 21.0,
+        "totalPrice": 21.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Onion",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "MED"
@@ -6171,19 +7247,27 @@
     "ingredients": [
       {
         "item": "Asparagus",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Wheat",
-        "count": 4
+        "count": 4,
+        "unitPrice": 3,
+        "totalPrice": 12
       }
     ],
     "bottleneck": "HIGH"
@@ -6207,19 +7291,27 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Potato",
-        "count": 4
+        "count": 4,
+        "unitPrice": 36,
+        "totalPrice": 144
       },
       {
         "item": "Garlic",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "MED"
@@ -6243,15 +7335,21 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 1
+        "count": 1,
+        "unitPrice": 21.0,
+        "totalPrice": 21.0
       },
       {
         "item": "Goat cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Grapes",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "HIGH"
@@ -6275,15 +7373,21 @@
     "ingredients": [
       {
         "item": "Peony",
-        "count": 4
+        "count": 4,
+        "unitPrice": 72,
+        "totalPrice": 288
       },
       {
         "item": "Cotton",
-        "count": 1
+        "count": 1,
+        "unitPrice": 28,
+        "totalPrice": 28
       },
       {
         "item": "Cotton fabric",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108.0,
+        "totalPrice": 108.0
       }
     ],
     "bottleneck": "MED"
@@ -6307,19 +7411,27 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Potato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       }
     ],
     "bottleneck": "HIGH"
@@ -6343,19 +7455,27 @@
     "ingredients": [
       {
         "item": "Carrot",
-        "count": 1
+        "count": 1,
+        "unitPrice": 7,
+        "totalPrice": 7
       },
       {
         "item": "Fish fillet",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Potato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "MED"
@@ -6379,19 +7499,27 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Potato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Mushroom",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       }
     ],
     "bottleneck": "MED"
@@ -6415,18 +7543,24 @@
     "ingredients": [
       {
         "item": "Apple jam",
-        "count": 1
+        "count": 1,
+        "unitPrice": 219.0,
+        "totalPrice": 219.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Wheat",
-        "count": 5
+        "count": 5,
+        "unitPrice": 3,
+        "totalPrice": 15
       }
     ],
-    "bottleneck": "MED"
+    "bottleneck": "HIGH"
   },
   {
     "name": "Flower shawl",
@@ -6447,15 +7581,21 @@
     "ingredients": [
       {
         "item": "Wool",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       },
       {
         "item": "Sunflower",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Blackberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82,
+        "totalPrice": 82
       }
     ],
     "bottleneck": "EASY"
@@ -6479,15 +7619,21 @@
     "ingredients": [
       {
         "item": "Coffee bean",
-        "count": 1
+        "count": 1,
+        "unitPrice": 64,
+        "totalPrice": 64
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       }
     ],
     "bottleneck": "HIGH"
@@ -6511,15 +7657,21 @@
     "ingredients": [
       {
         "item": "Passion fruit",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Chili pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       }
     ],
     "bottleneck": "EASY"
@@ -6543,11 +7695,15 @@
     "ingredients": [
       {
         "item": "Strawberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Wool",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       }
     ],
     "bottleneck": "EASY"
@@ -6571,7 +7727,9 @@
     "ingredients": [
       {
         "item": "Lemon",
-        "count": 3
+        "count": 3,
+        "unitPrice": 93,
+        "totalPrice": 279
       }
     ],
     "bottleneck": "EASY"
@@ -6595,19 +7753,27 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Mint",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Cacao",
-        "count": 1
+        "count": 1,
+        "unitPrice": 86,
+        "totalPrice": 86
       }
     ],
     "bottleneck": "HIGH"
@@ -6631,19 +7797,27 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Egg",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Potato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -6667,11 +7841,15 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Cookie",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104.0,
+        "totalPrice": 104.0
       }
     ],
     "bottleneck": "HIGH"
@@ -6695,19 +7873,27 @@
     "ingredients": [
       {
         "item": "Coconut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108,
+        "totalPrice": 108
       },
       {
         "item": "White sugar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Oats",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Pineapple",
-        "count": 2
+        "count": 2,
+        "unitPrice": 57,
+        "totalPrice": 114
       }
     ],
     "bottleneck": "HIGH"
@@ -6731,15 +7917,21 @@
     "ingredients": [
       {
         "item": "Coconut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108,
+        "totalPrice": 108
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       },
       {
         "item": "Chickpea",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -6763,19 +7955,27 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 2
+        "count": 2,
+        "unitPrice": 32.0,
+        "totalPrice": 64.0
       },
       {
         "item": "White sugar",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Wheat",
-        "count": 5
+        "count": 5,
+        "unitPrice": 3,
+        "totalPrice": 15
       }
     ],
     "bottleneck": "HIGH"
@@ -6799,15 +7999,21 @@
     "ingredients": [
       {
         "item": "Mushroom",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Fresh pasta",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Goat milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 64.0,
+        "totalPrice": 64.0
       }
     ],
     "bottleneck": "MED"
@@ -6831,19 +8037,27 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Potato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Pumpkin",
-        "count": 2
+        "count": 2,
+        "unitPrice": 32,
+        "totalPrice": 64
       }
     ],
     "bottleneck": "MED"
@@ -6867,7 +8081,9 @@
     "ingredients": [
       {
         "item": "Olive",
-        "count": 3
+        "count": 3,
+        "unitPrice": 82,
+        "totalPrice": 246
       }
     ],
     "bottleneck": "EASY"
@@ -6891,15 +8107,21 @@
     "ingredients": [
       {
         "item": "Chickpea",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Lemon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 93,
+        "totalPrice": 186
       },
       {
         "item": "Garlic",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "EASY"
@@ -6923,15 +8145,21 @@
     "ingredients": [
       {
         "item": "Banana",
-        "count": 1
+        "count": 1,
+        "unitPrice": 104,
+        "totalPrice": 104
       },
       {
         "item": "Coffee bean",
-        "count": 2
+        "count": 2,
+        "unitPrice": 64,
+        "totalPrice": 128
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       }
     ],
     "bottleneck": "MED"
@@ -6955,19 +8183,27 @@
     "ingredients": [
       {
         "item": "Wheat",
-        "count": 5
+        "count": 5,
+        "unitPrice": 3,
+        "totalPrice": 15
       },
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       },
       {
         "item": "Ginger",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       }
     ],
     "bottleneck": "HIGH"
@@ -6991,15 +8227,21 @@
     "ingredients": [
       {
         "item": "Sesame",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54,
+        "totalPrice": 162
       },
       {
         "item": "Ginger",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       }
     ],
     "bottleneck": "EASY"
@@ -7023,15 +8265,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Bacon",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Potato",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       }
     ],
     "bottleneck": "MED"
@@ -7055,19 +8303,27 @@
     "ingredients": [
       {
         "item": "Cabbage",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Potato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "MED"
@@ -7091,7 +8347,9 @@
     "ingredients": [
       {
         "item": "Strawberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -7115,19 +8373,27 @@
     "ingredients": [
       {
         "item": "Apple",
-        "count": 3
+        "count": 3,
+        "unitPrice": 39,
+        "totalPrice": 117
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Syrup",
-        "count": 1
+        "count": 1,
+        "unitPrice": 90.0,
+        "totalPrice": 90.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "HIGH"
@@ -7151,15 +8417,21 @@
     "ingredients": [
       {
         "item": "Cucumber",
-        "count": 3
+        "count": 3,
+        "unitPrice": 46,
+        "totalPrice": 138
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       }
     ],
     "bottleneck": "EASY"
@@ -7183,15 +8455,21 @@
     "ingredients": [
       {
         "item": "Cucumber",
-        "count": 3
+        "count": 3,
+        "unitPrice": 46,
+        "totalPrice": 138
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Pineapple",
-        "count": 3
+        "count": 3,
+        "unitPrice": 57,
+        "totalPrice": 171
       }
     ],
     "bottleneck": "EASY"
@@ -7215,19 +8493,27 @@
     "ingredients": [
       {
         "item": "Bell pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -7251,19 +8537,27 @@
     "ingredients": [
       {
         "item": "Grapes",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       },
       {
         "item": "Strawberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Orange",
-        "count": 1
+        "count": 1,
+        "unitPrice": 97,
+        "totalPrice": 97
       }
     ],
     "bottleneck": "EASY"
@@ -7287,15 +8581,21 @@
     "ingredients": [
       {
         "item": "Oats",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Pomegranate",
-        "count": 1
+        "count": 1,
+        "unitPrice": 111.0,
+        "totalPrice": 111.0
       },
       {
         "item": "Coconut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 108,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "EASY"
@@ -7319,19 +8619,27 @@
     "ingredients": [
       {
         "item": "Pineapple",
-        "count": 3
+        "count": 3,
+        "unitPrice": 57,
+        "totalPrice": 171
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Cherry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 68,
+        "totalPrice": 136
       },
       {
         "item": "Wheat",
-        "count": 4
+        "count": 4,
+        "unitPrice": 3,
+        "totalPrice": 12
       }
     ],
     "bottleneck": "MED"
@@ -7355,19 +8663,27 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 1
+        "count": 1,
+        "unitPrice": 86,
+        "totalPrice": 86
       },
       {
         "item": "Coffee bean",
-        "count": 1
+        "count": 1,
+        "unitPrice": 64,
+        "totalPrice": 64
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       }
     ],
     "bottleneck": "HIGH"
@@ -7391,19 +8707,27 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 1
+        "count": 1,
+        "unitPrice": 21.0,
+        "totalPrice": 21.0
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Honey",
-        "count": 1
+        "count": 1,
+        "unitPrice": 154.0,
+        "totalPrice": 154.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       }
     ],
     "bottleneck": "MED"
@@ -7427,11 +8751,15 @@
     "ingredients": [
       {
         "item": "Asparagus",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Cream",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       }
     ],
     "bottleneck": "HIGH"
@@ -7455,15 +8783,21 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Potato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "MED"
@@ -7487,15 +8821,21 @@
     "ingredients": [
       {
         "item": "Tea leaf",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Mint",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Watermelon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "EASY"
@@ -7519,11 +8859,15 @@
     "ingredients": [
       {
         "item": "Apple",
-        "count": 1
+        "count": 1,
+        "unitPrice": 39,
+        "totalPrice": 39
       },
       {
         "item": "Syrup",
-        "count": 2
+        "count": 2,
+        "unitPrice": 90.0,
+        "totalPrice": 180.0
       }
     ],
     "bottleneck": "HIGH"
@@ -7547,11 +8891,15 @@
     "ingredients": [
       {
         "item": "Orange",
-        "count": 1
+        "count": 1,
+        "unitPrice": 97,
+        "totalPrice": 97
       },
       {
         "item": "Tea leaf",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -7575,19 +8923,27 @@
     "ingredients": [
       {
         "item": "Cherry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 68,
+        "totalPrice": 136
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       }
     ],
     "bottleneck": "MED"
@@ -7611,15 +8967,21 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       }
     ],
     "bottleneck": "EASY"
@@ -7643,7 +9005,9 @@
     "ingredients": [
       {
         "item": "Raspberry",
-        "count": 3
+        "count": 3,
+        "unitPrice": 46,
+        "totalPrice": 138
       }
     ],
     "bottleneck": "EASY"
@@ -7667,7 +9031,9 @@
     "ingredients": [
       {
         "item": "Guava",
-        "count": 2
+        "count": 2,
+        "unitPrice": 112,
+        "totalPrice": 224
       }
     ],
     "bottleneck": "EASY"
@@ -7691,11 +9057,15 @@
     "ingredients": [
       {
         "item": "Peach",
-        "count": 1
+        "count": 1,
+        "unitPrice": 100,
+        "totalPrice": 100
       },
       {
         "item": "Tea leaf",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -7719,11 +9089,15 @@
     "ingredients": [
       {
         "item": "Coffee bean",
-        "count": 3
+        "count": 3,
+        "unitPrice": 64,
+        "totalPrice": 192
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -7747,11 +9121,15 @@
     "ingredients": [
       {
         "item": "Cacao",
-        "count": 2
+        "count": 2,
+        "unitPrice": 86,
+        "totalPrice": 172
       },
       {
         "item": "Corn",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "EASY"
@@ -7775,11 +9153,15 @@
     "ingredients": [
       {
         "item": "Fish fillet",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       },
       {
         "item": "Potato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "EASY"
@@ -7803,7 +9185,9 @@
     "ingredients": [
       {
         "item": "Cotton fabric",
-        "count": 2
+        "count": 2,
+        "unitPrice": 108.0,
+        "totalPrice": 216.0
       }
     ],
     "bottleneck": "MED"
@@ -7827,7 +9211,9 @@
     "ingredients": [
       {
         "item": "Tea leaf",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "EASY"
@@ -7851,15 +9237,21 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Chili pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Wheat",
-        "count": 4
+        "count": 4,
+        "unitPrice": 3,
+        "totalPrice": 12
       }
     ],
     "bottleneck": "HIGH"
@@ -7883,11 +9275,15 @@
     "ingredients": [
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       },
       {
         "item": "Tea leaf",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -7911,15 +9307,21 @@
     "ingredients": [
       {
         "item": "Broccoli",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Onion",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Potato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "EASY"
@@ -7943,11 +9345,15 @@
     "ingredients": [
       {
         "item": "Beetroot",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       },
       {
         "item": "Goat Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       }
     ],
     "bottleneck": "HIGH"
@@ -7971,7 +9377,9 @@
     "ingredients": [
       {
         "item": "Honeycomb",
-        "count": 3
+        "count": 3,
+        "unitPrice": 68.0,
+        "totalPrice": 204.0
       }
     ],
     "bottleneck": "EASY"
@@ -8014,11 +9422,15 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 3
+        "count": 3,
+        "unitPrice": 32.0,
+        "totalPrice": 96.0
       },
       {
         "item": "Cream",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       }
     ],
     "bottleneck": "HIGH"
@@ -8042,7 +9454,9 @@
     "ingredients": [
       {
         "item": "Orange",
-        "count": 2
+        "count": 2,
+        "unitPrice": 97,
+        "totalPrice": 194
       }
     ],
     "bottleneck": "EASY"
@@ -8066,15 +9480,21 @@
     "ingredients": [
       {
         "item": "Plain donut",
-        "count": 1
+        "count": 1,
+        "unitPrice": 129.0,
+        "totalPrice": 129.0
       },
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       }
     ],
     "bottleneck": "HIGH"
@@ -8098,15 +9518,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Asparagus",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       }
     ],
     "bottleneck": "HIGH"
@@ -8130,7 +9556,9 @@
     "ingredients": [
       {
         "item": "Mango",
-        "count": 2
+        "count": 2,
+        "unitPrice": 100,
+        "totalPrice": 200
       }
     ],
     "bottleneck": "EASY"
@@ -8154,15 +9582,21 @@
     "ingredients": [
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Lemon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 93,
+        "totalPrice": 93
       },
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       }
     ],
     "bottleneck": "HIGH"
@@ -8186,19 +9620,27 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Chickpea",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Garlic",
-        "count": 2
+        "count": 2,
+        "unitPrice": 14,
+        "totalPrice": 28
       }
     ],
     "bottleneck": "EASY"
@@ -8222,11 +9664,15 @@
     "ingredients": [
       {
         "item": "White sugar",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Strawberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "HIGH"
@@ -8250,19 +9696,27 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Tomato",
-        "count": 1
+        "count": 1,
+        "unitPrice": 43,
+        "totalPrice": 43
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "HIGH"
@@ -8286,15 +9740,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Fish fillet",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -8318,15 +9778,21 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Fish fillet",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       }
     ],
     "bottleneck": "MED"
@@ -8350,15 +9816,21 @@
     "ingredients": [
       {
         "item": "Blackberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 82,
+        "totalPrice": 164
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Wheat",
-        "count": 1
+        "count": 1,
+        "unitPrice": 3,
+        "totalPrice": 3
       }
     ],
     "bottleneck": "MED"
@@ -8382,19 +9854,27 @@
     "ingredients": [
       {
         "item": "Chickpea",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       },
       {
         "item": "Wheat",
-        "count": 4
+        "count": 4,
+        "unitPrice": 3,
+        "totalPrice": 12
       },
       {
         "item": "Chili Pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Potato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 36,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "EASY"
@@ -8418,15 +9898,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Goat cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 162.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "HIGH"
@@ -8450,15 +9936,21 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Wheat",
-        "count": 5
+        "count": 5,
+        "unitPrice": 3,
+        "totalPrice": 15
       }
     ],
     "bottleneck": "HIGH"
@@ -8482,15 +9974,21 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 3
+        "count": 3,
+        "unitPrice": 50.0,
+        "totalPrice": 150.0
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -8514,19 +10012,27 @@
     "ingredients": [
       {
         "item": "Cabbage",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Ginger",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Chili pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Garlic",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "EASY"
@@ -8550,7 +10056,9 @@
     "ingredients": [
       {
         "item": "Apple",
-        "count": 3
+        "count": 3,
+        "unitPrice": 39,
+        "totalPrice": 117
       }
     ],
     "bottleneck": "EASY"
@@ -8574,15 +10082,21 @@
     "ingredients": [
       {
         "item": "Coffee bean",
-        "count": 2
+        "count": 2,
+        "unitPrice": 64,
+        "totalPrice": 128
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -8606,15 +10120,21 @@
     "ingredients": [
       {
         "item": "Clay",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Coffee bean",
-        "count": 1
+        "count": 1,
+        "unitPrice": 64,
+        "totalPrice": 64
       },
       {
         "item": "Gold ore",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "EASY"
@@ -8638,19 +10158,27 @@
     "ingredients": [
       {
         "item": "Mushroom",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Lettuce",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Potato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Bacon",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "MED"
@@ -8674,7 +10202,9 @@
     "ingredients": [
       {
         "item": "Cherry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 68,
+        "totalPrice": 136
       }
     ],
     "bottleneck": "EASY"
@@ -8698,15 +10228,21 @@
     "ingredients": [
       {
         "item": "Clay",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Indigo",
-        "count": 2
+        "count": 2,
+        "unitPrice": 25,
+        "totalPrice": 50
       },
       {
         "item": "Peony",
-        "count": 1
+        "count": 1,
+        "unitPrice": 72,
+        "totalPrice": 72
       }
     ],
     "bottleneck": "EASY"
@@ -8730,15 +10266,21 @@
     "ingredients": [
       {
         "item": "Wheat",
-        "count": 5
+        "count": 5,
+        "unitPrice": 3,
+        "totalPrice": 15
       },
       {
         "item": "Indigo",
-        "count": 3
+        "count": 3,
+        "unitPrice": 25,
+        "totalPrice": 75
       },
       {
         "item": "Cotton",
-        "count": 3
+        "count": 3,
+        "unitPrice": 28,
+        "totalPrice": 84
       }
     ],
     "bottleneck": "EASY"
@@ -8762,11 +10304,15 @@
     "ingredients": [
       {
         "item": "Indigo",
-        "count": 2
+        "count": 2,
+        "unitPrice": 25,
+        "totalPrice": 50
       },
       {
         "item": "Wool",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       }
     ],
     "bottleneck": "EASY"
@@ -8790,11 +10336,15 @@
     "ingredients": [
       {
         "item": "Rice",
-        "count": 5
+        "count": 5,
+        "unitPrice": 18,
+        "totalPrice": 90
       },
       {
         "item": "Egg",
-        "count": 5
+        "count": 5,
+        "unitPrice": 18.0,
+        "totalPrice": 90.0
       }
     ],
     "bottleneck": "MED"
@@ -8818,7 +10368,9 @@
     "ingredients": [
       {
         "item": "Platinum ore",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -8842,11 +10394,15 @@
     "ingredients": [
       {
         "item": "Blackberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82,
+        "totalPrice": 82
       },
       {
         "item": "Raspberry",
-        "count": 1
+        "count": 1,
+        "unitPrice": 46,
+        "totalPrice": 46
       }
     ],
     "bottleneck": "EASY"
@@ -8870,7 +10426,9 @@
     "ingredients": [
       {
         "item": "Lobster",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "EASY"
@@ -8894,11 +10452,15 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Egg",
-        "count": 4
+        "count": 4,
+        "unitPrice": 18.0,
+        "totalPrice": 72.0
       }
     ],
     "bottleneck": "MED"
@@ -8922,15 +10484,21 @@
     "ingredients": [
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       },
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Garlic",
-        "count": 4
+        "count": 4,
+        "unitPrice": 14,
+        "totalPrice": 56
       }
     ],
     "bottleneck": "HIGH"
@@ -8954,15 +10522,21 @@
     "ingredients": [
       {
         "item": "White sugar",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Egg",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Wheat",
-        "count": 5
+        "count": 5,
+        "unitPrice": 3,
+        "totalPrice": 15
       }
     ],
     "bottleneck": "HIGH"
@@ -8986,19 +10560,27 @@
     "ingredients": [
       {
         "item": "Beetroot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Carrot",
-        "count": 3
+        "count": 3,
+        "unitPrice": 7,
+        "totalPrice": 21
       },
       {
         "item": "Potato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Pumpkin",
-        "count": 2
+        "count": 2,
+        "unitPrice": 32,
+        "totalPrice": 64
       }
     ],
     "bottleneck": "EASY"
@@ -9022,11 +10604,15 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       }
     ],
     "bottleneck": "HIGH"
@@ -9050,11 +10636,15 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Tea leaf",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "MED"
@@ -9078,15 +10668,21 @@
     "ingredients": [
       {
         "item": "Cheese",
-        "count": 1
+        "count": 1,
+        "unitPrice": 122.0,
+        "totalPrice": 122.0
       },
       {
         "item": "Tomato",
-        "count": 1
+        "count": 1,
+        "unitPrice": 43,
+        "totalPrice": 43
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "HIGH"
@@ -9110,11 +10706,15 @@
     "ingredients": [
       {
         "item": "Bacon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 50.0,
+        "totalPrice": 100.0
       },
       {
         "item": "Bread",
-        "count": 2
+        "count": 2,
+        "unitPrice": 21.0,
+        "totalPrice": 42.0
       }
     ],
     "bottleneck": "MED"
@@ -9138,7 +10738,9 @@
     "ingredients": [
       {
         "item": "Gold ore",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -9162,15 +10764,21 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Wheat",
-        "count": 1
+        "count": 1,
+        "unitPrice": 3,
+        "totalPrice": 3
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -9194,15 +10802,21 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Sesame",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54,
+        "totalPrice": 162
       },
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       }
     ],
     "bottleneck": "HIGH"
@@ -9226,15 +10840,21 @@
     "ingredients": [
       {
         "item": "Mushroom",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Onion",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       }
     ],
     "bottleneck": "MED"
@@ -9258,19 +10878,27 @@
     "ingredients": [
       {
         "item": "Fish fillet",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       },
       {
         "item": "Mushroom",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Ginger",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Sesame",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54,
+        "totalPrice": 108
       }
     ],
     "bottleneck": "EASY"
@@ -9294,7 +10922,9 @@
     "ingredients": [
       {
         "item": "Mint",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -9318,15 +10948,21 @@
     "ingredients": [
       {
         "item": "Cream",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "HIGH"
@@ -9350,11 +10986,15 @@
     "ingredients": [
       {
         "item": "Chamomile Essential Oil",
-        "count": 1
+        "count": 1,
+        "unitPrice": 72.0,
+        "totalPrice": 72.0
       },
       {
         "item": "Indigo",
-        "count": 3
+        "count": 3,
+        "unitPrice": 25,
+        "totalPrice": 75
       }
     ],
     "bottleneck": "EASY"
@@ -9378,15 +11018,21 @@
     "ingredients": [
       {
         "item": "Ginger",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Apple",
-        "count": 2
+        "count": 2,
+        "unitPrice": 39,
+        "totalPrice": 78
       },
       {
         "item": "Tea leaf",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "EASY"
@@ -9410,15 +11056,21 @@
     "ingredients": [
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "HIGH"
@@ -9442,19 +11094,27 @@
     "ingredients": [
       {
         "item": "Mushroom",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Cabbage",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       }
     ],
     "bottleneck": "MED"
@@ -9478,7 +11138,9 @@
     "ingredients": [
       {
         "item": "Ginger",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "EASY"
@@ -9502,7 +11164,9 @@
     "ingredients": [
       {
         "item": "Tomato",
-        "count": 3
+        "count": 3,
+        "unitPrice": 43,
+        "totalPrice": 129
       }
     ],
     "bottleneck": "EASY"
@@ -9526,7 +11190,9 @@
     "ingredients": [
       {
         "item": "Grapes",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -9550,7 +11216,9 @@
     "ingredients": [
       {
         "item": "Goat milk",
-        "count": 2
+        "count": 2,
+        "unitPrice": 64.0,
+        "totalPrice": 128.0
       }
     ],
     "bottleneck": "MED"
@@ -9574,15 +11242,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Pumpkin",
-        "count": 3
+        "count": 3,
+        "unitPrice": 32,
+        "totalPrice": 96
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -9606,7 +11280,9 @@
     "ingredients": [
       {
         "item": "Honeycomb",
-        "count": 2
+        "count": 2,
+        "unitPrice": 68.0,
+        "totalPrice": 136.0
       }
     ],
     "bottleneck": "EASY"
@@ -9630,11 +11306,15 @@
     "ingredients": [
       {
         "item": "Soybean",
-        "count": 9
+        "count": 9,
+        "unitPrice": 10,
+        "totalPrice": 90
       },
       {
         "item": "Wheat",
-        "count": 1
+        "count": 1,
+        "unitPrice": 3,
+        "totalPrice": 3
       }
     ],
     "bottleneck": "EASY"
@@ -9658,11 +11338,15 @@
     "ingredients": [
       {
         "item": "Clay",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Sunflower",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "EASY"
@@ -9686,7 +11370,9 @@
     "ingredients": [
       {
         "item": "Wool",
-        "count": 2
+        "count": 2,
+        "unitPrice": 54.0,
+        "totalPrice": 108.0
       }
     ],
     "bottleneck": "EASY"
@@ -9710,7 +11396,9 @@
     "ingredients": [
       {
         "item": "Silver ore",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -9734,11 +11422,15 @@
     "ingredients": [
       {
         "item": "Chamomile",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Honeycomb",
-        "count": 1
+        "count": 1,
+        "unitPrice": 68.0,
+        "totalPrice": 68.0
       }
     ],
     "bottleneck": "EASY"
@@ -9762,7 +11454,9 @@
     "ingredients": [
       {
         "item": "Duck",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "EASY"
@@ -9786,15 +11480,21 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Raspberry",
-        "count": 2
+        "count": 2,
+        "unitPrice": 46,
+        "totalPrice": 92
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -9818,19 +11518,27 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Bell pepper",
-        "count": 1
+        "count": 1,
+        "unitPrice": 36,
+        "totalPrice": 36
       },
       {
         "item": "Cabbage",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "MED"
@@ -9854,19 +11562,27 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "White sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 50.0,
+        "totalPrice": 50.0
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       }
     ],
     "bottleneck": "HIGH"
@@ -9890,7 +11606,9 @@
     "ingredients": [
       {
         "item": "Iron ore",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -9914,7 +11632,9 @@
     "ingredients": [
       {
         "item": "Apple",
-        "count": 2
+        "count": 2,
+        "unitPrice": 39,
+        "totalPrice": 78
       }
     ],
     "bottleneck": "EASY"
@@ -9938,11 +11658,15 @@
     "ingredients": [
       {
         "item": "Butter",
-        "count": 1
+        "count": 1,
+        "unitPrice": 82.0,
+        "totalPrice": 82.0
       },
       {
         "item": "Corn",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "HIGH"
@@ -9966,7 +11690,9 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 3
+        "count": 3,
+        "unitPrice": 32.0,
+        "totalPrice": 96.0
       }
     ],
     "bottleneck": "MED"
@@ -9990,11 +11716,15 @@
     "ingredients": [
       {
         "item": "Chili pepper",
-        "count": 2
+        "count": 2,
+        "unitPrice": 36,
+        "totalPrice": 72
       },
       {
         "item": "Corn",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "EASY"
@@ -10018,7 +11748,9 @@
     "ingredients": [
       {
         "item": "Passion fruit",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -10042,7 +11774,9 @@
     "ingredients": [
       {
         "item": "Tomato",
-        "count": 2
+        "count": 2,
+        "unitPrice": 43,
+        "totalPrice": 86
       }
     ],
     "bottleneck": "EASY"
@@ -10066,15 +11800,21 @@
     "ingredients": [
       {
         "item": "Passion fruit",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       }
     ],
     "bottleneck": "MED"
@@ -10098,11 +11838,15 @@
     "ingredients": [
       {
         "item": "Indigo",
-        "count": 1
+        "count": 1,
+        "unitPrice": 25,
+        "totalPrice": 25
       },
       {
         "item": "Wool",
-        "count": 1
+        "count": 1,
+        "unitPrice": 54.0,
+        "totalPrice": 54.0
       }
     ],
     "bottleneck": "EASY"
@@ -10145,11 +11889,15 @@
     "ingredients": [
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Egg",
-        "count": 3
+        "count": 3,
+        "unitPrice": 18.0,
+        "totalPrice": 54.0
       }
     ],
     "bottleneck": "HIGH"
@@ -10173,7 +11921,9 @@
     "ingredients": [
       {
         "item": "Cotton",
-        "count": 3
+        "count": 3,
+        "unitPrice": 28,
+        "totalPrice": 84
       }
     ],
     "bottleneck": "EASY"
@@ -10197,7 +11947,9 @@
     "ingredients": [
       {
         "item": "Watermelon",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       }
     ],
     "bottleneck": "EASY"
@@ -10221,7 +11973,9 @@
     "ingredients": [
       {
         "item": "Coal",
-        "count": 3
+        "count": 3,
+        "unitPrice": 10.0,
+        "totalPrice": 30.0
       }
     ],
     "bottleneck": "EASY"
@@ -10245,15 +11999,21 @@
     "ingredients": [
       {
         "item": "Brown sugar",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "HIGH"
@@ -10277,7 +12037,9 @@
     "ingredients": [
       {
         "item": "Grapes",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       }
     ],
     "bottleneck": "EASY"
@@ -10301,7 +12063,9 @@
     "ingredients": [
       {
         "item": "Rice",
-        "count": 5
+        "count": 5,
+        "unitPrice": 18,
+        "totalPrice": 90
       }
     ],
     "bottleneck": "EASY"
@@ -10325,7 +12089,9 @@
     "ingredients": [
       {
         "item": "Sugarcane",
-        "count": 4
+        "count": 4,
+        "unitPrice": 14,
+        "totalPrice": 56
       }
     ],
     "bottleneck": "EASY"
@@ -10349,15 +12115,21 @@
     "ingredients": [
       {
         "item": "Carrot",
-        "count": 3
+        "count": 3,
+        "unitPrice": 7,
+        "totalPrice": 21
       },
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -10381,7 +12153,9 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 2
+        "count": 2,
+        "unitPrice": 32.0,
+        "totalPrice": 64.0
       }
     ],
     "bottleneck": "MED"
@@ -10424,7 +12198,9 @@
     "ingredients": [
       {
         "item": "Chamomile",
-        "count": 5
+        "count": 5,
+        "unitPrice": 10.0,
+        "totalPrice": 50.0
       }
     ],
     "bottleneck": "EASY"
@@ -10448,11 +12224,15 @@
     "ingredients": [
       {
         "item": "Fish Fillet",
-        "count": 3
+        "count": 3,
+        "unitPrice": 54.0,
+        "totalPrice": 162.0
       },
       {
         "item": "Carrot",
-        "count": 5
+        "count": 5,
+        "unitPrice": 7,
+        "totalPrice": 35
       }
     ],
     "bottleneck": "EASY"
@@ -10476,11 +12256,15 @@
     "ingredients": [
       {
         "item": "Corn",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Egg",
-        "count": 2
+        "count": 2,
+        "unitPrice": 18.0,
+        "totalPrice": 36.0
       }
     ],
     "bottleneck": "MED"
@@ -10523,7 +12307,9 @@
     "ingredients": [
       {
         "item": "Pineapple",
-        "count": 3
+        "count": 3,
+        "unitPrice": 57,
+        "totalPrice": 171
       }
     ],
     "bottleneck": "EASY"
@@ -10547,7 +12333,9 @@
     "ingredients": [
       {
         "item": "Passion fruit",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10.0,
+        "totalPrice": 20.0
       }
     ],
     "bottleneck": "EASY"
@@ -10571,7 +12359,9 @@
     "ingredients": [
       {
         "item": "Goat Feed",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14.0,
+        "totalPrice": 14.0
       }
     ],
     "bottleneck": "EASY"
@@ -10595,7 +12385,9 @@
     "ingredients": [
       {
         "item": "Sheep feed",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14.0,
+        "totalPrice": 14.0
       }
     ],
     "bottleneck": "EASY"
@@ -10619,15 +12411,21 @@
     "ingredients": [
       {
         "item": "Lure",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Fishing net",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       },
       {
         "item": "Fishing spot",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10.0,
+        "totalPrice": 10.0
       }
     ],
     "bottleneck": "EASY"
@@ -10651,7 +12449,9 @@
     "ingredients": [
       {
         "item": "Sugarcane",
-        "count": 2
+        "count": 2,
+        "unitPrice": 14,
+        "totalPrice": 28
       }
     ],
     "bottleneck": "EASY"
@@ -10675,7 +12475,9 @@
     "ingredients": [
       {
         "item": "Wheat",
-        "count": 75
+        "count": 75,
+        "unitPrice": 3,
+        "totalPrice": 225
       }
     ],
     "bottleneck": "EASY"
@@ -10699,7 +12501,9 @@
     "ingredients": [
       {
         "item": "Milk",
-        "count": 1
+        "count": 1,
+        "unitPrice": 32.0,
+        "totalPrice": 32.0
       }
     ],
     "bottleneck": "MED"
@@ -10723,7 +12527,9 @@
     "ingredients": [
       {
         "item": "Pig feed",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14.0,
+        "totalPrice": 14.0
       }
     ],
     "bottleneck": "EASY"
@@ -10747,7 +12553,9 @@
     "ingredients": [
       {
         "item": "Carrot",
-        "count": 3
+        "count": 3,
+        "unitPrice": 7,
+        "totalPrice": 21
       }
     ],
     "bottleneck": "EASY"
@@ -10771,11 +12579,15 @@
     "ingredients": [
       {
         "item": "Egg",
-        "count": 1
+        "count": 1,
+        "unitPrice": 18.0,
+        "totalPrice": 18.0
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "MED"
@@ -10799,7 +12611,9 @@
     "ingredients": [
       {
         "item": "Corn",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "EASY"
@@ -10823,7 +12637,9 @@
     "ingredients": [
       {
         "item": "Sugarcane",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14,
+        "totalPrice": 14
       }
     ],
     "bottleneck": "EASY"
@@ -10847,7 +12663,9 @@
     "ingredients": [
       {
         "item": "Cow feed",
-        "count": 1
+        "count": 1,
+        "unitPrice": 14.0,
+        "totalPrice": 14.0
       }
     ],
     "bottleneck": "EASY"
@@ -10871,7 +12689,9 @@
     "ingredients": [
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       }
     ],
     "bottleneck": "EASY"
@@ -10895,7 +12715,9 @@
     "ingredients": [
       {
         "item": "Chicken feed",
-        "count": 1
+        "count": 1,
+        "unitPrice": 7.0,
+        "totalPrice": 7.0
       }
     ],
     "bottleneck": "EASY"
@@ -10919,11 +12741,15 @@
     "ingredients": [
       {
         "item": "Corn",
-        "count": 1
+        "count": 1,
+        "unitPrice": 7,
+        "totalPrice": 7
       },
       {
         "item": "Soybean",
-        "count": 2
+        "count": 2,
+        "unitPrice": 10,
+        "totalPrice": 20
       }
     ],
     "bottleneck": "EASY"
@@ -10947,11 +12773,15 @@
     "ingredients": [
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Soybean",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10,
+        "totalPrice": 10
       }
     ],
     "bottleneck": "EASY"
@@ -10975,11 +12805,15 @@
     "ingredients": [
       {
         "item": "Soybean",
-        "count": 1
+        "count": 1,
+        "unitPrice": 10,
+        "totalPrice": 10
       },
       {
         "item": "Wheat",
-        "count": 3
+        "count": 3,
+        "unitPrice": 3,
+        "totalPrice": 9
       }
     ],
     "bottleneck": "EASY"
@@ -11003,15 +12837,21 @@
     "ingredients": [
       {
         "item": "Carrot",
-        "count": 2
+        "count": 2,
+        "unitPrice": 7,
+        "totalPrice": 14
       },
       {
         "item": "Corn",
-        "count": 1
+        "count": 1,
+        "unitPrice": 7,
+        "totalPrice": 7
       },
       {
         "item": "Wheat",
-        "count": 1
+        "count": 1,
+        "unitPrice": 3,
+        "totalPrice": 3
       }
     ],
     "bottleneck": "EASY"
@@ -11035,11 +12875,15 @@
     "ingredients": [
       {
         "item": "Corn",
-        "count": 1
+        "count": 1,
+        "unitPrice": 7,
+        "totalPrice": 7
       },
       {
         "item": "Wheat",
-        "count": 2
+        "count": 2,
+        "unitPrice": 3,
+        "totalPrice": 6
       }
     ],
     "bottleneck": "EASY"

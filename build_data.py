@@ -5,8 +5,6 @@ import re
 def parse_needs(needs_str):
     if not needs_str or needs_str == '-':
         return []
-    # Needs string format: "Butter (2), Cacao (2), White sugar (1)"
-    # Pattern to match "Item name (count)"
     items = []
     parts = needs_str.split(',')
     for part in parts:
@@ -24,13 +22,12 @@ def get_bottleneck_level(ingredients):
     if not ingredients:
         return 'EASY'
     
-    bottleneck_items = ['dairy', 'sugar', 'cheese', 'butter', 'cream', 'goat cheese', 'white sugar', 'brown sugar', 'syrup', 'mayonnaise', 'olive oil']
     has_high_bottleneck = False
     has_med_bottleneck = False
     
     for ing in ingredients:
         iname = ing['item'].lower()
-        if any(b in iname for b in ['cheese', 'butter', 'cream', 'white sugar', 'brown sugar', 'syrup', 'mayonnaise']):
+        if any(b in iname for b in ['cheese', 'butter', 'cream', 'white sugar', 'brown sugar', 'syrup', 'mayonnaise', 'olive oil', 'toffee', 'jam']):
             has_high_bottleneck = True
         elif any(b in iname for b in ['milk', 'egg', 'bacon', 'bread', 'cotton fabric']):
             has_med_bottleneck = True
@@ -85,14 +82,11 @@ crops_data = [
 ]
 
 price_dict = {}
-
-# Build price dict for ingredients
 for c in crops_data:
     price_dict[c['name'].lower()] = c['maxPrice']
 
 items = []
 
-# Add Crops & Trees
 for c in crops_data:
     mph = c['maxPrice'] / c['timeHours'] if c['timeHours'] > 0 else c['maxPrice']
     xph = c['xp'] / c['timeHours'] if c['timeHours'] > 0 else c['xp']
@@ -118,7 +112,6 @@ for c in crops_data:
         item_obj['toolReq'] = c['toolReq']
     items.append(item_obj)
 
-# Parse machine goods
 goods_rows = []
 with open('Hay Day Goods List v1.0 - goods_list.csv', 'r', encoding='utf-8', errors='ignore') as f:
     reader = csv.reader(f)
@@ -156,21 +149,29 @@ with open('Hay Day Goods List v1.0 - goods_list.csv', 'r', encoding='utf-8', err
                 'maxPrice': max_price
             })
 
-# Second pass for machine goods to calculate ingredient cost
 for g in goods_rows:
-    ingredients = parse_needs(g['needs_raw'])
+    raw_ingredients = parse_needs(g['needs_raw'])
     cost = 0.0
-    for ing in ingredients:
-        iname = ing['item'].lower()
+    detailed_ingredients = []
+    
+    for ing in raw_ingredients:
+        iname = ing['item']
         cnt = ing['count']
-        unit_price = price_dict.get(iname, 10.0) # default if unmapped
-        cost += unit_price * cnt
+        unit_price = price_dict.get(iname.lower(), 10.0) # default fallback if unmapped
+        total_ing_price = unit_price * cnt
+        cost += total_ing_price
+        detailed_ingredients.append({
+            'item': iname,
+            'count': cnt,
+            'unitPrice': unit_price,
+            'totalPrice': total_ing_price
+        })
 
     net_profit = max(0.0, g['maxPrice'] - cost)
     max_per_hour = (g['maxPrice'] / g['timeHours']) if g['timeHours'] > 0 else g['maxPrice']
     net_per_hour = (net_profit / g['timeHours']) if g['timeHours'] > 0 else net_profit
     xp_per_hour = (g['xp'] / g['timeHours']) if g['timeHours'] > 0 else g['xp']
-    bottleneck = get_bottleneck_level(ingredients)
+    bottleneck = get_bottleneck_level(raw_ingredients)
 
     items.append({
         'name': g['name'],
@@ -188,11 +189,11 @@ for g in goods_rows:
         'xp': g['xp'],
         'xpPerHour': round(xp_per_hour, 2),
         'xpPerHourStr': f"{xp_per_hour:.2f}",
-        'ingredients': ingredients,
+        'ingredients': detailed_ingredients,
         'bottleneck': bottleneck
     })
 
-print(f"Compiled {len(items)} items with ingredients & net profit calculations!")
+print(f"Rebuilt data.json with detailed ingredient prices for {len(items)} items!")
 
 with open('data.json', 'w', encoding='utf-8') as f:
     json.dump(items, f, indent=2, ensure_ascii=False)

@@ -200,7 +200,7 @@ h1 {
 /* Items Grid */
 .items-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 20px;
 }
 
@@ -323,13 +323,64 @@ h1 {
   color: #c2410c;
 }
 
-.ingredients-info {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-top: 6px;
-  padding-top: 6px;
+/* Ingredients Box & Breakdown */
+.ingredients-box {
+  margin-top: 8px;
+  padding-top: 8px;
   border-top: 1px solid #e2e8f0;
-  line-height: 1.3;
+  font-size: 0.8rem;
+}
+
+.ing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.ing-cost-total {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.ing-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 8px;
+
+}
+
+.ing-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+  color: var(--text-muted);
+}
+
+.ing-name {
+  font-weight: 500;
+  color: #334155;
+}
+
+.ing-calc {
+  color: #64748b;
+  font-size: 0.75rem;
+}
+
+.profit-breakdown {
+  background: #f1f5f9;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  text-align: right;
+  color: #475569;
+}
+
+.net-value {
+  color: #166534;
+  font-weight: 700;
 }
 
 .stat-label {
