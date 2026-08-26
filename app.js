@@ -39,15 +39,9 @@ function populateBuildingFilter() {
   allItems.forEach(item => {
     if (!item.building) return;
 
-    // Filter buildings based on category selection
-    const isCrop = item.building === 'Plantio / Cultivo';
-    const isTree = item.building === 'Árvores & Arbustos';
-    const isMachine = !isCrop && !isTree;
-
-    if (selectedCategory === 'CROPS' && isCrop) buildings.add(item.building);
-    else if (selectedCategory === 'TREES' && isTree) buildings.add(item.building);
-    else if (selectedCategory === 'MACHINES' && isMachine) buildings.add(item.building);
-    else if (selectedCategory === 'ALL') buildings.add(item.building);
+    if (selectedCategory === 'ALL' || item.category === selectedCategory) {
+      buildings.add(item.building);
+    }
   });
 
   const sortedBuildings = Array.from(buildings).sort();
@@ -87,9 +81,9 @@ function formatCurrency(val) {
 }
 
 // Helper to determine category icon
-function getCategoryIcon(building) {
-  if (building === 'Plantio / Cultivo') return '🌱';
-  if (building === 'Árvores & Arbustos') return '🍎';
+function getCategoryIcon(category) {
+  if (category === 'CROPS') return '🌱';
+  if (category === 'TREES') return '🌳';
   return '🏭';
 }
 
@@ -104,17 +98,9 @@ function render() {
   // 1. Filter items
   let filtered = allItems.filter(item => {
     const isUnlocked = item.level <= currentLevel;
+    const matchesCategory = currentCategory === 'ALL' || item.category === currentCategory;
     const matchesBuilding = currentBuilding === 'ALL' || item.building === currentBuilding;
     const matchesSearch = !searchText || item.name.toLowerCase().includes(searchText);
-
-    const isCrop = item.building === 'Plantio / Cultivo';
-    const isTree = item.building === 'Árvores & Arbustos';
-    const isMachine = !isCrop && !isTree;
-
-    let matchesCategory = true;
-    if (currentCategory === 'CROPS') matchesCategory = isCrop;
-    else if (currentCategory === 'TREES') matchesCategory = isTree;
-    else if (currentCategory === 'MACHINES') matchesCategory = isMachine;
 
     return isUnlocked && matchesCategory && matchesBuilding && matchesSearch;
   });
@@ -156,7 +142,11 @@ function render() {
     const isProfitHighlight = currentSort === 'maxPerHour';
     const isPriceHighlight = currentSort === 'maxPrice';
     const isXpHighlight = currentSort === 'xpPerHour';
-    const icon = getCategoryIcon(item.building);
+    const icon = getCategoryIcon(item.category);
+
+    const toolBadge = item.toolReq 
+      ? `<div class="stat-row tool-warning"><span class="stat-label">🧰 Ferramenta de Remoção:</span><span class="tool-val">${item.toolReq}</span></div>`
+      : '';
 
     card.innerHTML = `
       <div>
@@ -186,6 +176,7 @@ function render() {
           <span class="stat-label">⭐ XP por Hora:</span>
           <span class="stat-val ${isXpHighlight ? 'primary-highlight' : ''}">${item.xpPerHour ? Math.round(item.xpPerHour) + ' XP/hr' : '-'}</span>
         </div>
+        ${toolBadge}
       </div>
     `;
 

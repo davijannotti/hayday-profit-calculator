@@ -86,7 +86,7 @@ h1 {
 
 .controls-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   align-items: end;
 }
@@ -261,6 +261,18 @@ h1 {
   display: flex;
   justify-content: space-between;
   font-size: 0.9rem;
+}
+
+.tool-warning {
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px dashed #cbd5e1;
+  color: #c2410c;
+}
+
+.tool-val {
+  font-weight: 700;
+  color: #c2410c;
 }
 
 .stat-label {
