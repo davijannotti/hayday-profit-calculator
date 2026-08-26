@@ -93,20 +93,18 @@ function getCategoryIcon(category) {
 
 // Calculate AFK Session Profit
 function calculateSessionProfit(item, afkHours, slotsCount, isNetMode) {
-  const basePrice = isNetMode ? item.netProfit : item.maxPrice;
-  
+  const basePrice = isNetMode ? (item.netProfit !== undefined ? item.netProfit : item.maxPrice) : item.maxPrice;
+  const prodTime = item.timeHours && item.timeHours > 0 ? item.timeHours : 0.0833;
+
   if (item.category !== 'MACHINES') {
-    // Crops/Trees are limited by time or fixed yield
-    // Rate of yield per hour during AFK period
-    const produced = Math.max(1, Math.floor(afkHours / (item.timeHours || 0.0833)));
-    return produced * basePrice;
+    // For crops and trees, produced count during the AFK period
+    const itemsProduced = Math.max(1, Math.floor(afkHours / prodTime));
+    return itemsProduced * basePrice;
   }
 
-  // For Machines: limited by machine slots during the AFK period
-  const productionTimePerItem = item.timeHours || 0.1;
-  const itemsFitInAfkWindow = Math.floor(afkHours / productionTimePerItem);
-  const maxItemsProduced = Math.min(slotsCount, itemsFitInAfkWindow);
-  const actualItemsProduced = Math.max(1, maxItemsProduced);
+  // For Machines: limited by available machine slots during the AFK window
+  const itemsFitInAfkWindow = Math.floor(afkHours / prodTime);
+  const actualItemsProduced = Math.max(1, Math.min(slotsCount, itemsFitInAfkWindow));
 
   return actualItemsProduced * basePrice;
 }
@@ -122,15 +120,22 @@ function render() {
   const currentBuilding = buildingSelect.value;
   const searchText = searchInput.value.toLowerCase().trim();
 
-  slotsDisplay.textContent = `${currentSlots} Slots`;
+  // Update UI text for slots
+  if (slotsDisplay) {
+    slotsDisplay.textContent = `${currentSlots} Slots`;
+  }
 
   // 1. Process items with calculated session metrics
   let processedItems = allItems.map(item => {
     const sessionProfit = calculateSessionProfit(item, currentAfkHours, currentSlots, isNetMode);
+    const effectivePrice = isNetMode ? (item.netProfit !== undefined ? item.netProfit : item.maxPrice) : item.maxPrice;
+    const effectivePerHour = isNetMode ? (item.netPerHour !== undefined ? item.netPerHour : item.maxPerHour) : item.maxPerHour;
+    
     return {
       ...item,
-      sessionProfit: sessionProfit,
-      effectivePerHour: currentAfkHours > 0 ? (sessionProfit / currentAfkHours) : sessionProfit
+      effectivePrice: effectivePrice,
+      effectivePerHour: effectivePerHour,
+      sessionProfit: sessionProfit
     };
   });
 
@@ -158,22 +163,41 @@ function render() {
     if (currentSort === 'sessionProfit') {
       return b.sessionProfit - a.sessionProfit;
     }
+    if (currentSort === 'maxPerHour') {
+      return b.effectivePerHour - a.effectivePerHour;
+    }
+    if (currentSort === 'maxPrice') {
+      return b.effectivePrice - a.effectivePrice;
+    }
     if (currentSort === 'timeHours') {
       return a.timeHours - b.timeHours;
     }
-    return b[currentSort] - a[currentSort];
+    if (currentSort === 'xpPerHour') {
+      return b.xpPerHour - a.xpPerHour;
+    }
+    return b.sessionProfit - a.sessionProfit;
   });
 
   // 4. Update Metrics Banner
-  countUnlockedEl.textContent = filtered.length;
+  if (countUnlockedEl) countUnlockedEl.textContent = filtered.length;
 
   if (filtered.length > 0) {
     const topItem = filtered[0];
-    topItemNameEl.textContent = topItem ? topItem.name : '-';
-    topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} / acesso` : '$0';
+    if (topItemNameEl) topItemNameEl.textContent = topItem ? topItem.name : '-';
+    if (topItemProfitEl) {
+      if (currentSort === 'sessionProfit') {
+        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} / acesso` : '$0';
+      } else if (currentSort === 'maxPerHour') {
+        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.effectivePerHour)}/hr` : '$0/hr';
+      } else if (currentSort === 'maxPrice') {
+        topItemProfitEl.textContent = topItem ? formatCurrency(topItem.effectivePrice) : '$0';
+      } else {
+        topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} / acesso` : '$0';
+      }
+    }
   } else {
-    topItemNameEl.textContent = '-';
-    topItemProfitEl.textContent = '$0';
+    if (topItemNameEl) topItemNameEl.textContent = '-';
+    if (topItemProfitEl) topItemProfitEl.textContent = '$0';
   }
 
   // 5. Render Grid Cards
@@ -208,7 +232,7 @@ function render() {
       } else if (item.bottleneck === 'MED') {
         bottleneckBadge = `<span class="badge badge-med" title="Exige ovos, leite, bacon ou pão">🟡 Gargalo Médio</span>`;
       } else {
-        bottleneckBadge = `<span class="badge badge-easy" title="Apenas colheitas/plantio básico">🟢 Fácil / Sem Gargalo</span>`;
+        bottleneckBadge = `<span class="badge badge-easy" title="Apenas colheitas/plantio básico">🟢 Sem Gargalo</span>`;
       }
     }
 
@@ -233,16 +257,16 @@ function render() {
 
       <div class="item-stats">
         <div class="stat-row highlight-row">
-          <span class="stat-label">🏆 Lucro por Acesso (${currentAfkHours}h):</span>
+          <span class="stat-label">🏆 Lucro / Acesso (${currentAfkHours}h):</span>
           <span class="stat-val ${isSessionHighlight ? 'highlight' : ''}">${formatCurrency(item.sessionProfit)}</span>
         </div>
         <div class="stat-row">
-          <span class="stat-label">💰 Preço / Lucro Liq.:</span>
-          <span class="stat-val ${isPriceHighlight ? 'primary-highlight' : ''}">${formatCurrency(isNetMode ? item.netProfit : item.maxPrice)}</span>
+          <span class="stat-label">${isNetMode ? '💰 Lucro Líquido Unit.:' : '💰 Preço Máximo Unit.:'}</span>
+          <span class="stat-val ${isPriceHighlight ? 'primary-highlight' : ''}">${formatCurrency(item.effectivePrice)}</span>
         </div>
         <div class="stat-row">
-          <span class="stat-label">⚡ Lucro Teórico / Hr:</span>
-          <span class="stat-val ${isProfitHighlight ? 'highlight' : ''}">${formatCurrency(item.maxPerHour)}/hr</span>
+          <span class="stat-label">${isNetMode ? '⚡ Lucro Liq. / Hora:' : '⚡ Lucro Bruto / Hora:'}</span>
+          <span class="stat-val ${isProfitHighlight ? 'highlight' : ''}">${formatCurrency(item.effectivePerHour)}/hr</span>
         </div>
         <div class="stat-row">
           <span class="stat-label">⏱️ Tempo Produção:</span>
