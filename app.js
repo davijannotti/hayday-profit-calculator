@@ -1,4 +1,4 @@
-// Hay Day Profit Calculator - Main JavaScript
+// Hay Day Profit Calculator - Main JavaScript (Pro Edition)
 
 let allItems = [];
 
@@ -6,6 +6,10 @@ let allItems = [];
 const levelSlider = document.getElementById('level-slider');
 const levelInput = document.getElementById('level-input');
 const levelDisplay = document.getElementById('level-display');
+const afkSelect = document.getElementById('afk-select');
+const profitModeSelect = document.getElementById('profit-mode-select');
+const slotsSlider = document.getElementById('slots-slider');
+const slotsDisplay = document.getElementById('slots-display');
 const sortSelect = document.getElementById('sort-select');
 const categorySelect = document.getElementById('category-select');
 const buildingSelect = document.getElementById('building-select');
@@ -87,57 +91,92 @@ function getCategoryIcon(category) {
   return '🏭';
 }
 
+// Calculate AFK Session Profit
+function calculateSessionProfit(item, afkHours, slotsCount, isNetMode) {
+  const basePrice = isNetMode ? item.netProfit : item.maxPrice;
+  
+  if (item.category !== 'MACHINES') {
+    // Crops/Trees are limited by time or fixed yield
+    // Rate of yield per hour during AFK period
+    const produced = Math.max(1, Math.floor(afkHours / (item.timeHours || 0.0833)));
+    return produced * basePrice;
+  }
+
+  // For Machines: limited by machine slots during the AFK period
+  const productionTimePerItem = item.timeHours || 0.1;
+  const itemsFitInAfkWindow = Math.floor(afkHours / productionTimePerItem);
+  const maxItemsProduced = Math.min(slotsCount, itemsFitInAfkWindow);
+  const actualItemsProduced = Math.max(1, maxItemsProduced);
+
+  return actualItemsProduced * basePrice;
+}
+
 // Render filtered and sorted items
 function render() {
   const currentLevel = parseInt(levelInput.value) || 1;
+  const currentAfkHours = parseFloat(afkSelect.value) || 2.0;
+  const isNetMode = profitModeSelect.value === 'NET';
+  const currentSlots = parseInt(slotsSlider.value) || 3;
   const currentSort = sortSelect.value;
   const currentCategory = categorySelect.value;
   const currentBuilding = buildingSelect.value;
   const searchText = searchInput.value.toLowerCase().trim();
 
-  // 1. Filter items
-  let filtered = allItems.filter(item => {
+  slotsDisplay.textContent = `${currentSlots} Slots`;
+
+  // 1. Process items with calculated session metrics
+  let processedItems = allItems.map(item => {
+    const sessionProfit = calculateSessionProfit(item, currentAfkHours, currentSlots, isNetMode);
+    return {
+      ...item,
+      sessionProfit: sessionProfit,
+      effectivePerHour: currentAfkHours > 0 ? (sessionProfit / currentAfkHours) : sessionProfit
+    };
+  });
+
+  // 2. Filter items
+  let filtered = processedItems.filter(item => {
     const isUnlocked = item.level <= currentLevel;
     
-    // Category check
     let matchesCategory = true;
     if (currentCategory !== 'ALL') {
       matchesCategory = item.category === currentCategory;
     }
 
-    // Building/Origin check
     let matchesBuilding = true;
     if (currentBuilding !== 'ALL') {
       matchesBuilding = item.building === currentBuilding;
     }
 
-    // Search check
     const matchesSearch = !searchText || item.name.toLowerCase().includes(searchText);
 
     return isUnlocked && matchesCategory && matchesBuilding && matchesSearch;
   });
 
-  // 2. Sort items
+  // 3. Sort items
   filtered.sort((a, b) => {
-    if (currentSort === 'timeHours') {
-      return a.timeHours - b.timeHours; // Ascending time
+    if (currentSort === 'sessionProfit') {
+      return b.sessionProfit - a.sessionProfit;
     }
-    return b[currentSort] - a[currentSort]; // Descending profit/price/xp
+    if (currentSort === 'timeHours') {
+      return a.timeHours - b.timeHours;
+    }
+    return b[currentSort] - a[currentSort];
   });
 
-  // 3. Update Metrics Banner
+  // 4. Update Metrics Banner
   countUnlockedEl.textContent = filtered.length;
 
   if (filtered.length > 0) {
-    const topByProfit = [...filtered].sort((a, b) => b.maxPerHour - a.maxPerHour)[0];
-    topItemNameEl.textContent = topByProfit ? topByProfit.name : '-';
-    topItemProfitEl.textContent = topByProfit ? `${formatCurrency(topByProfit.maxPerHour)}/hr` : '$0/hr';
+    const topItem = filtered[0];
+    topItemNameEl.textContent = topItem ? topItem.name : '-';
+    topItemProfitEl.textContent = topItem ? `${formatCurrency(topItem.sessionProfit)} / acesso` : '$0';
   } else {
     topItemNameEl.textContent = '-';
-    topItemProfitEl.textContent = '$0/hr';
+    topItemProfitEl.textContent = '$0';
   }
 
-  // 4. Render Grid Cards
+  // 5. Render Grid Cards
   itemsGrid.innerHTML = '';
 
   if (filtered.length === 0) {
@@ -151,6 +190,7 @@ function render() {
     const card = document.createElement('div');
     card.className = 'item-card';
 
+    const isSessionHighlight = currentSort === 'sessionProfit';
     const isProfitHighlight = currentSort === 'maxPerHour';
     const isPriceHighlight = currentSort === 'maxPrice';
     const isXpHighlight = currentSort === 'xpPerHour';
@@ -160,25 +200,49 @@ function render() {
       ? `<div class="stat-row tool-warning"><span class="stat-label">🧰 Remoção:</span><span class="tool-val">${item.toolReq}</span></div>`
       : '';
 
+    // Bottleneck Badge
+    let bottleneckBadge = '';
+    if (item.category === 'MACHINES') {
+      if (item.bottleneck === 'HIGH') {
+        bottleneckBadge = `<span class="badge badge-high" title="Exige ingredientes escassos de Laticínio/Açúcar">🔴 Gargalo Alto</span>`;
+      } else if (item.bottleneck === 'MED') {
+        bottleneckBadge = `<span class="badge badge-med" title="Exige ovos, leite, bacon ou pão">🟡 Gargalo Médio</span>`;
+      } else {
+        bottleneckBadge = `<span class="badge badge-easy" title="Apenas colheitas/plantio básico">🟢 Fácil / Sem Gargalo</span>`;
+      }
+    }
+
+    // Ingredients List String
+    const ingredientsText = item.ingredients && item.ingredients.length > 0
+      ? item.ingredients.map(i => `${i.count}x ${i.item}`).join(', ')
+      : 'Sem ingredientes adicionais';
+
     card.innerHTML = `
       <div>
         <div class="card-top">
           <h3 class="item-title">${item.name}</h3>
           <span class="item-level-tag">Lvl ${item.level}</span>
         </div>
-        <div class="item-building">
-          <span>${icon}</span> ${item.building || 'Desconhecido'}
+        <div class="item-building-row">
+          <div class="item-building">
+            <span>${icon}</span> ${item.building || 'Desconhecido'}
+          </div>
+          ${bottleneckBadge}
         </div>
       </div>
 
       <div class="item-stats">
-        <div class="stat-row">
-          <span class="stat-label">⚡ Lucro / Hora:</span>
-          <span class="stat-val ${isProfitHighlight ? 'highlight' : ''}">${formatCurrency(item.maxPerHour)}/hr</span>
+        <div class="stat-row highlight-row">
+          <span class="stat-label">🏆 Lucro por Acesso (${currentAfkHours}h):</span>
+          <span class="stat-val ${isSessionHighlight ? 'highlight' : ''}">${formatCurrency(item.sessionProfit)}</span>
         </div>
         <div class="stat-row">
-          <span class="stat-label">💰 Preço Máximo:</span>
-          <span class="stat-val ${isPriceHighlight ? 'primary-highlight' : ''}">${formatCurrency(item.maxPrice)}</span>
+          <span class="stat-label">💰 Preço / Lucro Liq.:</span>
+          <span class="stat-val ${isPriceHighlight ? 'primary-highlight' : ''}">${formatCurrency(isNetMode ? item.netProfit : item.maxPrice)}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">⚡ Lucro Teórico / Hr:</span>
+          <span class="stat-val ${isProfitHighlight ? 'highlight' : ''}">${formatCurrency(item.maxPerHour)}/hr</span>
         </div>
         <div class="stat-row">
           <span class="stat-label">⏱️ Tempo Produção:</span>
@@ -189,6 +253,7 @@ function render() {
           <span class="stat-val ${isXpHighlight ? 'primary-highlight' : ''}">${item.xpPerHour ? Math.round(item.xpPerHour) + ' XP/hr' : '-'}</span>
         </div>
         ${toolBadge}
+        ${item.category === 'MACHINES' ? `<div class="ingredients-info"><strong>Ingredientes:</strong> ${ingredientsText}</div>` : ''}
       </div>
     `;
 
@@ -199,6 +264,9 @@ function render() {
 // Event Listeners
 levelSlider.addEventListener('input', (e) => syncLevel(e.target.value));
 levelInput.addEventListener('input', (e) => syncLevel(e.target.value));
+afkSelect.addEventListener('change', render);
+profitModeSelect.addEventListener('change', render);
+slotsSlider.addEventListener('input', render);
 sortSelect.addEventListener('change', render);
 categorySelect.addEventListener('change', () => {
   populateBuildingFilter();

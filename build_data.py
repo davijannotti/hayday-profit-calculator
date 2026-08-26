@@ -1,8 +1,45 @@
 import csv
 import json
+import re
 
-# Detailed mapping of Crops, Trees, Animals and Machines
-# With removal tool cost info for Trees and Bushes!
+def parse_needs(needs_str):
+    if not needs_str or needs_str == '-':
+        return []
+    # Needs string format: "Butter (2), Cacao (2), White sugar (1)"
+    # Pattern to match "Item name (count)"
+    items = []
+    parts = needs_str.split(',')
+    for part in parts:
+        part = part.strip()
+        m = re.match(r'^(.*?)\s*\((\d+)\)$', part)
+        if m:
+            item_name = m.group(1).strip()
+            count = int(m.group(2))
+            items.append({'item': item_name, 'count': count})
+        elif part:
+            items.append({'item': part, 'count': 1})
+    return items
+
+def get_bottleneck_level(ingredients):
+    if not ingredients:
+        return 'EASY'
+    
+    bottleneck_items = ['dairy', 'sugar', 'cheese', 'butter', 'cream', 'goat cheese', 'white sugar', 'brown sugar', 'syrup', 'mayonnaise', 'olive oil']
+    has_high_bottleneck = False
+    has_med_bottleneck = False
+    
+    for ing in ingredients:
+        iname = ing['item'].lower()
+        if any(b in iname for b in ['cheese', 'butter', 'cream', 'white sugar', 'brown sugar', 'syrup', 'mayonnaise']):
+            has_high_bottleneck = True
+        elif any(b in iname for b in ['milk', 'egg', 'bacon', 'bread', 'cotton fabric']):
+            has_med_bottleneck = True
+
+    if has_high_bottleneck:
+        return 'HIGH'
+    if has_med_bottleneck:
+        return 'MED'
+    return 'EASY'
 
 crops_data = [
     # Field crops
@@ -29,7 +66,7 @@ crops_data = [
     {'name': 'Cucumber', 'level': 79, 'maxPrice': 46, 'timeHours': 210/60, 'xp': 6, 'building': 'Plantio / Cultivo', 'category': 'CROPS'},
     {'name': 'Onion', 'level': 68, 'maxPrice': 36, 'timeHours': 300/60, 'xp': 7, 'building': 'Plantio / Cultivo', 'category': 'CROPS'},
 
-    # Trees & Bushes (with tool needed to cut down!)
+    # Trees & Bushes
     {'name': 'Apple', 'level': 15, 'maxPrice': 39, 'timeHours': 16, 'xp': 7, 'building': 'Macieira (Árvore)', 'category': 'TREES', 'toolReq': '🪓 Serrote (Saw)'},
     {'name': 'Raspberry', 'level': 19, 'maxPrice': 46, 'timeHours': 18, 'xp': 9, 'building': 'Framboeseiro (Arbusto)', 'category': 'TREES', 'toolReq': '✂️ Tesoura de Poda (Axes)'},
     {'name': 'Blackberry', 'level': 26, 'maxPrice': 82, 'timeHours': 25, 'xp': 16, 'building': 'Amoreira (Arbusto)', 'category': 'TREES', 'toolReq': '✂️ Tesoura de Poda (Axes)'},
@@ -46,6 +83,12 @@ crops_data = [
     {'name': 'Coconut', 'level': 101, 'maxPrice': 108, 'timeHours': 32, 'xp': 22, 'building': 'Coqueiro (Árvore)', 'category': 'TREES', 'toolReq': '🪓 Serrote (Saw)'},
     {'name': 'Guava', 'level': 104, 'maxPrice': 112, 'timeHours': 34, 'xp': 23, 'building': 'Goiabeira (Árvore)', 'category': 'TREES', 'toolReq': '🪓 Serrote (Saw)'}
 ]
+
+price_dict = {}
+
+# Build price dict for ingredients
+for c in crops_data:
+    price_dict[c['name'].lower()] = c['maxPrice']
 
 items = []
 
@@ -65,13 +108,18 @@ for c in crops_data:
         'maxPerHourStr': f"${mph:.2f}",
         'xp': float(c['xp']),
         'xpPerHour': round(xph, 2),
-        'xpPerHourStr': f"{xph:.2f}"
+        'xpPerHourStr': f"{xph:.2f}",
+        'ingredients': [],
+        'ingredientCost': 0.0,
+        'netProfit': float(c['maxPrice']),
+        'bottleneck': 'EASY'
     }
     if 'toolReq' in c:
         item_obj['toolReq'] = c['toolReq']
     items.append(item_obj)
 
-# Add Machine Goods from CSV
+# Parse machine goods
+goods_rows = []
 with open('Hay Day Goods List v1.0 - goods_list.csv', 'r', encoding='utf-8', errors='ignore') as f:
     reader = csv.reader(f)
     header = next(reader)
@@ -81,8 +129,8 @@ with open('Hay Day Goods List v1.0 - goods_list.csv', 'r', encoding='utf-8', err
             level = int(row[1]) if row[1].isdigit() else 1
             xp = float(row[2].replace(',', '.')) if row[2] else 0.0
             building = row[3].strip()
+            needs_raw = row[4].strip()
             
-            # Parse time
             t_str = row[5]
             parts = t_str.split(':')
             time_hours = 0.0
@@ -93,30 +141,58 @@ with open('Hay Day Goods List v1.0 - goods_list.csv', 'r', encoding='utf-8', err
                     time_hours = 0.0
             
             max_price = float(row[7].replace(',', '.')) if row[7] else 0.0
-
-            # Ignore raw crops if already added in crops_data
+            
             if building in ['Field', 'Apple tree', 'Raspberry bush', 'Blackberry bush', 'Cherry tree', 'Cacao tree', 'Coffee bush', 'Olive tree', 'Lemon tree', 'Orange tree', 'Peach tree', 'Banana tree', 'Plum tree', 'Mango tree', 'Coconut tree', 'Guava tree']:
                 continue
 
-            max_per_hour = (max_price / time_hours) if time_hours > 0 else max_price
-            xp_per_hour = (xp / time_hours) if time_hours > 0 else xp
-
-            items.append({
+            price_dict[name.lower()] = max_price
+            goods_rows.append({
                 'name': name,
                 'level': level,
-                'building': building,
-                'category': 'MACHINES',
-                'maxPrice': max_price,
-                'maxPriceStr': f'${int(max_price)}',
-                'timeHours': round(time_hours, 4),
-                'maxPerHour': round(max_per_hour, 2),
-                'maxPerHourStr': f'${max_per_hour:.2f}',
                 'xp': xp,
-                'xpPerHour': round(xp_per_hour, 2),
-                'xpPerHourStr': f'{xp_per_hour:.2f}'
+                'building': building,
+                'needs_raw': needs_raw,
+                'timeHours': time_hours,
+                'maxPrice': max_price
             })
 
-print(f'Total items compiled: {len(items)}')
+# Second pass for machine goods to calculate ingredient cost
+for g in goods_rows:
+    ingredients = parse_needs(g['needs_raw'])
+    cost = 0.0
+    for ing in ingredients:
+        iname = ing['item'].lower()
+        cnt = ing['count']
+        unit_price = price_dict.get(iname, 10.0) # default if unmapped
+        cost += unit_price * cnt
+
+    net_profit = max(0.0, g['maxPrice'] - cost)
+    max_per_hour = (g['maxPrice'] / g['timeHours']) if g['timeHours'] > 0 else g['maxPrice']
+    net_per_hour = (net_profit / g['timeHours']) if g['timeHours'] > 0 else net_profit
+    xp_per_hour = (g['xp'] / g['timeHours']) if g['timeHours'] > 0 else g['xp']
+    bottleneck = get_bottleneck_level(ingredients)
+
+    items.append({
+        'name': g['name'],
+        'level': g['level'],
+        'building': g['building'],
+        'category': 'MACHINES',
+        'maxPrice': g['maxPrice'],
+        'maxPriceStr': f"${int(g['maxPrice'])}",
+        'timeHours': round(g['timeHours'], 4),
+        'maxPerHour': round(max_per_hour, 2),
+        'maxPerHourStr': f"${max_per_hour:.2f}",
+        'ingredientCost': round(cost, 2),
+        'netProfit': round(net_profit, 2),
+        'netPerHour': round(net_per_hour, 2),
+        'xp': g['xp'],
+        'xpPerHour': round(xp_per_hour, 2),
+        'xpPerHourStr': f"{xp_per_hour:.2f}",
+        'ingredients': ingredients,
+        'bottleneck': bottleneck
+    })
+
+print(f"Compiled {len(items)} items with ingredients & net profit calculations!")
 
 with open('data.json', 'w', encoding='utf-8') as f:
     json.dump(items, f, indent=2, ensure_ascii=False)

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hay Day - Calculadora de Lucro da Vendinha</title>
-  <meta name="description" content="Descubra quais são os itens mais lucrativos para vender na vendinha do Hay Day com base no seu nível!">
+  <meta name="description" content="Descubra quais são os itens mais lucrativos para vender na vendinha do Hay Day com base no seu nível e estilo de jogo!">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,15 +16,15 @@
       <div class="brand">
         <span class="brand-icon">🌾</span>
         <div>
-          <h1>Hay Day Profit Master</h1>
-          <p class="subtitle">Descubra os melhores itens para lucrar na sua vendinha</p>
+          <h1>Hay Day Profit Master Pro</h1>
+          <p class="subtitle">Calculadora Inteligente de Lucro da Vendinha & Estilo de Jogo</p>
         </div>
       </div>
     </div>
   </header>
 
   <main class="main-container">
-    <!-- Panel Controls -->
+    <!-- Controls Section -->
     <section class="controls-card">
       <div class="controls-grid">
         <!-- Level Selector -->
@@ -39,31 +39,59 @@
           </div>
         </div>
 
-        <!-- Strategy Selector -->
+        <!-- AFK Playstyle Selector -->
         <div class="control-group">
-          <label for="sort-select" class="label-with-icon">⚡ Estratégia / Ordenação:</label>
+          <label for="afk-select" class="label-with-icon">⏱️ Frequência de Acesso (AFK):</label>
+          <select id="afk-select" class="select-input highlight-select">
+            <option value="0.25">⚡ Super Ativo (Entra a cada 15 min)</option>
+            <option value="0.5">⌛ Ativo (Entra a cada 30 min)</option>
+            <option value="1">🕒 Moderado (Entra a cada 1 hora)</option>
+            <option value="2" selected>🌙 Semi-Casual (Entra a cada 2 horas)</option>
+            <option value="4">😴 Casual (Entra a cada 4 horas)</option>
+            <option value="8">🛌 Noturno / Dormir (Entra a cada 8 horas)</option>
+          </select>
+        </div>
+
+        <!-- Profit Logic Selector -->
+        <div class="control-group">
+          <label for="profit-mode-select" class="label-with-icon">💰 Lógica de Lucro:</label>
+          <select id="profit-mode-select" class="select-input">
+            <option value="GROSS" selected>💵 Lucro Bruto (Ingredientes Grátis)</option>
+            <option value="NET">🧬 Lucro Líquido (Descontar Ingredientes)</option>
+          </select>
+        </div>
+
+        <!-- Machine Slots Input -->
+        <div class="control-group">
+          <label for="slots-input" class="label-with-icon">⚙️ Slots das Máquinas: <span id="slots-display" class="slots-badge">3 Slots</span></label>
+          <input type="range" id="slots-slider" min="2" max="9" value="3" class="slider">
+        </div>
+
+        <!-- Sort Selector -->
+        <div class="control-group">
+          <label for="sort-select" class="label-with-icon">📊 Ordenar Por:</label>
           <select id="sort-select" class="select-input">
-            <option value="maxPerHour" selected>⚡ Mais Lucrativos por Hora ($/Hr)</option>
-            <option value="maxPrice">💰 Maior Preço Unitário ($ Max)</option>
-            <option value="xpPerHour">⭐ Mais XP por Hora (XP/Hr)</option>
-            <option value="timeHours">⏱️ Menor Tempo de Produção</option>
+            <option value="sessionProfit" selected>🏆 Lucro Efetivo por Acesso (AFK)</option>
+            <option value="maxPerHour">⚡ Lucro por Hora Teórico ($/Hr)</option>
+            <option value="maxPrice">💰 Preço Unitário ($ Max)</option>
+            <option value="xpPerHour">⭐ XP por Hora (XP/Hr)</option>
           </select>
         </div>
 
         <!-- Category Type Filter -->
         <div class="control-group">
-          <label for="category-select" class="label-with-icon">📦 Categoria de Origem:</label>
+          <label for="category-select" class="label-with-icon">📦 Categoria:</label>
           <select id="category-select" class="select-input">
             <option value="ALL" selected>Todas as Categorias</option>
             <option value="MACHINES">🏭 Produtos de Máquinas</option>
             <option value="CROPS">🌱 Plantio / Cultivo (Crops)</option>
-            <option value="TREES">🍎 Árvores & Arbustos</option>
+            <option value="TREES">🌳 Árvores & Arbustos</option>
           </select>
         </div>
 
         <!-- Machine Filter -->
         <div class="control-group">
-          <label for="building-select" class="label-with-icon">🏭 Máquina / Origem Especifica:</label>
+          <label for="building-select" class="label-with-icon">🏭 Origem Especifica:</label>
           <select id="building-select" class="select-input">
             <option value="ALL">Todas as Origens</option>
           </select>
@@ -72,7 +100,7 @@
         <!-- Search Input -->
         <div class="control-group">
           <label for="search-input" class="label-with-icon">🔍 Buscar Item:</label>
-          <input type="text" id="search-input" placeholder="Ex: Wheat, Bread, Muffin..." class="search-input">
+          <input type="text" id="search-input" placeholder="Ex: Bread, Muffin, Pizza..." class="search-input">
         </div>
       </div>
     </section>
@@ -81,15 +109,15 @@
     <div class="metrics-banner">
       <div class="metric-item">
         <span class="metric-value" id="count-unlocked">0</span>
-        <span class="metric-label">Itens Desbloqueados</span>
+        <span class="metric-label">Itens Disponíveis</span>
       </div>
       <div class="metric-item">
         <span class="metric-value" id="top-item-name">-</span>
-        <span class="metric-label">Top Item Lucro/Hora</span>
+        <span class="metric-label">Campeão do seu Estilo de Jogo</span>
       </div>
       <div class="metric-item">
-        <span class="metric-value" id="top-item-profit">$0/hr</span>
-        <span class="metric-label">Maior Rendimento/Hora</span>
+        <span class="metric-value" id="top-item-profit">$0</span>
+        <span class="metric-label">Lucro por Acesso/Sessão</span>
       </div>
     </div>
 
@@ -107,7 +135,7 @@
   </main>
 
   <footer class="footer">
-    <p>Criado para fazendeiros de <strong>Hay Day</strong> 🚜 | Dados atualizados para venda no valor máximo da vendinha.</p>
+    <p>Criado para fazendeiros de <strong>Hay Day</strong> 🚜 | Calculadora com Suporte a AFK & Custo de Cadeia de Suprimentos.</p>
   </footer>
 
   <script src="app.js"></script>

@@ -11,7 +11,11 @@
     "maxPerHourStr": "$90.00",
     "xp": 1.0,
     "xpPerHour": 30.0,
-    "xpPerHourStr": "30.00"
+    "xpPerHourStr": "30.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 3.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Corn",
@@ -25,7 +29,11 @@
     "maxPerHourStr": "$84.00",
     "xp": 1.0,
     "xpPerHour": 12.0,
-    "xpPerHourStr": "12.00"
+    "xpPerHourStr": "12.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 7.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Soybean",
@@ -39,7 +47,11 @@
     "maxPerHourStr": "$30.00",
     "xp": 2.0,
     "xpPerHour": 6.0,
-    "xpPerHourStr": "6.00"
+    "xpPerHourStr": "6.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 10.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Sugarcane",
@@ -53,7 +65,11 @@
     "maxPerHourStr": "$28.00",
     "xp": 3.0,
     "xpPerHour": 6.0,
-    "xpPerHourStr": "6.00"
+    "xpPerHourStr": "6.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 14.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Carrot",
@@ -67,7 +83,11 @@
     "maxPerHourStr": "$42.00",
     "xp": 2.0,
     "xpPerHour": 12.0,
-    "xpPerHourStr": "12.00"
+    "xpPerHourStr": "12.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 7.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Indigo",
@@ -81,7 +101,11 @@
     "maxPerHourStr": "$12.50",
     "xp": 5.0,
     "xpPerHour": 2.5,
-    "xpPerHourStr": "2.50"
+    "xpPerHourStr": "2.50",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 25.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Pumpkin",
@@ -95,7 +119,11 @@
     "maxPerHourStr": "$10.67",
     "xp": 6.0,
     "xpPerHour": 2.0,
-    "xpPerHourStr": "2.00"
+    "xpPerHourStr": "2.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 32.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Cotton",
@@ -109,7 +137,11 @@
     "maxPerHourStr": "$11.20",
     "xp": 6.0,
     "xpPerHour": 2.4,
-    "xpPerHourStr": "2.40"
+    "xpPerHourStr": "2.40",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 28.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Chili Pepper",
@@ -123,7 +155,11 @@
     "maxPerHourStr": "$9.00",
     "xp": 7.0,
     "xpPerHour": 1.75,
-    "xpPerHourStr": "1.75"
+    "xpPerHourStr": "1.75",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 36.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Tomato",
@@ -137,7 +173,11 @@
     "maxPerHourStr": "$7.17",
     "xp": 8.0,
     "xpPerHour": 1.33,
-    "xpPerHourStr": "1.33"
+    "xpPerHourStr": "1.33",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 43.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Strawberries",
@@ -151,7 +191,11 @@
     "maxPerHourStr": "$6.25",
     "xp": 10.0,
     "xpPerHour": 1.25,
-    "xpPerHourStr": "1.25"
+    "xpPerHourStr": "1.25",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 50.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Potato",
@@ -165,7 +209,11 @@
     "maxPerHourStr": "$9.82",
     "xp": 7.0,
     "xpPerHour": 1.91,
-    "xpPerHourStr": "1.91"
+    "xpPerHourStr": "1.91",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 36.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Sesame",
@@ -179,7 +227,11 @@
     "maxPerHourStr": "$54.00",
     "xp": 6.0,
     "xpPerHour": 6.0,
-    "xpPerHourStr": "6.00"
+    "xpPerHourStr": "6.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 54.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Pineapple",
@@ -193,7 +245,11 @@
     "maxPerHourStr": "$19.00",
     "xp": 7.0,
     "xpPerHour": 2.33,
-    "xpPerHourStr": "2.33"
+    "xpPerHourStr": "2.33",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 57.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Lily",
@@ -207,7 +263,11 @@
     "maxPerHourStr": "$40.67",
     "xp": 7.0,
     "xpPerHour": 4.67,
-    "xpPerHourStr": "4.67"
+    "xpPerHourStr": "4.67",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 61.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Rice",
@@ -221,7 +281,11 @@
     "maxPerHourStr": "$24.00",
     "xp": 3.0,
     "xpPerHour": 4.0,
-    "xpPerHourStr": "4.00"
+    "xpPerHourStr": "4.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 18.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Garlic",
@@ -235,7 +299,11 @@
     "maxPerHourStr": "$28.00",
     "xp": 3.0,
     "xpPerHour": 6.0,
-    "xpPerHourStr": "6.00"
+    "xpPerHourStr": "6.00",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 14.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Peony",
@@ -249,7 +317,11 @@
     "maxPerHourStr": "$18.00",
     "xp": 9.0,
     "xpPerHour": 2.25,
-    "xpPerHourStr": "2.25"
+    "xpPerHourStr": "2.25",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 72.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Beetroot",
@@ -263,7 +335,11 @@
     "maxPerHourStr": "$48.00",
     "xp": 4.0,
     "xpPerHour": 5.33,
-    "xpPerHourStr": "5.33"
+    "xpPerHourStr": "5.33",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 36.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Bell pepper",
@@ -277,7 +353,11 @@
     "maxPerHourStr": "$8.00",
     "xp": 7.0,
     "xpPerHour": 1.56,
-    "xpPerHourStr": "1.56"
+    "xpPerHourStr": "1.56",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 36.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Cucumber",
@@ -291,7 +371,11 @@
     "maxPerHourStr": "$13.14",
     "xp": 6.0,
     "xpPerHour": 1.71,
-    "xpPerHourStr": "1.71"
+    "xpPerHourStr": "1.71",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 46.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Onion",
@@ -305,7 +389,11 @@
     "maxPerHourStr": "$7.20",
     "xp": 7.0,
     "xpPerHour": 1.4,
-    "xpPerHourStr": "1.40"
+    "xpPerHourStr": "1.40",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 36.0,
+    "bottleneck": "EASY"
   },
   {
     "name": "Apple",
@@ -320,6 +408,10 @@
     "xp": 7.0,
     "xpPerHour": 0.44,
     "xpPerHourStr": "0.44",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 39.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -335,6 +427,10 @@
     "xp": 9.0,
     "xpPerHour": 0.5,
     "xpPerHourStr": "0.50",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 46.0,
+    "bottleneck": "EASY",
     "toolReq": "✂️ Tesoura de Poda (Axes)"
   },
   {
@@ -350,6 +446,10 @@
     "xp": 16.0,
     "xpPerHour": 0.64,
     "xpPerHourStr": "0.64",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 82.0,
+    "bottleneck": "EASY",
     "toolReq": "✂️ Tesoura de Poda (Axes)"
   },
   {
@@ -365,6 +465,10 @@
     "xp": 13.0,
     "xpPerHour": 0.46,
     "xpPerHourStr": "0.46",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 68.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -380,6 +484,10 @@
     "xp": 17.0,
     "xpPerHour": 0.5,
     "xpPerHourStr": "0.50",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 86.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -395,6 +503,10 @@
     "xp": 13.0,
     "xpPerHour": 0.52,
     "xpPerHourStr": "0.52",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 64.0,
+    "bottleneck": "EASY",
     "toolReq": "✂️ Tesoura de Poda (Axes)"
   },
   {
@@ -410,6 +522,10 @@
     "xp": 17.0,
     "xpPerHour": 0.71,
     "xpPerHourStr": "0.71",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 82.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -425,6 +541,10 @@
     "xp": 19.0,
     "xpPerHour": 0.73,
     "xpPerHourStr": "0.73",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 93.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -440,6 +560,10 @@
     "xp": 19.0,
     "xpPerHour": 0.79,
     "xpPerHourStr": "0.79",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 97.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -455,6 +579,10 @@
     "xp": 20.0,
     "xpPerHour": 0.67,
     "xpPerHourStr": "0.67",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 100.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -470,6 +598,10 @@
     "xp": 21.0,
     "xpPerHour": 0.75,
     "xpPerHourStr": "0.75",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 104.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -485,6 +617,10 @@
     "xp": 16.0,
     "xpPerHour": 0.64,
     "xpPerHourStr": "0.64",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 82.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -500,6 +636,10 @@
     "xp": 20.0,
     "xpPerHour": 0.67,
     "xpPerHourStr": "0.67",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 100.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -515,6 +655,10 @@
     "xp": 22.0,
     "xpPerHour": 0.69,
     "xpPerHourStr": "0.69",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 108.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -530,6 +674,10 @@
     "xp": 23.0,
     "xpPerHour": 0.68,
     "xpPerHourStr": "0.68",
+    "ingredients": [],
+    "ingredientCost": 0.0,
+    "netProfit": 112.0,
+    "bottleneck": "EASY",
     "toolReq": "🪓 Serrote (Saw)"
   },
   {
@@ -542,9 +690,31 @@
     "timeHours": 1.5,
     "maxPerHour": 760.67,
     "maxPerHourStr": "$760.67",
+    "ingredientCost": 854.0,
+    "netProfit": 287.0,
+    "netPerHour": 191.33,
     "xp": 136.0,
     "xpPerHour": 90.67,
-    "xpPerHourStr": "90.67"
+    "xpPerHourStr": "90.67",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 2
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Blanket",
@@ -556,9 +726,27 @@
     "timeHours": 3.5,
     "maxPerHour": 313.71,
     "maxPerHourStr": "$313.71",
+    "ingredientCost": 1056.0,
+    "netProfit": 42.0,
+    "netPerHour": 12.0,
     "xp": 131.0,
     "xpPerHour": 37.43,
-    "xpPerHourStr": "37.43"
+    "xpPerHourStr": "37.43",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 3
+      },
+      {
+        "item": "Duck feather",
+        "count": 5
+      },
+      {
+        "item": "Pumpkin",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Lemon cake",
@@ -570,9 +758,31 @@
     "timeHours": 2.5,
     "maxPerHour": 358.4,
     "maxPerHourStr": "$358.40",
+    "ingredientCost": 851.0,
+    "netProfit": 45.0,
+    "netPerHour": 18.0,
     "xp": 107.0,
     "xpPerHour": 42.8,
-    "xpPerHourStr": "42.80"
+    "xpPerHourStr": "42.80",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Lemon curd",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mocha milkshake",
@@ -584,9 +794,23 @@
     "timeHours": 0.5,
     "maxPerHour": 1712.0,
     "maxPerHourStr": "$1712.00",
+    "ingredientCost": 838.0,
+    "netProfit": 18.0,
+    "netPerHour": 36.0,
     "xp": 125.0,
     "xpPerHour": 250.0,
-    "xpPerHourStr": "250.00"
+    "xpPerHourStr": "250.00",
+    "ingredients": [
+      {
+        "item": "Chocolate ice cream",
+        "count": 1
+      },
+      {
+        "item": "Espresso",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Diamond ring",
@@ -598,9 +822,27 @@
     "timeHours": 4.0,
     "maxPerHour": 206.0,
     "maxPerHourStr": "$206.00",
+    "ingredientCost": 780.0,
+    "netProfit": 44.0,
+    "netPerHour": 11.0,
     "xp": 98.0,
     "xpPerHour": 24.5,
-    "xpPerHourStr": "24.50"
+    "xpPerHourStr": "24.50",
+    "ingredients": [
+      {
+        "item": "Diamond",
+        "count": 1
+      },
+      {
+        "item": "Gold bar",
+        "count": 2
+      },
+      {
+        "item": "Platinum bar",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Seafood salad",
@@ -612,9 +854,31 @@
     "timeHours": 2.0,
     "maxPerHour": 381.5,
     "maxPerHourStr": "$381.50",
+    "ingredientCost": 652.0,
+    "netProfit": 111.0,
+    "netPerHour": 55.5,
     "xp": 91.0,
     "xpPerHour": 45.5,
-    "xpPerHourStr": "45.50"
+    "xpPerHourStr": "45.50",
+    "ingredients": [
+      {
+        "item": "Fish fillet",
+        "count": 1
+      },
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Lobster tail",
+        "count": 1
+      },
+      {
+        "item": "Mayonnaise",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Pasta salad",
@@ -626,9 +890,31 @@
     "timeHours": 2.5,
     "maxPerHour": 303.6,
     "maxPerHourStr": "$303.60",
+    "ingredientCost": 721.0,
+    "netProfit": 38.0,
+    "netPerHour": 15.2,
     "xp": 90.0,
     "xpPerHour": 36.0,
-    "xpPerHourStr": "36.00"
+    "xpPerHourStr": "36.00",
+    "ingredients": [
+      {
+        "item": "Fresh pasta",
+        "count": 4
+      },
+      {
+        "item": "Lemon",
+        "count": 2
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fruity milkshake",
@@ -640,9 +926,27 @@
     "timeHours": 0.5833,
     "maxPerHour": 1301.14,
     "maxPerHourStr": "$1301.14",
+    "ingredientCost": 737.0,
+    "netProfit": 22.0,
+    "netPerHour": 37.71,
     "xp": 90.0,
     "xpPerHour": 154.29,
-    "xpPerHourStr": "154.29"
+    "xpPerHourStr": "154.29",
+    "ingredients": [
+      {
+        "item": "Peach ice cream",
+        "count": 1
+      },
+      {
+        "item": "Orange",
+        "count": 2
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Feta salad",
@@ -654,9 +958,31 @@
     "timeHours": 1.5,
     "maxPerHour": 496.67,
     "maxPerHourStr": "$496.67",
+    "ingredientCost": 636.0,
+    "netProfit": 109.0,
+    "netPerHour": 72.67,
     "xp": 89.0,
     "xpPerHour": 59.33,
-    "xpPerHourStr": "59.33"
+    "xpPerHourStr": "59.33",
+    "ingredients": [
+      {
+        "item": "Goat cheese",
+        "count": 2
+      },
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Olive",
+        "count": 2
+      },
+      {
+        "item": "Roasted tomatoes",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Necklace",
@@ -668,9 +994,27 @@
     "timeHours": 3.0,
     "maxPerHour": 242.33,
     "maxPerHourStr": "$242.33",
+    "ingredientCost": 679.0,
+    "netProfit": 48.0,
+    "netPerHour": 16.0,
     "xp": 87.0,
     "xpPerHour": 29.0,
-    "xpPerHourStr": "29.00"
+    "xpPerHourStr": "29.00",
+    "ingredients": [
+      {
+        "item": "Gold bar",
+        "count": 1
+      },
+      {
+        "item": "Platinum bar",
+        "count": 1
+      },
+      {
+        "item": "Silver bar",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "BLT salad",
@@ -682,9 +1026,31 @@
     "timeHours": 1.75,
     "maxPerHour": 413.14,
     "maxPerHourStr": "$413.14",
+    "ingredientCost": 615.0,
+    "netProfit": 108.0,
+    "netPerHour": 61.71,
     "xp": 86.0,
     "xpPerHour": 49.14,
-    "xpPerHourStr": "49.14"
+    "xpPerHourStr": "49.14",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Mayonnaise",
+        "count": 1
+      },
+      {
+        "item": "Roasted tomatoes",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cookie cupcake",
@@ -696,9 +1062,31 @@
     "timeHours": 2.0,
     "maxPerHour": 356.0,
     "maxPerHourStr": "$356.00",
+    "ingredientCost": 674.0,
+    "netProfit": 38.0,
+    "netPerHour": 19.0,
     "xp": 85.0,
     "xpPerHour": 42.5,
-    "xpPerHourStr": "42.50"
+    "xpPerHourStr": "42.50",
+    "ingredients": [
+      {
+        "item": "Plain cupcake",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 2
+      },
+      {
+        "item": "Cookie",
+        "count": 2
+      },
+      {
+        "item": "Cacao",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Flower pendant",
@@ -710,9 +1098,27 @@
     "timeHours": 1.0,
     "maxPerHour": 698.0,
     "maxPerHourStr": "$698.00",
+    "ingredientCost": 781.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 83.0,
     "xpPerHour": 83.0,
-    "xpPerHourStr": "83.00"
+    "xpPerHourStr": "83.00",
+    "ingredients": [
+      {
+        "item": "Peony",
+        "count": 3
+      },
+      {
+        "item": "Platinum bar",
+        "count": 1
+      },
+      {
+        "item": "Gold bar",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Jelly beans",
@@ -724,9 +1130,27 @@
     "timeHours": 0.0,
     "maxPerHour": 684.0,
     "maxPerHourStr": "$684.00",
+    "ingredientCost": 690.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 81.0,
     "xpPerHour": 81.0,
-    "xpPerHourStr": "81.00"
+    "xpPerHourStr": "81.00",
+    "ingredients": [
+      {
+        "item": "Blackberry jam",
+        "count": 1
+      },
+      {
+        "item": "Raspberry jam",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Pillow",
@@ -738,9 +1162,23 @@
     "timeHours": 3.0,
     "maxPerHour": 225.33,
     "maxPerHourStr": "$225.33",
+    "ingredientCost": 636.0,
+    "netProfit": 40.0,
+    "netPerHour": 13.33,
     "xp": 81.0,
     "xpPerHour": 27.0,
-    "xpPerHourStr": "27.00"
+    "xpPerHourStr": "27.00",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 2
+      },
+      {
+        "item": "Duck feather",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Vanilla milkshake",
@@ -752,9 +1190,31 @@
     "timeHours": 0.75,
     "maxPerHour": 897.33,
     "maxPerHourStr": "$897.33",
+    "ingredientCost": 646.0,
+    "netProfit": 27.0,
+    "netPerHour": 36.0,
     "xp": 80.0,
     "xpPerHour": 106.67,
-    "xpPerHourStr": "106.67"
+    "xpPerHourStr": "106.67",
+    "ingredients": [
+      {
+        "item": "Vanilla ice cream",
+        "count": 1
+      },
+      {
+        "item": "Cookie",
+        "count": 2
+      },
+      {
+        "item": "Toffee",
+        "count": 1
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Iron bracelet",
@@ -766,9 +1226,27 @@
     "timeHours": 1.5,
     "maxPerHour": 438.67,
     "maxPerHourStr": "$438.67",
+    "ingredientCost": 621.0,
+    "netProfit": 37.0,
+    "netPerHour": 24.67,
     "xp": 79.0,
     "xpPerHour": 52.67,
-    "xpPerHourStr": "52.67"
+    "xpPerHourStr": "52.67",
+    "ingredients": [
+      {
+        "item": "Iron bar",
+        "count": 2
+      },
+      {
+        "item": "Refined coal",
+        "count": 2
+      },
+      {
+        "item": "Silver bar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fried candy bar",
@@ -780,9 +1258,27 @@
     "timeHours": 0.25,
     "maxPerHour": 2632.0,
     "maxPerHourStr": "$2632.00",
+    "ingredientCost": 596.0,
+    "netProfit": 62.0,
+    "netPerHour": 248.0,
     "xp": 87.0,
     "xpPerHour": 348.0,
-    "xpPerHourStr": "348.00"
+    "xpPerHourStr": "348.00",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 3
+      },
+      {
+        "item": "Cookie",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Big sushi roll",
@@ -794,9 +1290,31 @@
     "timeHours": 1.5,
     "maxPerHour": 432.0,
     "maxPerHourStr": "$432.00",
+    "ingredientCost": 518.0,
+    "netProfit": 130.0,
+    "netPerHour": 86.67,
     "xp": 77.0,
     "xpPerHour": 51.33,
-    "xpPerHourStr": "51.33"
+    "xpPerHourStr": "51.33",
+    "ingredients": [
+      {
+        "item": "Lettuce",
+        "count": 5
+      },
+      {
+        "item": "Rice",
+        "count": 20
+      },
+      {
+        "item": "Fish fillet",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Bacon toast",
@@ -808,9 +1326,31 @@
     "timeHours": 1.6667,
     "maxPerHour": 388.8,
     "maxPerHourStr": "$388.80",
+    "ingredientCost": 539.0,
+    "netProfit": 109.0,
+    "netPerHour": 65.4,
     "xp": 77.0,
     "xpPerHour": 46.2,
-    "xpPerHourStr": "46.20"
+    "xpPerHourStr": "46.20",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Mayonnaise",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Rich fudge",
@@ -822,9 +1362,27 @@
     "timeHours": 2.0,
     "maxPerHour": 322.0,
     "maxPerHourStr": "$322.00",
+    "ingredientCost": 604.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 77.0,
     "xpPerHour": 38.5,
-    "xpPerHourStr": "38.50"
+    "xpPerHourStr": "38.50",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 3
+      },
+      {
+        "item": "Butter",
+        "count": 3
+      },
+      {
+        "item": "White sugar",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Lobster sushi",
@@ -836,9 +1394,27 @@
     "timeHours": 1.0,
     "maxPerHour": 637.0,
     "maxPerHourStr": "$637.00",
+    "ingredientCost": 625.0,
+    "netProfit": 12.0,
+    "netPerHour": 12.0,
     "xp": 76.0,
     "xpPerHour": 76.0,
-    "xpPerHourStr": "76.00"
+    "xpPerHourStr": "76.00",
+    "ingredients": [
+      {
+        "item": "Lobster tail",
+        "count": 1
+      },
+      {
+        "item": "Rice",
+        "count": 15
+      },
+      {
+        "item": "Soy sauce",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Lobster pasta",
@@ -850,9 +1426,31 @@
     "timeHours": 2.0,
     "maxPerHour": 318.5,
     "maxPerHourStr": "$318.50",
+    "ingredientCost": 602.0,
+    "netProfit": 35.0,
+    "netPerHour": 17.5,
     "xp": 76.0,
     "xpPerHour": 38.0,
-    "xpPerHourStr": "38.00"
+    "xpPerHourStr": "38.00",
+    "ingredients": [
+      {
+        "item": "Lobster tail",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 2
+      },
+      {
+        "item": "Fresh pasta",
+        "count": 3
+      },
+      {
+        "item": "Tomato",
+        "count": 4
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chocolate waffles",
@@ -864,9 +1462,31 @@
     "timeHours": 0.6667,
     "maxPerHour": 955.5,
     "maxPerHourStr": "$955.50",
+    "ingredientCost": 504.0,
+    "netProfit": 133.0,
+    "netPerHour": 199.5,
     "xp": 76.0,
     "xpPerHour": 114.0,
-    "xpPerHourStr": "114.00"
+    "xpPerHourStr": "114.00",
+    "ingredients": [
+      {
+        "item": "Plain waffles",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "Strawberry",
+        "count": 3
+      },
+      {
+        "item": "Banana",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chocolate fondue",
@@ -878,9 +1498,23 @@
     "timeHours": 0.4167,
     "maxPerHour": 1502.4,
     "maxPerHourStr": "$1502.40",
+    "ingredientCost": 490.0,
+    "netProfit": 136.0,
+    "netPerHour": 326.4,
     "xp": 74.0,
     "xpPerHour": 177.6,
-    "xpPerHourStr": "177.60"
+    "xpPerHourStr": "177.60",
+    "ingredients": [
+      {
+        "item": "Chocolate",
+        "count": 1
+      },
+      {
+        "item": "Strawberry",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Top hat",
@@ -892,9 +1526,27 @@
     "timeHours": 3.5,
     "maxPerHour": 176.86,
     "maxPerHourStr": "$176.86",
+    "ingredientCost": 572.0,
+    "netProfit": 47.0,
+    "netPerHour": 13.43,
     "xp": 74.0,
     "xpPerHour": 21.14,
-    "xpPerHourStr": "21.14"
+    "xpPerHourStr": "21.14",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 3
+      },
+      {
+        "item": "Duck feather",
+        "count": 1
+      },
+      {
+        "item": "Refined coal",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Peanut butter milkshake",
@@ -906,9 +1558,31 @@
     "timeHours": 1.6667,
     "maxPerHour": 371.4,
     "maxPerHourStr": "$371.40",
+    "ingredientCost": 574.0,
+    "netProfit": 45.0,
+    "netPerHour": 27.0,
     "xp": 86.0,
     "xpPerHour": 51.6,
-    "xpPerHourStr": "51.60"
+    "xpPerHourStr": "51.60",
+    "ingredients": [
+      {
+        "item": "Peanuts",
+        "count": 1
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Lobster soup",
@@ -920,9 +1594,31 @@
     "timeHours": 2.5,
     "maxPerHour": 244.8,
     "maxPerHourStr": "$244.80",
+    "ingredientCost": 567.0,
+    "netProfit": 45.0,
+    "netPerHour": 18.0,
     "xp": 73.0,
     "xpPerHour": 29.2,
-    "xpPerHourStr": "29.20"
+    "xpPerHourStr": "29.20",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 2
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Lobster tail",
+        "count": 2
+      },
+      {
+        "item": "Tomato",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chocolate roll",
@@ -934,9 +1630,31 @@
     "timeHours": 1.5,
     "maxPerHour": 402.67,
     "maxPerHourStr": "$402.67",
+    "ingredientCost": 519.0,
+    "netProfit": 85.0,
+    "netPerHour": 56.67,
     "xp": 72.0,
     "xpPerHour": 48.0,
-    "xpPerHourStr": "48.00"
+    "xpPerHourStr": "48.00",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 5
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      },
+      {
+        "item": "Mint",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Breakfast bowl",
@@ -948,9 +1666,31 @@
     "timeHours": 0.8333,
     "maxPerHour": 724.8,
     "maxPerHourStr": "$724.80",
+    "ingredientCost": 592.0,
+    "netProfit": 12.0,
+    "netPerHour": 14.4,
     "xp": 54.0,
     "xpPerHour": 64.8,
-    "xpPerHourStr": "64.80"
+    "xpPerHourStr": "64.80",
+    "ingredients": [
+      {
+        "item": "Plain yogurt",
+        "count": 1
+      },
+      {
+        "item": "Oats",
+        "count": 4
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Blackberry",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Berry waffles",
@@ -962,9 +1702,31 @@
     "timeHours": 0.5833,
     "maxPerHour": 1035.43,
     "maxPerHourStr": "$1035.43",
+    "ingredientCost": 590.0,
+    "netProfit": 14.0,
+    "netPerHour": 24.0,
     "xp": 72.0,
     "xpPerHour": 123.43,
-    "xpPerHourStr": "123.43"
+    "xpPerHourStr": "123.43",
+    "ingredients": [
+      {
+        "item": "Plain waffles",
+        "count": 1
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 3
+      },
+      {
+        "item": "Blackberry",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Peanut butter and jelly sandwich",
@@ -976,9 +1738,27 @@
     "timeHours": 0.4167,
     "maxPerHour": 1442.4,
     "maxPerHourStr": "$1442.40",
+    "ingredientCost": 528.0,
+    "netProfit": 73.0,
+    "netPerHour": 175.2,
     "xp": 80.0,
     "xpPerHour": 192.0,
-    "xpPerHourStr": "192.00"
+    "xpPerHourStr": "192.00",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Raspberry jam",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Peanut noodles",
@@ -990,9 +1770,31 @@
     "timeHours": 0.75,
     "maxPerHour": 796.0,
     "maxPerHourStr": "$796.00",
+    "ingredientCost": 498.0,
+    "netProfit": 99.0,
+    "netPerHour": 132.0,
     "xp": 80.0,
     "xpPerHour": 106.67,
-    "xpPerHourStr": "106.67"
+    "xpPerHourStr": "106.67",
+    "ingredients": [
+      {
+        "item": "Ginger",
+        "count": 1
+      },
+      {
+        "item": "Rice noodles",
+        "count": 1
+      },
+      {
+        "item": "Soy sauce",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fruit salad",
@@ -1004,9 +1806,31 @@
     "timeHours": 2.0,
     "maxPerHour": 298.5,
     "maxPerHourStr": "$298.50",
+    "ingredientCost": 445.0,
+    "netProfit": 152.0,
+    "netPerHour": 76.0,
     "xp": 71.0,
     "xpPerHour": 35.5,
-    "xpPerHourStr": "35.50"
+    "xpPerHourStr": "35.50",
+    "ingredients": [
+      {
+        "item": "Blackberry",
+        "count": 2
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Orange",
+        "count": 1
+      },
+      {
+        "item": "Strawberry",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Crunchy Donut",
@@ -1018,9 +1842,27 @@
     "timeHours": 0.5,
     "maxPerHour": 1188.0,
     "maxPerHourStr": "$1188.00",
+    "ingredientCost": 449.0,
+    "netProfit": 145.0,
+    "netPerHour": 290.0,
     "xp": 71.0,
     "xpPerHour": 142.0,
-    "xpPerHourStr": "142.00"
+    "xpPerHourStr": "142.00",
+    "ingredients": [
+      {
+        "item": "Plain donut",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Lemon fudge",
@@ -1032,9 +1874,31 @@
     "timeHours": 1.8333,
     "maxPerHour": 321.82,
     "maxPerHourStr": "$321.82",
+    "ingredientCost": 546.0,
+    "netProfit": 44.0,
+    "netPerHour": 24.0,
     "xp": 70.0,
     "xpPerHour": 38.18,
-    "xpPerHourStr": "38.18"
+    "xpPerHourStr": "38.18",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 2
+      },
+      {
+        "item": "Lemon",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 2
+      },
+      {
+        "item": "Milk",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Egg sandwich",
@@ -1046,9 +1910,31 @@
     "timeHours": 1.3333,
     "maxPerHour": 437.25,
     "maxPerHourStr": "$437.25",
+    "ingredientCost": 475.0,
+    "netProfit": 108.0,
+    "netPerHour": 81.0,
     "xp": 69.0,
     "xpPerHour": 51.75,
-    "xpPerHourStr": "51.75"
+    "xpPerHourStr": "51.75",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Mayonnaise",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Guava cupcake",
@@ -1060,9 +1946,27 @@
     "timeHours": 1.1667,
     "maxPerHour": 499.71,
     "maxPerHourStr": "$499.71",
+    "ingredientCost": 554.0,
+    "netProfit": 29.0,
+    "netPerHour": 24.86,
     "xp": 70.0,
     "xpPerHour": 60.0,
-    "xpPerHourStr": "60.00"
+    "xpPerHourStr": "60.00",
+    "ingredients": [
+      {
+        "item": "Plain cupcake",
+        "count": 1
+      },
+      {
+        "item": "Guava",
+        "count": 2
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Spicy pasta",
@@ -1074,9 +1978,31 @@
     "timeHours": 1.5,
     "maxPerHour": 384.0,
     "maxPerHourStr": "$384.00",
+    "ingredientCost": 539.0,
+    "netProfit": 37.0,
+    "netPerHour": 24.67,
     "xp": 69.0,
     "xpPerHour": 46.0,
-    "xpPerHourStr": "46.00"
+    "xpPerHourStr": "46.00",
+    "ingredients": [
+      {
+        "item": "Fresh pasta",
+        "count": 3
+      },
+      {
+        "item": "Tomato sauce",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 3
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Rice omelet",
@@ -1088,9 +2014,27 @@
     "timeHours": 2.0,
     "maxPerHour": 286.0,
     "maxPerHourStr": "$286.00",
+    "ingredientCost": 532.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 68.0,
     "xpPerHour": 34.0,
-    "xpPerHourStr": "34.00"
+    "xpPerHourStr": "34.00",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 3
+      },
+      {
+        "item": "Tomato Sauce",
+        "count": 2
+      },
+      {
+        "item": "Rice",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Tropical cupcake",
@@ -1102,9 +2046,27 @@
     "timeHours": 1.5,
     "maxPerHour": 381.33,
     "maxPerHourStr": "$381.33",
+    "ingredientCost": 667.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 68.0,
     "xpPerHour": 45.33,
-    "xpPerHourStr": "45.33"
+    "xpPerHourStr": "45.33",
+    "ingredients": [
+      {
+        "item": "Plain cupcake",
+        "count": 1
+      },
+      {
+        "item": "Pineapple",
+        "count": 3
+      },
+      {
+        "item": "Coconut",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Sun hat",
@@ -1116,9 +2078,31 @@
     "timeHours": 2.5,
     "maxPerHour": 223.2,
     "maxPerHourStr": "$223.20",
+    "ingredientCost": 513.0,
+    "netProfit": 45.0,
+    "netPerHour": 18.0,
     "xp": 66.0,
     "xpPerHour": 26.4,
-    "xpPerHourStr": "26.40"
+    "xpPerHourStr": "26.40",
+    "ingredients": [
+      {
+        "item": "Duck feather",
+        "count": 2
+      },
+      {
+        "item": "Indigo",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      },
+      {
+        "item": "Wool",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Orange salad",
@@ -1130,9 +2114,31 @@
     "timeHours": 0.75,
     "maxPerHour": 744.0,
     "maxPerHourStr": "$744.00",
+    "ingredientCost": 457.0,
+    "netProfit": 101.0,
+    "netPerHour": 134.67,
     "xp": 66.0,
     "xpPerHour": 88.0,
-    "xpPerHourStr": "88.00"
+    "xpPerHourStr": "88.00",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Pomegranate",
+        "count": 1
+      },
+      {
+        "item": "Orange",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Candy bouquet",
@@ -1144,9 +2150,27 @@
     "timeHours": 0.3333,
     "maxPerHour": 1662.0,
     "maxPerHourStr": "$1662.00",
+    "ingredientCost": 647.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 66.0,
     "xpPerHour": 198.0,
-    "xpPerHourStr": "198.00"
+    "xpPerHourStr": "198.00",
+    "ingredients": [
+      {
+        "item": "Peony",
+        "count": 3
+      },
+      {
+        "item": "Toffee",
+        "count": 1
+      },
+      {
+        "item": "Caramel apple",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Summer salad",
@@ -1158,9 +2182,31 @@
     "timeHours": 3.0,
     "maxPerHour": 184.67,
     "maxPerHourStr": "$184.67",
+    "ingredientCost": 499.0,
+    "netProfit": 55.0,
+    "netPerHour": 18.33,
     "xp": 66.0,
     "xpPerHour": 22.0,
-    "xpPerHourStr": "22.00"
+    "xpPerHourStr": "22.00",
+    "ingredients": [
+      {
+        "item": "Goat cheese",
+        "count": 1
+      },
+      {
+        "item": "Onion",
+        "count": 3
+      },
+      {
+        "item": "Peach",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Egg sushi",
@@ -1172,9 +2218,31 @@
     "timeHours": 2.0,
     "maxPerHour": 275.0,
     "maxPerHourStr": "$275.00",
+    "ingredientCost": 528.0,
+    "netProfit": 22.0,
+    "netPerHour": 11.0,
     "xp": 66.0,
     "xpPerHour": 33.0,
-    "xpPerHourStr": "33.00"
+    "xpPerHourStr": "33.00",
+    "ingredients": [
+      {
+        "item": "Brown sugar",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 4
+      },
+      {
+        "item": "Rice",
+        "count": 15
+      },
+      {
+        "item": "Soy sauce",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Berry smoothie",
@@ -1186,9 +2254,27 @@
     "timeHours": 1.25,
     "maxPerHour": 437.6,
     "maxPerHourStr": "$437.60",
+    "ingredientCost": 414.0,
+    "netProfit": 133.0,
+    "netPerHour": 106.4,
     "xp": 65.0,
     "xpPerHour": 52.0,
-    "xpPerHourStr": "52.00"
+    "xpPerHourStr": "52.00",
+    "ingredients": [
+      {
+        "item": "Blackberry",
+        "count": 3
+      },
+      {
+        "item": "Strawberry",
+        "count": 3
+      },
+      {
+        "item": "Raspberry",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Spicy fish",
@@ -1200,9 +2286,31 @@
     "timeHours": 1.5,
     "maxPerHour": 362.0,
     "maxPerHourStr": "$362.00",
+    "ingredientCost": 509.0,
+    "netProfit": 34.0,
+    "netPerHour": 22.67,
     "xp": 65.0,
     "xpPerHour": 43.33,
-    "xpPerHourStr": "43.33"
+    "xpPerHourStr": "43.33",
+    "ingredients": [
+      {
+        "item": "Fish fillet",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 3
+      },
+      {
+        "item": "Garlic",
+        "count": 5
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chili fudge",
@@ -1214,9 +2322,31 @@
     "timeHours": 2.8333,
     "maxPerHour": 190.59,
     "maxPerHourStr": "$190.59",
+    "ingredientCost": 494.0,
+    "netProfit": 46.0,
+    "netPerHour": 16.24,
     "xp": 64.0,
     "xpPerHour": 22.59,
-    "xpPerHourStr": "22.59"
+    "xpPerHourStr": "22.59",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 2
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Veggie bagel",
@@ -1228,9 +2358,31 @@
     "timeHours": 0.6667,
     "maxPerHour": 798.0,
     "maxPerHourStr": "$798.00",
+    "ingredientCost": 435.0,
+    "netProfit": 97.0,
+    "netPerHour": 145.5,
     "xp": 63.0,
     "xpPerHour": 94.5,
-    "xpPerHourStr": "94.50"
+    "xpPerHourStr": "94.50",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Veggie lasagna",
@@ -1242,9 +2394,31 @@
     "timeHours": 1.6667,
     "maxPerHour": 319.2,
     "maxPerHourStr": "$319.20",
+    "ingredientCost": 488.0,
+    "netProfit": 44.0,
+    "netPerHour": 26.4,
     "xp": 63.0,
     "xpPerHour": 37.8,
-    "xpPerHourStr": "37.80"
+    "xpPerHourStr": "37.80",
+    "ingredients": [
+      {
+        "item": "Tomato sauce",
+        "count": 1
+      },
+      {
+        "item": "Fresh pasta",
+        "count": 3
+      },
+      {
+        "item": "Carrot",
+        "count": 1
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Strawberry yogurt",
@@ -1256,9 +2430,23 @@
     "timeHours": 0.6667,
     "maxPerHour": 793.5,
     "maxPerHourStr": "$793.50",
+    "ingredientCost": 504.0,
+    "netProfit": 25.0,
+    "netPerHour": 37.5,
     "xp": 63.0,
     "xpPerHour": 94.5,
-    "xpPerHourStr": "94.50"
+    "xpPerHourStr": "94.50",
+    "ingredients": [
+      {
+        "item": "Plain yogurt",
+        "count": 1
+      },
+      {
+        "item": "Strawberry jam",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Corn dog",
@@ -1270,9 +2458,27 @@
     "timeHours": 1.0,
     "maxPerHour": 529.0,
     "maxPerHourStr": "$529.00",
+    "ingredientCost": 505.0,
+    "netProfit": 24.0,
+    "netPerHour": 24.0,
     "xp": 63.0,
     "xpPerHour": 63.0,
-    "xpPerHourStr": "63.00"
+    "xpPerHourStr": "63.00",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 4
+      },
+      {
+        "item": "Corn",
+        "count": 4
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Plum smoothie",
@@ -1284,9 +2490,31 @@
     "timeHours": 0.5833,
     "maxPerHour": 894.86,
     "maxPerHourStr": "$894.86",
+    "ingredientCost": 420.0,
+    "netProfit": 102.0,
+    "netPerHour": 174.86,
     "xp": 62.0,
     "xpPerHour": 106.29,
-    "xpPerHourStr": "106.29"
+    "xpPerHourStr": "106.29",
+    "ingredients": [
+      {
+        "item": "Plum",
+        "count": 3
+      },
+      {
+        "item": "Grapes",
+        "count": 1
+      },
+      {
+        "item": "Mint",
+        "count": 1
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Mint fudge",
@@ -1298,9 +2526,31 @@
     "timeHours": 2.5,
     "maxPerHour": 208.8,
     "maxPerHourStr": "$208.80",
+    "ingredientCost": 416.0,
+    "netProfit": 106.0,
+    "netPerHour": 42.4,
     "xp": 62.0,
     "xpPerHour": 24.8,
-    "xpPerHourStr": "24.80"
+    "xpPerHourStr": "24.80",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 2
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      },
+      {
+        "item": "Mint",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Apple porridge",
@@ -1312,9 +2562,27 @@
     "timeHours": 0.3333,
     "maxPerHour": 1566.0,
     "maxPerHourStr": "$1566.00",
+    "ingredientCost": 517.0,
+    "netProfit": 5.0,
+    "netPerHour": 15.0,
     "xp": 62.0,
     "xpPerHour": 186.0,
-    "xpPerHourStr": "186.00"
+    "xpPerHourStr": "186.00",
+    "ingredients": [
+      {
+        "item": "Apple",
+        "count": 1
+      },
+      {
+        "item": "Apple jam",
+        "count": 2
+      },
+      {
+        "item": "Oats",
+        "count": 4
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fruit sorbet",
@@ -1326,9 +2594,31 @@
     "timeHours": 1.0,
     "maxPerHour": 518.0,
     "maxPerHourStr": "$518.00",
+    "ingredientCost": 472.0,
+    "netProfit": 46.0,
+    "netPerHour": 46.0,
     "xp": 62.0,
     "xpPerHour": 62.0,
-    "xpPerHourStr": "62.00"
+    "xpPerHourStr": "62.00",
+    "ingredients": [
+      {
+        "item": "Guava",
+        "count": 1
+      },
+      {
+        "item": "Passion fruit",
+        "count": 1
+      },
+      {
+        "item": "Mango",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Bracelet",
@@ -1340,9 +2630,23 @@
     "timeHours": 2.0,
     "maxPerHour": 257.0,
     "maxPerHourStr": "$257.00",
+    "ingredientCost": 474.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 61.0,
     "xpPerHour": 30.5,
-    "xpPerHourStr": "30.50"
+    "xpPerHourStr": "30.50",
+    "ingredients": [
+      {
+        "item": "Gold bar",
+        "count": 1
+      },
+      {
+        "item": "Silver bar",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chocolate pie",
@@ -1354,9 +2658,31 @@
     "timeHours": 1.25,
     "maxPerHour": 411.2,
     "maxPerHourStr": "$411.20",
+    "ingredientCost": 519.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 70.0,
     "xpPerHour": 56.0,
-    "xpPerHourStr": "56.00"
+    "xpPerHourStr": "56.00",
+    "ingredients": [
+      {
+        "item": "Wheat",
+        "count": 3
+      },
+      {
+        "item": "Cacao",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Cocoa smoothie",
@@ -1368,9 +2694,27 @@
     "timeHours": 0.6667,
     "maxPerHour": 766.5,
     "maxPerHourStr": "$766.50",
+    "ingredientCost": 498.0,
+    "netProfit": 13.0,
+    "netPerHour": 19.5,
     "xp": 61.0,
     "xpPerHour": 91.5,
-    "xpPerHourStr": "91.50"
+    "xpPerHourStr": "91.50",
+    "ingredients": [
+      {
+        "item": "Banana",
+        "count": 2
+      },
+      {
+        "item": "Cacao",
+        "count": 3
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Bacon fondue",
@@ -1382,9 +2726,31 @@
     "timeHours": 0.5,
     "maxPerHour": 1014.0,
     "maxPerHourStr": "$1014.00",
+    "ingredientCost": 473.0,
+    "netProfit": 34.0,
+    "netPerHour": 68.0,
     "xp": 60.0,
     "xpPerHour": 120.0,
-    "xpPerHourStr": "120.00"
+    "xpPerHourStr": "120.00",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 3
+      },
+      {
+        "item": "Broccoli",
+        "count": 1
+      },
+      {
+        "item": "Bell pepper",
+        "count": 1
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Mixed smoothie",
@@ -1396,9 +2762,27 @@
     "timeHours": 0.5,
     "maxPerHour": 1008.0,
     "maxPerHourStr": "$1008.00",
+    "ingredientCost": 487.0,
+    "netProfit": 17.0,
+    "netPerHour": 34.0,
     "xp": 60.0,
     "xpPerHour": 120.0,
-    "xpPerHourStr": "120.00"
+    "xpPerHourStr": "120.00",
+    "ingredients": [
+      {
+        "item": "Lemon",
+        "count": 1
+      },
+      {
+        "item": "Orange",
+        "count": 2
+      },
+      {
+        "item": "Peach",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Gracious bouquet",
@@ -1410,9 +2794,31 @@
     "timeHours": 0.6667,
     "maxPerHour": 750.0,
     "maxPerHourStr": "$750.00",
+    "ingredientCost": 433.0,
+    "netProfit": 67.0,
+    "netPerHour": 100.5,
     "xp": 60.0,
     "xpPerHour": 90.0,
-    "xpPerHourStr": "90.00"
+    "xpPerHourStr": "90.00",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 1
+      },
+      {
+        "item": "Lily",
+        "count": 5
+      },
+      {
+        "item": "Gold ore",
+        "count": 1
+      },
+      {
+        "item": "Diamond",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Cheese fondue",
@@ -1424,9 +2830,31 @@
     "timeHours": 0.3333,
     "maxPerHour": 1479.0,
     "maxPerHourStr": "$1479.00",
+    "ingredientCost": 469.0,
+    "netProfit": 24.0,
+    "netPerHour": 72.0,
     "xp": 59.0,
     "xpPerHour": 177.0,
-    "xpPerHourStr": "177.00"
+    "xpPerHourStr": "177.00",
+    "ingredients": [
+      {
+        "item": "Potato bread",
+        "count": 1
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Mushroom",
+        "count": 2
+      },
+      {
+        "item": "Tomato",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Sushi roll",
@@ -1438,9 +2866,27 @@
     "timeHours": 1.0,
     "maxPerHour": 489.0,
     "maxPerHourStr": "$489.00",
+    "ingredientCost": 478.0,
+    "netProfit": 11.0,
+    "netPerHour": 11.0,
     "xp": 58.0,
     "xpPerHour": 58.0,
-    "xpPerHourStr": "58.00"
+    "xpPerHourStr": "58.00",
+    "ingredients": [
+      {
+        "item": "Fish fillet",
+        "count": 1
+      },
+      {
+        "item": "Rice",
+        "count": 15
+      },
+      {
+        "item": "Soy sauce",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Grilled asparagus",
@@ -1452,9 +2898,27 @@
     "timeHours": 1.25,
     "maxPerHour": 388.8,
     "maxPerHourStr": "$388.80",
+    "ingredientCost": 293.0,
+    "netProfit": 193.0,
+    "netPerHour": 154.4,
     "xp": 58.0,
     "xpPerHour": 46.4,
-    "xpPerHourStr": "46.40"
+    "xpPerHourStr": "46.40",
+    "ingredients": [
+      {
+        "item": "Asparagus",
+        "count": 5
+      },
+      {
+        "item": "Bacon",
+        "count": 3
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Honey apple cake",
@@ -1466,9 +2930,31 @@
     "timeHours": 3.3333,
     "maxPerHour": 144.6,
     "maxPerHourStr": "$144.60",
+    "ingredientCost": 428.0,
+    "netProfit": 54.0,
+    "netPerHour": 16.2,
     "xp": 57.0,
     "xpPerHour": 17.1,
-    "xpPerHourStr": "17.10"
+    "xpPerHourStr": "17.10",
+    "ingredients": [
+      {
+        "item": "Apple",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Honey",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Tomato soup",
@@ -1480,9 +2966,31 @@
     "timeHours": 1.5,
     "maxPerHour": 318.67,
     "maxPerHourStr": "$318.67",
+    "ingredientCost": 446.0,
+    "netProfit": 32.0,
+    "netPerHour": 21.33,
     "xp": 57.0,
     "xpPerHour": 38.0,
-    "xpPerHourStr": "38.00"
+    "xpPerHourStr": "38.00",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Goat cheese",
+        "count": 1
+      },
+      {
+        "item": "Tomato juice",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Gnocchi",
@@ -1494,9 +3002,31 @@
     "timeHours": 1.3333,
     "maxPerHour": 356.25,
     "maxPerHourStr": "$356.25",
+    "ingredientCost": 443.0,
+    "netProfit": 32.0,
+    "netPerHour": 24.0,
     "xp": 57.0,
     "xpPerHour": 42.75,
-    "xpPerHourStr": "42.75"
+    "xpPerHourStr": "42.75",
+    "ingredients": [
+      {
+        "item": "Potato",
+        "count": 4
+      },
+      {
+        "item": "Tomato",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      },
+      {
+        "item": "Butter",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Tropical smoothie",
@@ -1508,9 +3038,31 @@
     "timeHours": 0.6667,
     "maxPerHour": 712.5,
     "maxPerHourStr": "$712.50",
+    "ingredientCost": 432.0,
+    "netProfit": 43.0,
+    "netPerHour": 64.5,
     "xp": 57.0,
     "xpPerHour": 85.5,
-    "xpPerHourStr": "85.50"
+    "xpPerHourStr": "85.50",
+    "ingredients": [
+      {
+        "item": "Coconut",
+        "count": 1
+      },
+      {
+        "item": "Banana",
+        "count": 1
+      },
+      {
+        "item": "Passion fruit",
+        "count": 2
+      },
+      {
+        "item": "Mango",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Canned fish",
@@ -1522,9 +3074,27 @@
     "timeHours": 3.6667,
     "maxPerHour": 128.45,
     "maxPerHourStr": "$128.45",
+    "ingredientCost": 421.0,
+    "netProfit": 50.0,
+    "netPerHour": 13.64,
     "xp": 56.0,
     "xpPerHour": 15.27,
-    "xpPerHourStr": "15.27"
+    "xpPerHourStr": "15.27",
+    "ingredients": [
+      {
+        "item": "Fish fillet",
+        "count": 2
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Honey peanuts",
@@ -1536,9 +3106,23 @@
     "timeHours": 0.6667,
     "maxPerHour": 702.0,
     "maxPerHourStr": "$702.00",
+    "ingredientCost": 388.0,
+    "netProfit": 80.0,
+    "netPerHour": 120.0,
     "xp": 64.0,
     "xpPerHour": 96.0,
-    "xpPerHourStr": "96.00"
+    "xpPerHourStr": "96.00",
+    "ingredients": [
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cloche hat",
@@ -1550,9 +3134,23 @@
     "timeHours": 2.0,
     "maxPerHour": 234.0,
     "maxPerHourStr": "$234.00",
+    "ingredientCost": 344.0,
+    "netProfit": 124.0,
+    "netPerHour": 62.0,
     "xp": 56.0,
     "xpPerHour": 28.0,
-    "xpPerHourStr": "28.00"
+    "xpPerHourStr": "28.00",
+    "ingredients": [
+      {
+        "item": "Strawberry",
+        "count": 2
+      },
+      {
+        "item": "Wool",
+        "count": 6
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Coleslaw",
@@ -1564,9 +3162,27 @@
     "timeHours": 1.25,
     "maxPerHour": 374.4,
     "maxPerHourStr": "$374.40",
+    "ingredientCost": 411.0,
+    "netProfit": 57.0,
+    "netPerHour": 45.6,
     "xp": 56.0,
     "xpPerHour": 44.8,
-    "xpPerHourStr": "44.80"
+    "xpPerHourStr": "44.80",
+    "ingredients": [
+      {
+        "item": "Cabbage",
+        "count": 3
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Mayonnaise",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Olive dip",
@@ -1578,9 +3194,31 @@
     "timeHours": 0.75,
     "maxPerHour": 624.0,
     "maxPerHourStr": "$624.00",
+    "ingredientCost": 435.0,
+    "netProfit": 33.0,
+    "netPerHour": 44.0,
     "xp": 56.0,
     "xpPerHour": 74.67,
-    "xpPerHourStr": "74.67"
+    "xpPerHourStr": "74.67",
+    "ingredients": [
+      {
+        "item": "Olive",
+        "count": 3
+      },
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      },
+      {
+        "item": "Fish fillet",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Sweet porridge",
@@ -1592,9 +3230,27 @@
     "timeHours": 0.75,
     "maxPerHour": 621.33,
     "maxPerHourStr": "$621.33",
+    "ingredientCost": 438.0,
+    "netProfit": 28.0,
+    "netPerHour": 37.33,
     "xp": 55.0,
     "xpPerHour": 73.33,
-    "xpPerHourStr": "73.33"
+    "xpPerHourStr": "73.33",
+    "ingredients": [
+      {
+        "item": "Peach",
+        "count": 1
+      },
+      {
+        "item": "Honey",
+        "count": 2
+      },
+      {
+        "item": "Oats",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cheese omelet",
@@ -1606,9 +3262,31 @@
     "timeHours": 1.5,
     "maxPerHour": 309.33,
     "maxPerHourStr": "$309.33",
+    "ingredientCost": 420.0,
+    "netProfit": 44.0,
+    "netPerHour": 29.33,
     "xp": 55.0,
     "xpPerHour": 36.67,
-    "xpPerHourStr": "36.67"
+    "xpPerHourStr": "36.67",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 3
+      },
+      {
+        "item": "Cheese",
+        "count": 2
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      },
+      {
+        "item": "Onion",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Rice ball",
@@ -1620,9 +3298,27 @@
     "timeHours": 0.75,
     "maxPerHour": 618.67,
     "maxPerHourStr": "$618.67",
+    "ingredientCost": 496.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 55.0,
     "xpPerHour": 73.33,
-    "xpPerHourStr": "73.33"
+    "xpPerHourStr": "73.33",
+    "ingredients": [
+      {
+        "item": "Rice",
+        "count": 20
+      },
+      {
+        "item": "Sesame",
+        "count": 1
+      },
+      {
+        "item": "Plum",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cucumber sandwich",
@@ -1634,9 +3330,27 @@
     "timeHours": 0.5833,
     "maxPerHour": 795.43,
     "maxPerHourStr": "$795.43",
+    "ingredientCost": 501.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 55.0,
     "xpPerHour": 94.29,
-    "xpPerHourStr": "94.29"
+    "xpPerHourStr": "94.29",
+    "ingredients": [
+      {
+        "item": "Cucumber",
+        "count": 2
+      },
+      {
+        "item": "Mayonnaise",
+        "count": 1
+      },
+      {
+        "item": "Bread",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Peach jam",
@@ -1648,9 +3362,19 @@
     "timeHours": 8.0,
     "maxPerHour": 58.0,
     "maxPerHourStr": "$58.00",
+    "ingredientCost": 300.0,
+    "netProfit": 164.0,
+    "netPerHour": 20.5,
     "xp": 55.0,
     "xpPerHour": 6.88,
-    "xpPerHourStr": "6.88"
+    "xpPerHourStr": "6.88",
+    "ingredients": [
+      {
+        "item": "Peach",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chocolate",
@@ -1662,9 +3386,27 @@
     "timeHours": 20.0,
     "maxPerHour": 23.0,
     "maxPerHourStr": "$23.00",
+    "ingredientCost": 358.0,
+    "netProfit": 102.0,
+    "netPerHour": 5.1,
     "xp": 55.0,
     "xpPerHour": 2.75,
-    "xpPerHourStr": "2.75"
+    "xpPerHourStr": "2.75",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 3
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Lemon candle",
@@ -1676,9 +3418,23 @@
     "timeHours": 2.25,
     "maxPerHour": 203.11,
     "maxPerHourStr": "$203.11",
+    "ingredientCost": 420.0,
+    "netProfit": 37.0,
+    "netPerHour": 16.44,
     "xp": 55.0,
     "xpPerHour": 24.44,
-    "xpPerHourStr": "24.44"
+    "xpPerHourStr": "24.44",
+    "ingredients": [
+      {
+        "item": "Beeswax",
+        "count": 1
+      },
+      {
+        "item": "Lemon",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Marmalade",
@@ -1690,9 +3446,19 @@
     "timeHours": 8.5,
     "maxPerHour": 53.76,
     "maxPerHourStr": "$53.76",
+    "ingredientCost": 291.0,
+    "netProfit": 166.0,
+    "netPerHour": 19.53,
     "xp": 54.0,
     "xpPerHour": 6.35,
-    "xpPerHourStr": "6.35"
+    "xpPerHourStr": "6.35",
+    "ingredients": [
+      {
+        "item": "Orange",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Tropical yogurt",
@@ -1704,9 +3470,31 @@
     "timeHours": 1.0,
     "maxPerHour": 457.0,
     "maxPerHourStr": "$457.00",
+    "ingredientCost": 628.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 54.0,
     "xpPerHour": 54.0,
-    "xpPerHourStr": "54.00"
+    "xpPerHourStr": "54.00",
+    "ingredients": [
+      {
+        "item": "Plain yogurt",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 4
+      },
+      {
+        "item": "Passion fruit",
+        "count": 1
+      },
+      {
+        "item": "Mango",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fancy cake",
@@ -1718,9 +3506,31 @@
     "timeHours": 0.25,
     "maxPerHour": 1800.0,
     "maxPerHourStr": "$1800.00",
+    "ingredientCost": 550.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 49.0,
     "xpPerHour": 196.0,
-    "xpPerHourStr": "196.00"
+    "xpPerHourStr": "196.00",
+    "ingredients": [
+      {
+        "item": "Cream cake",
+        "count": 1
+      },
+      {
+        "item": "Lily",
+        "count": 3
+      },
+      {
+        "item": "Raspberry",
+        "count": 3
+      },
+      {
+        "item": "Gold ore",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Peach ice cream",
@@ -1732,9 +3542,27 @@
     "timeHours": 3.0,
     "maxPerHour": 150.0,
     "maxPerHourStr": "$150.00",
+    "ingredientCost": 404.0,
+    "netProfit": 46.0,
+    "netPerHour": 15.33,
     "xp": 54.0,
     "xpPerHour": 18.0,
-    "xpPerHourStr": "18.00"
+    "xpPerHourStr": "18.00",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Peach",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fruit cake",
@@ -1746,9 +3574,31 @@
     "timeHours": 3.0,
     "maxPerHour": 150.0,
     "maxPerHourStr": "$150.00",
+    "ingredientCost": 359.0,
+    "netProfit": 91.0,
+    "netPerHour": 30.33,
     "xp": 54.0,
     "xpPerHour": 18.0,
-    "xpPerHourStr": "18.00"
+    "xpPerHourStr": "18.00",
+    "ingredients": [
+      {
+        "item": "Cherry",
+        "count": 2
+      },
+      {
+        "item": "Grapes",
+        "count": 2
+      },
+      {
+        "item": "Orange",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Lemon pie",
@@ -1760,9 +3610,27 @@
     "timeHours": 2.25,
     "maxPerHour": 198.22,
     "maxPerHourStr": "$198.22",
+    "ingredientCost": 402.0,
+    "netProfit": 44.0,
+    "netPerHour": 19.56,
     "xp": 53.0,
     "xpPerHour": 23.56,
-    "xpPerHourStr": "23.56"
+    "xpPerHourStr": "23.56",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Lemon curd",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Floral candle",
@@ -1774,9 +3642,31 @@
     "timeHours": 2.0,
     "maxPerHour": 221.0,
     "maxPerHourStr": "$221.00",
+    "ingredientCost": 473.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 53.0,
     "xpPerHour": 26.5,
-    "xpPerHourStr": "26.50"
+    "xpPerHourStr": "26.50",
+    "ingredients": [
+      {
+        "item": "Beeswax",
+        "count": 1
+      },
+      {
+        "item": "Peony",
+        "count": 2
+      },
+      {
+        "item": "Sunflower",
+        "count": 2
+      },
+      {
+        "item": "Indigo",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Eggplant parmesan",
@@ -1788,9 +3678,27 @@
     "timeHours": 0.75,
     "maxPerHour": 589.33,
     "maxPerHourStr": "$589.33",
+    "ingredientCost": 382.0,
+    "netProfit": 60.0,
+    "netPerHour": 80.0,
     "xp": 53.0,
     "xpPerHour": 70.67,
-    "xpPerHourStr": "70.67"
+    "xpPerHourStr": "70.67",
+    "ingredients": [
+      {
+        "item": "Eggplant",
+        "count": 3
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Tomato sauce",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Bell pepper soup",
@@ -1802,9 +3710,31 @@
     "timeHours": 1.0,
     "maxPerHour": 439.0,
     "maxPerHourStr": "$439.00",
+    "ingredientCost": 406.0,
+    "netProfit": 33.0,
+    "netPerHour": 33.0,
     "xp": 52.0,
     "xpPerHour": 52.0,
-    "xpPerHourStr": "52.00"
+    "xpPerHourStr": "52.00",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 1
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Bell pepper",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Affogato",
@@ -1816,9 +3746,23 @@
     "timeHours": 0.3333,
     "maxPerHour": 1305.0,
     "maxPerHourStr": "$1305.00",
+    "ingredientCost": 420.0,
+    "netProfit": 15.0,
+    "netPerHour": 45.0,
     "xp": 56.0,
     "xpPerHour": 168.0,
-    "xpPerHourStr": "168.00"
+    "xpPerHourStr": "168.00",
+    "ingredients": [
+      {
+        "item": "Vanilla ice cream",
+        "count": 1
+      },
+      {
+        "item": "Espresso",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Peach tart",
@@ -1830,9 +3774,31 @@
     "timeHours": 2.5,
     "maxPerHour": 174.0,
     "maxPerHourStr": "$174.00",
+    "ingredientCost": 392.0,
+    "netProfit": 43.0,
+    "netPerHour": 17.2,
     "xp": 52.0,
     "xpPerHour": 20.8,
-    "xpPerHourStr": "20.80"
+    "xpPerHourStr": "20.80",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Peach",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fresh porridge",
@@ -1844,9 +3810,31 @@
     "timeHours": 0.5833,
     "maxPerHour": 745.71,
     "maxPerHourStr": "$745.71",
+    "ingredientCost": 377.0,
+    "netProfit": 58.0,
+    "netPerHour": 99.43,
     "xp": 52.0,
     "xpPerHour": 89.14,
-    "xpPerHourStr": "89.14"
+    "xpPerHourStr": "89.14",
+    "ingredients": [
+      {
+        "item": "Pomegranate",
+        "count": 1
+      },
+      {
+        "item": "Mint",
+        "count": 2
+      },
+      {
+        "item": "Coconut",
+        "count": 2
+      },
+      {
+        "item": "Oats",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Noodle soup",
@@ -1858,9 +3846,31 @@
     "timeHours": 2.0,
     "maxPerHour": 216.0,
     "maxPerHourStr": "$216.00",
+    "ingredientCost": 386.0,
+    "netProfit": 46.0,
+    "netPerHour": 23.0,
     "xp": 52.0,
     "xpPerHour": 26.0,
-    "xpPerHourStr": "26.00"
+    "xpPerHourStr": "26.00",
+    "ingredients": [
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Rice noodles",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Nachos",
@@ -1872,9 +3882,27 @@
     "timeHours": 1.25,
     "maxPerHour": 345.6,
     "maxPerHourStr": "$345.60",
+    "ingredientCost": 402.0,
+    "netProfit": 30.0,
+    "netPerHour": 24.0,
     "xp": 52.0,
     "xpPerHour": 41.6,
-    "xpPerHourStr": "41.60"
+    "xpPerHourStr": "41.60",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Corn",
+        "count": 4
+      },
+      {
+        "item": "Salsa",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Breakfast waffles",
@@ -1886,9 +3914,31 @@
     "timeHours": 0.75,
     "maxPerHour": 565.33,
     "maxPerHourStr": "$565.33",
+    "ingredientCost": 336.0,
+    "netProfit": 88.0,
+    "netPerHour": 117.33,
     "xp": 51.0,
     "xpPerHour": 68.0,
-    "xpPerHourStr": "68.00"
+    "xpPerHourStr": "68.00",
+    "ingredients": [
+      {
+        "item": "Plain waffles",
+        "count": 1
+      },
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Asparagus",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Banana bread",
@@ -1900,9 +3950,31 @@
     "timeHours": 0.5,
     "maxPerHour": 848.0,
     "maxPerHourStr": "$848.00",
+    "ingredientCost": 359.0,
+    "netProfit": 65.0,
+    "netPerHour": 130.0,
     "xp": 50.0,
     "xpPerHour": 100.0,
-    "xpPerHourStr": "100.00"
+    "xpPerHourStr": "100.00",
+    "ingredients": [
+      {
+        "item": "Banana",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Grapes",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Guava compote",
@@ -1914,9 +3986,27 @@
     "timeHours": 4.3333,
     "maxPerHour": 97.15,
     "maxPerHourStr": "$97.15",
+    "ingredientCost": 367.0,
+    "netProfit": 54.0,
+    "netPerHour": 12.46,
     "xp": 50.0,
     "xpPerHour": 11.54,
-    "xpPerHourStr": "11.54"
+    "xpPerHourStr": "11.54",
+    "ingredients": [
+      {
+        "item": "Guava",
+        "count": 2
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Macaroon",
@@ -1928,9 +4018,27 @@
     "timeHours": 0.5,
     "maxPerHour": 842.0,
     "maxPerHourStr": "$842.00",
+    "ingredientCost": 402.0,
+    "netProfit": 19.0,
+    "netPerHour": 38.0,
     "xp": 50.0,
     "xpPerHour": 100.0,
-    "xpPerHourStr": "100.00"
+    "xpPerHourStr": "100.00",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 1
+      },
+      {
+        "item": "Coconut",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Onion melt",
@@ -1942,9 +4050,27 @@
     "timeHours": 1.5,
     "maxPerHour": 278.0,
     "maxPerHourStr": "$278.00",
+    "ingredientCost": 374.0,
+    "netProfit": 43.0,
+    "netPerHour": 28.67,
     "xp": 50.0,
     "xpPerHour": 33.33,
-    "xpPerHourStr": "33.33"
+    "xpPerHourStr": "33.33",
+    "ingredients": [
+      {
+        "item": "Corn bread",
+        "count": 2
+      },
+      {
+        "item": "Onion",
+        "count": 3
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Lobster skewer",
@@ -1956,9 +4082,27 @@
     "timeHours": 0.6667,
     "maxPerHour": 625.5,
     "maxPerHourStr": "$625.50",
+    "ingredientCost": 391.0,
+    "netProfit": 26.0,
+    "netPerHour": 39.0,
     "xp": 50.0,
     "xpPerHour": 75.0,
-    "xpPerHourStr": "75.00"
+    "xpPerHourStr": "75.00",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Lobster tail",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Tropical fondue",
@@ -1970,9 +4114,31 @@
     "timeHours": 0.5833,
     "maxPerHour": 714.86,
     "maxPerHourStr": "$714.86",
+    "ingredientCost": 521.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 50.0,
     "xpPerHour": 85.71,
-    "xpPerHourStr": "85.71"
+    "xpPerHourStr": "85.71",
+    "ingredients": [
+      {
+        "item": "White sugar",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 2
+      },
+      {
+        "item": "Pineapple",
+        "count": 3
+      },
+      {
+        "item": "Mango",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Pasta carbonara",
@@ -1984,9 +4150,31 @@
     "timeHours": 2.5,
     "maxPerHour": 164.0,
     "maxPerHourStr": "$164.00",
+    "ingredientCost": 369.0,
+    "netProfit": 41.0,
+    "netPerHour": 16.4,
     "xp": 49.0,
     "xpPerHour": 19.6,
-    "xpPerHourStr": "19.60"
+    "xpPerHourStr": "19.60",
+    "ingredients": [
+      {
+        "item": "Fresh pasta",
+        "count": 3
+      },
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chili poppers",
@@ -1998,9 +4186,31 @@
     "timeHours": 0.6667,
     "maxPerHour": 609.0,
     "maxPerHourStr": "$609.00",
+    "ingredientCost": 383.0,
+    "netProfit": 23.0,
+    "netPerHour": 34.5,
     "xp": 48.0,
     "xpPerHour": 72.0,
-    "xpPerHourStr": "72.00"
+    "xpPerHourStr": "72.00",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 1
+      },
+      {
+        "item": "Bacon",
+        "count": 3
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Filled Donut",
@@ -2012,9 +4222,23 @@
     "timeHours": 0.5833,
     "maxPerHour": 690.86,
     "maxPerHourStr": "$690.86",
+    "ingredientCost": 381.0,
+    "netProfit": 22.0,
+    "netPerHour": 37.71,
     "xp": 48.0,
     "xpPerHour": 82.29,
-    "xpPerHourStr": "82.29"
+    "xpPerHourStr": "82.29",
+    "ingredients": [
+      {
+        "item": "Plain donut",
+        "count": 1
+      },
+      {
+        "item": "Raspberry jam",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Frutti di Mare pizza",
@@ -2026,9 +4250,31 @@
     "timeHours": 0.25,
     "maxPerHour": 1612.0,
     "maxPerHourStr": "$1612.00",
+    "ingredientCost": 383.0,
+    "netProfit": 20.0,
+    "netPerHour": 80.0,
     "xp": 48.0,
     "xpPerHour": 192.0,
-    "xpPerHourStr": "192.00"
+    "xpPerHourStr": "192.00",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Fish fillet",
+        "count": 1
+      },
+      {
+        "item": "Lobster tail",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Lemon lotion",
@@ -2040,9 +4286,23 @@
     "timeHours": 1.25,
     "maxPerHour": 322.4,
     "maxPerHourStr": "$322.40",
+    "ingredientCost": 370.0,
+    "netProfit": 33.0,
+    "netPerHour": 26.4,
     "xp": 48.0,
     "xpPerHour": 38.4,
-    "xpPerHourStr": "38.40"
+    "xpPerHourStr": "38.40",
+    "ingredients": [
+      {
+        "item": "Olive oil",
+        "count": 1
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Banana split",
@@ -2054,9 +4314,27 @@
     "timeHours": 3.5,
     "maxPerHour": 115.14,
     "maxPerHourStr": "$115.14",
+    "ingredientCost": 358.0,
+    "netProfit": 45.0,
+    "netPerHour": 12.86,
     "xp": 48.0,
     "xpPerHour": 13.71,
-    "xpPerHourStr": "13.71"
+    "xpPerHourStr": "13.71",
+    "ingredients": [
+      {
+        "item": "Banana",
+        "count": 1
+      },
+      {
+        "item": "Cherry",
+        "count": 3
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Orange sorbet",
@@ -2068,9 +4346,23 @@
     "timeHours": 3.5,
     "maxPerHour": 114.0,
     "maxPerHourStr": "$114.00",
+    "ingredientCost": 348.0,
+    "netProfit": 51.0,
+    "netPerHour": 14.57,
     "xp": 48.0,
     "xpPerHour": 13.71,
-    "xpPerHourStr": "13.71"
+    "xpPerHourStr": "13.71",
+    "ingredients": [
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Orange",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Taco",
@@ -2082,9 +4374,27 @@
     "timeHours": 0.75,
     "maxPerHour": 528.0,
     "maxPerHourStr": "$528.00",
+    "ingredientCost": 374.0,
+    "netProfit": 22.0,
+    "netPerHour": 29.33,
     "xp": 47.0,
     "xpPerHour": 62.67,
-    "xpPerHourStr": "62.67"
+    "xpPerHourStr": "62.67",
+    "ingredients": [
+      {
+        "item": "Corn bread",
+        "count": 1
+      },
+      {
+        "item": "Bacon",
+        "count": 1
+      },
+      {
+        "item": "Salsa",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Pumpkin soup",
@@ -2096,9 +4406,31 @@
     "timeHours": 2.0,
     "maxPerHour": 196.0,
     "maxPerHourStr": "$196.00",
+    "ingredientCost": 346.0,
+    "netProfit": 46.0,
+    "netPerHour": 23.0,
     "xp": 47.0,
     "xpPerHour": 23.5,
-    "xpPerHourStr": "23.50"
+    "xpPerHourStr": "23.50",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Pumpkin",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fish taco",
@@ -2110,9 +4442,31 @@
     "timeHours": 1.5,
     "maxPerHour": 261.33,
     "maxPerHourStr": "$261.33",
+    "ingredientCost": 363.0,
+    "netProfit": 29.0,
+    "netPerHour": 19.33,
     "xp": 47.0,
     "xpPerHour": 31.33,
-    "xpPerHourStr": "31.33"
+    "xpPerHourStr": "31.33",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 2
+      },
+      {
+        "item": "Corn bread",
+        "count": 2
+      },
+      {
+        "item": "Fish fillet",
+        "count": 1
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Zesty Perfume",
@@ -2124,9 +4478,23 @@
     "timeHours": 0.25,
     "maxPerHour": 1552.0,
     "maxPerHourStr": "$1552.00",
+    "ingredientCost": 318.0,
+    "netProfit": 70.0,
+    "netPerHour": 280.0,
     "xp": 46.0,
     "xpPerHour": 184.0,
-    "xpPerHourStr": "184.00"
+    "xpPerHourStr": "184.00",
+    "ingredients": [
+      {
+        "item": "Lemon Essential Oil",
+        "count": 1
+      },
+      {
+        "item": "Ginger",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Bacon Donut",
@@ -2138,9 +4506,27 @@
     "timeHours": 0.5,
     "maxPerHour": 776.0,
     "maxPerHourStr": "$776.00",
+    "ingredientCost": 369.0,
+    "netProfit": 19.0,
+    "netPerHour": 38.0,
     "xp": 46.0,
     "xpPerHour": 92.0,
-    "xpPerHourStr": "92.00"
+    "xpPerHourStr": "92.00",
+    "ingredients": [
+      {
+        "item": "Plain donut",
+        "count": 1
+      },
+      {
+        "item": "Bacon",
+        "count": 3
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Blackberry jam",
@@ -2152,9 +4538,19 @@
     "timeHours": 8.0,
     "maxPerHour": 48.5,
     "maxPerHourStr": "$48.50",
+    "ingredientCost": 246.0,
+    "netProfit": 142.0,
+    "netPerHour": 17.75,
     "xp": 46.0,
     "xpPerHour": 5.75,
-    "xpPerHourStr": "5.75"
+    "xpPerHourStr": "5.75",
+    "ingredients": [
+      {
+        "item": "Blackberry",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Plum jam",
@@ -2166,9 +4562,19 @@
     "timeHours": 5.0,
     "maxPerHour": 77.0,
     "maxPerHourStr": "$77.00",
+    "ingredientCost": 246.0,
+    "netProfit": 139.0,
+    "netPerHour": 27.8,
     "xp": 46.0,
     "xpPerHour": 9.2,
-    "xpPerHourStr": "9.20"
+    "xpPerHourStr": "9.20",
+    "ingredients": [
+      {
+        "item": "Plum",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Lemon curd",
@@ -2180,9 +4586,31 @@
     "timeHours": 0.4167,
     "maxPerHour": 907.2,
     "maxPerHourStr": "$907.20",
+    "ingredientCost": 354.0,
+    "netProfit": 24.0,
+    "netPerHour": 57.6,
     "xp": 45.0,
     "xpPerHour": 108.0,
-    "xpPerHourStr": "108.00"
+    "xpPerHourStr": "108.00",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Lemon",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Hummus wrap",
@@ -2194,9 +4622,27 @@
     "timeHours": 0.5,
     "maxPerHour": 748.0,
     "maxPerHourStr": "$748.00",
+    "ingredientCost": 329.0,
+    "netProfit": 45.0,
+    "netPerHour": 90.0,
     "xp": 45.0,
     "xpPerHour": 90.0,
-    "xpPerHourStr": "90.00"
+    "xpPerHourStr": "90.00",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Lettuce",
+        "count": 1
+      },
+      {
+        "item": "Hummus",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Strawberry candle",
@@ -2208,9 +4654,23 @@
     "timeHours": 2.0,
     "maxPerHour": 185.0,
     "maxPerHourStr": "$185.00",
+    "ingredientCost": 254.0,
+    "netProfit": 116.0,
+    "netPerHour": 58.0,
     "xp": 44.0,
     "xpPerHour": 22.0,
-    "xpPerHourStr": "22.00"
+    "xpPerHourStr": "22.00",
+    "ingredients": [
+      {
+        "item": "Beeswax",
+        "count": 1
+      },
+      {
+        "item": "Strawberry",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chili stew",
@@ -2222,9 +4682,31 @@
     "timeHours": 2.0,
     "maxPerHour": 185.0,
     "maxPerHourStr": "$185.00",
+    "ingredientCost": 330.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 44.0,
     "xpPerHour": 22.0,
-    "xpPerHourStr": "22.00"
+    "xpPerHourStr": "22.00",
+    "ingredients": [
+      {
+        "item": "Chili Pepper",
+        "count": 3
+      },
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Hot dog",
@@ -2236,9 +4718,27 @@
     "timeHours": 0.5,
     "maxPerHour": 740.0,
     "maxPerHourStr": "$740.00",
+    "ingredientCost": 351.0,
+    "netProfit": 19.0,
+    "netPerHour": 38.0,
     "xp": 44.0,
     "xpPerHour": 88.0,
-    "xpPerHourStr": "88.00"
+    "xpPerHourStr": "88.00",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Bread",
+        "count": 1
+      },
+      {
+        "item": "Tomato sauce",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Tofu dog",
@@ -2250,9 +4750,27 @@
     "timeHours": 0.75,
     "maxPerHour": 489.33,
     "maxPerHourStr": "$489.33",
+    "ingredientCost": 262.0,
+    "netProfit": 105.0,
+    "netPerHour": 140.0,
     "xp": 44.0,
     "xpPerHour": 58.67,
-    "xpPerHourStr": "58.67"
+    "xpPerHourStr": "58.67",
+    "ingredients": [
+      {
+        "item": "Lettuce",
+        "count": 3
+      },
+      {
+        "item": "Soybean",
+        "count": 6
+      },
+      {
+        "item": "Tomato",
+        "count": 4
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Casserole",
@@ -2264,9 +4782,31 @@
     "timeHours": 2.0,
     "maxPerHour": 183.5,
     "maxPerHourStr": "$183.50",
+    "ingredientCost": 330.0,
+    "netProfit": 37.0,
+    "netPerHour": 18.5,
     "xp": 44.0,
     "xpPerHour": 22.0,
-    "xpPerHourStr": "22.00"
+    "xpPerHourStr": "22.00",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Potato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mayonnaise",
@@ -2278,9 +4818,23 @@
     "timeHours": 0.25,
     "maxPerHour": 1468.0,
     "maxPerHourStr": "$1468.00",
+    "ingredientCost": 349.0,
+    "netProfit": 18.0,
+    "netPerHour": 72.0,
     "xp": 44.0,
     "xpPerHour": 176.0,
-    "xpPerHourStr": "176.00"
+    "xpPerHourStr": "176.00",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 4
+      },
+      {
+        "item": "Olive oil",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Exfoliating soap",
@@ -2292,9 +4846,27 @@
     "timeHours": 1.0,
     "maxPerHour": 363.0,
     "maxPerHourStr": "$363.00",
+    "ingredientCost": 346.0,
+    "netProfit": 17.0,
+    "netPerHour": 17.0,
     "xp": 43.0,
     "xpPerHour": 43.0,
-    "xpPerHourStr": "43.00"
+    "xpPerHourStr": "43.00",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "Coffee bean",
+        "count": 2
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Honey popcorn",
@@ -2306,9 +4878,23 @@
     "timeHours": 1.5,
     "maxPerHour": 240.0,
     "maxPerHourStr": "$240.00",
+    "ingredientCost": 322.0,
+    "netProfit": 38.0,
+    "netPerHour": 25.33,
     "xp": 43.0,
     "xpPerHour": 28.67,
-    "xpPerHourStr": "28.67"
+    "xpPerHourStr": "28.67",
+    "ingredients": [
+      {
+        "item": "Corn",
+        "count": 2
+      },
+      {
+        "item": "Honey",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Raspberry candle",
@@ -2320,9 +4906,23 @@
     "timeHours": 1.75,
     "maxPerHour": 205.71,
     "maxPerHourStr": "$205.71",
+    "ingredientCost": 326.0,
+    "netProfit": 34.0,
+    "netPerHour": 19.43,
     "xp": 43.0,
     "xpPerHour": 24.57,
-    "xpPerHourStr": "24.57"
+    "xpPerHourStr": "24.57",
+    "ingredients": [
+      {
+        "item": "Beeswax",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Veggie bouquet",
@@ -2334,9 +4934,31 @@
     "timeHours": 0.25,
     "maxPerHour": 1408.0,
     "maxPerHourStr": "$1408.00",
+    "ingredientCost": 297.0,
+    "netProfit": 55.0,
+    "netPerHour": 220.0,
     "xp": 42.0,
     "xpPerHour": 168.0,
-    "xpPerHourStr": "168.00"
+    "xpPerHourStr": "168.00",
+    "ingredients": [
+      {
+        "item": "Broccoli",
+        "count": 3
+      },
+      {
+        "item": "Tomato",
+        "count": 3
+      },
+      {
+        "item": "Mushroom",
+        "count": 3
+      },
+      {
+        "item": "Cotton fabric",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Stuffed peppers",
@@ -2348,9 +4970,31 @@
     "timeHours": 0.3333,
     "maxPerHour": 1056.0,
     "maxPerHourStr": "$1056.00",
+    "ingredientCost": 334.0,
+    "netProfit": 18.0,
+    "netPerHour": 54.0,
     "xp": 42.0,
     "xpPerHour": 126.0,
-    "xpPerHourStr": "126.00"
+    "xpPerHourStr": "126.00",
+    "ingredients": [
+      {
+        "item": "Bell pepper",
+        "count": 3
+      },
+      {
+        "item": "Bacon",
+        "count": 1
+      },
+      {
+        "item": "Rice",
+        "count": 3
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cherry popsicle",
@@ -2362,9 +5006,23 @@
     "timeHours": 3.0,
     "maxPerHour": 117.33,
     "maxPerHourStr": "$117.33",
+    "ingredientCost": 306.0,
+    "netProfit": 46.0,
+    "netPerHour": 15.33,
     "xp": 42.0,
     "xpPerHour": 14.0,
-    "xpPerHourStr": "14.00"
+    "xpPerHourStr": "14.00",
+    "ingredients": [
+      {
+        "item": "Cherry juice",
+        "count": 1
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Banana pancakes",
@@ -2376,9 +5034,31 @@
     "timeHours": 1.0,
     "maxPerHour": 352.0,
     "maxPerHourStr": "$352.00",
+    "ingredientCost": 327.0,
+    "netProfit": 25.0,
+    "netPerHour": 25.0,
     "xp": 42.0,
     "xpPerHour": 42.0,
-    "xpPerHourStr": "42.00"
+    "xpPerHourStr": "42.00",
+    "ingredients": [
+      {
+        "item": "Banana",
+        "count": 1
+      },
+      {
+        "item": "Blackberry",
+        "count": 2
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fresh Diffuser",
@@ -2390,9 +5070,23 @@
     "timeHours": 0.3333,
     "maxPerHour": 1047.0,
     "maxPerHourStr": "$1047.00",
+    "ingredientCost": 334.0,
+    "netProfit": 15.0,
+    "netPerHour": 45.0,
     "xp": 42.0,
     "xpPerHour": 126.0,
-    "xpPerHourStr": "126.00"
+    "xpPerHourStr": "126.00",
+    "ingredients": [
+      {
+        "item": "Ginger essential oil",
+        "count": 1
+      },
+      {
+        "item": "Mint essential oil",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Birthday Bouquet",
@@ -2404,9 +5098,31 @@
     "timeHours": 0.3333,
     "maxPerHour": 1047.0,
     "maxPerHourStr": "$1047.00",
+    "ingredientCost": 518.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 42.0,
     "xpPerHour": 126.0,
-    "xpPerHourStr": "126.00"
+    "xpPerHourStr": "126.00",
+    "ingredients": [
+      {
+        "item": "Cherry Juice",
+        "count": 1
+      },
+      {
+        "item": "Peony",
+        "count": 3
+      },
+      {
+        "item": "Lily",
+        "count": 1
+      },
+      {
+        "item": "Indigo",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Yogurt smoothie",
@@ -2418,9 +5134,31 @@
     "timeHours": 1.0,
     "maxPerHour": 349.0,
     "maxPerHourStr": "$349.00",
+    "ingredientCost": 260.0,
+    "netProfit": 89.0,
+    "netPerHour": 89.0,
     "xp": 42.0,
     "xpPerHour": 42.0,
-    "xpPerHourStr": "42.00"
+    "xpPerHourStr": "42.00",
+    "ingredients": [
+      {
+        "item": "Cherry",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Broccoli pasta",
@@ -2432,9 +5170,27 @@
     "timeHours": 1.0,
     "maxPerHour": 345.0,
     "maxPerHourStr": "$345.00",
+    "ingredientCost": 281.0,
+    "netProfit": 64.0,
+    "netPerHour": 64.0,
     "xp": 41.0,
     "xpPerHour": 41.0,
-    "xpPerHourStr": "41.00"
+    "xpPerHourStr": "41.00",
+    "ingredients": [
+      {
+        "item": "Broccoli",
+        "count": 3
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Fresh pasta",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Caramel latte",
@@ -2446,9 +5202,27 @@
     "timeHours": 0.25,
     "maxPerHour": 1380.0,
     "maxPerHourStr": "$1380.00",
+    "ingredientCost": 336.0,
+    "netProfit": 9.0,
+    "netPerHour": 36.0,
     "xp": 41.0,
     "xpPerHour": 164.0,
-    "xpPerHourStr": "164.00"
+    "xpPerHourStr": "164.00",
+    "ingredients": [
+      {
+        "item": "Coffee bean",
+        "count": 2
+      },
+      {
+        "item": "Toffee",
+        "count": 1
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Chocolate ice cream",
@@ -2460,9 +5234,31 @@
     "timeHours": 2.5,
     "maxPerHour": 136.8,
     "maxPerHourStr": "$136.80",
+    "ingredientCost": 304.0,
+    "netProfit": 38.0,
+    "netPerHour": 15.2,
     "xp": 41.0,
     "xpPerHour": 16.4,
-    "xpPerHourStr": "16.40"
+    "xpPerHourStr": "16.40",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Lollipop",
@@ -2474,9 +5270,27 @@
     "timeHours": 12.0,
     "maxPerHour": 28.5,
     "maxPerHourStr": "$28.50",
+    "ingredientCost": 178.0,
+    "netProfit": 164.0,
+    "netPerHour": 13.67,
     "xp": 41.0,
     "xpPerHour": 3.42,
-    "xpPerHourStr": "3.42"
+    "xpPerHourStr": "3.42",
+    "ingredients": [
+      {
+        "item": "Cherry",
+        "count": 1
+      },
+      {
+        "item": "Strawberry",
+        "count": 2
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Bright bouquet",
@@ -2488,9 +5302,31 @@
     "timeHours": 0.3333,
     "maxPerHour": 1014.0,
     "maxPerHourStr": "$1014.00",
+    "ingredientCost": 203.0,
+    "netProfit": 135.0,
+    "netPerHour": 405.0,
     "xp": 40.0,
     "xpPerHour": 120.0,
-    "xpPerHourStr": "120.00"
+    "xpPerHourStr": "120.00",
+    "ingredients": [
+      {
+        "item": "Sunflower",
+        "count": 5
+      },
+      {
+        "item": "Indigo",
+        "count": 3
+      },
+      {
+        "item": "Cotton",
+        "count": 1
+      },
+      {
+        "item": "Iron ore",
+        "count": 5
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cherry jam",
@@ -2502,9 +5338,19 @@
     "timeHours": 7.0,
     "maxPerHour": 47.71,
     "maxPerHourStr": "$47.71",
+    "ingredientCost": 204.0,
+    "netProfit": 130.0,
+    "netPerHour": 18.57,
     "xp": 40.0,
     "xpPerHour": 5.71,
-    "xpPerHourStr": "5.71"
+    "xpPerHourStr": "5.71",
+    "ingredients": [
+      {
+        "item": "Cherry",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Flower crown",
@@ -2516,9 +5362,23 @@
     "timeHours": 2.0,
     "maxPerHour": 165.5,
     "maxPerHourStr": "$165.50",
+    "ingredientCost": 472.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 40.0,
     "xpPerHour": 20.0,
-    "xpPerHourStr": "20.00"
+    "xpPerHourStr": "20.00",
+    "ingredients": [
+      {
+        "item": "Peony",
+        "count": 5
+      },
+      {
+        "item": "Cotton",
+        "count": 4
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Strawberry ice cream",
@@ -2530,9 +5390,31 @@
     "timeHours": 4.0,
     "maxPerHour": 82.75,
     "maxPerHourStr": "$82.75",
+    "ingredientCost": 162.0,
+    "netProfit": 169.0,
+    "netPerHour": 42.25,
     "xp": 40.0,
     "xpPerHour": 10.0,
-    "xpPerHourStr": "10.00"
+    "xpPerHourStr": "10.00",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "Strawberry",
+        "count": 3
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Onion soup",
@@ -2544,9 +5426,27 @@
     "timeHours": 2.5,
     "maxPerHour": 130.8,
     "maxPerHourStr": "$130.80",
+    "ingredientCost": 272.0,
+    "netProfit": 55.0,
+    "netPerHour": 22.0,
     "xp": 39.0,
     "xpPerHour": 15.6,
-    "xpPerHourStr": "15.60"
+    "xpPerHourStr": "15.60",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Onion",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Violet dress",
@@ -2558,9 +5458,27 @@
     "timeHours": 2.25,
     "maxPerHour": 145.33,
     "maxPerHourStr": "$145.33",
+    "ingredientCost": 287.0,
+    "netProfit": 40.0,
+    "netPerHour": 17.78,
     "xp": 39.0,
     "xpPerHour": 17.33,
-    "xpPerHourStr": "17.33"
+    "xpPerHourStr": "17.33",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 2
+      },
+      {
+        "item": "Indigo",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Honey soap",
@@ -2572,9 +5490,27 @@
     "timeHours": 1.0,
     "maxPerHour": 327.0,
     "maxPerHourStr": "$327.00",
+    "ingredientCost": 304.0,
+    "netProfit": 23.0,
+    "netPerHour": 23.0,
     "xp": 39.0,
     "xpPerHour": 39.0,
-    "xpPerHourStr": "39.00"
+    "xpPerHourStr": "39.00",
+    "ingredients": [
+      {
+        "item": "Goat milk",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "Honeycomb",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Soothing Pad",
@@ -2586,9 +5522,27 @@
     "timeHours": 1.0,
     "maxPerHour": 324.0,
     "maxPerHourStr": "$324.00",
+    "ingredientCost": 281.0,
+    "netProfit": 43.0,
+    "netPerHour": 43.0,
     "xp": 39.0,
     "xpPerHour": 39.0,
-    "xpPerHourStr": "39.00"
+    "xpPerHourStr": "39.00",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 5
+      },
+      {
+        "item": "Chamomile",
+        "count": 5
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Grilled eggplant",
@@ -2600,9 +5554,23 @@
     "timeHours": 0.6667,
     "maxPerHour": 486.0,
     "maxPerHourStr": "$486.00",
+    "ingredientCost": 282.0,
+    "netProfit": 42.0,
+    "netPerHour": 63.0,
     "xp": 39.0,
     "xpPerHour": 58.5,
-    "xpPerHourStr": "58.50"
+    "xpPerHourStr": "58.50",
+    "ingredients": [
+      {
+        "item": "Eggplant",
+        "count": 3
+      },
+      {
+        "item": "Salsa",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Colorful Candles",
@@ -2614,9 +5582,27 @@
     "timeHours": 1.8333,
     "maxPerHour": 176.73,
     "maxPerHourStr": "$176.73",
+    "ingredientCost": 287.0,
+    "netProfit": 37.0,
+    "netPerHour": 20.18,
     "xp": 39.0,
     "xpPerHour": 21.27,
-    "xpPerHourStr": "21.27"
+    "xpPerHourStr": "21.27",
+    "ingredients": [
+      {
+        "item": "Beeswax",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      },
+      {
+        "item": "Carrot",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Honey face mask",
@@ -2628,9 +5614,27 @@
     "timeHours": 1.5,
     "maxPerHour": 213.33,
     "maxPerHourStr": "$213.33",
+    "ingredientCost": 283.0,
+    "netProfit": 37.0,
+    "netPerHour": 24.67,
     "xp": 38.0,
     "xpPerHour": 25.33,
-    "xpPerHourStr": "25.33"
+    "xpPerHourStr": "25.33",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Coconut ice cream",
@@ -2642,9 +5646,23 @@
     "timeHours": 0.25,
     "maxPerHour": 1280.0,
     "maxPerHourStr": "$1280.00",
+    "ingredientCost": 306.0,
+    "netProfit": 14.0,
+    "netPerHour": 56.0,
     "xp": 38.0,
     "xpPerHour": 152.0,
-    "xpPerHourStr": "152.00"
+    "xpPerHourStr": "152.00",
+    "ingredients": [
+      {
+        "item": "Coconut",
+        "count": 2
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chocolate cake",
@@ -2656,9 +5674,27 @@
     "timeHours": 2.0,
     "maxPerHour": 160.0,
     "maxPerHourStr": "$160.00",
+    "ingredientCost": 286.0,
+    "netProfit": 34.0,
+    "netPerHour": 17.0,
     "xp": 38.0,
     "xpPerHour": 19.0,
-    "xpPerHourStr": "19.00"
+    "xpPerHourStr": "19.00",
+    "ingredients": [
+      {
+        "item": "Brown sugar",
+        "count": 1
+      },
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Green smoothie",
@@ -2670,9 +5706,27 @@
     "timeHours": 0.75,
     "maxPerHour": 426.67,
     "maxPerHourStr": "$426.67",
+    "ingredientCost": 182.0,
+    "netProfit": 138.0,
+    "netPerHour": 184.0,
     "xp": 38.0,
     "xpPerHour": 50.67,
-    "xpPerHourStr": "50.67"
+    "xpPerHourStr": "50.67",
+    "ingredients": [
+      {
+        "item": "Apple",
+        "count": 1
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      },
+      {
+        "item": "Lettuce",
+        "count": 5
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Summer rolls",
@@ -2684,9 +5738,31 @@
     "timeHours": 1.0,
     "maxPerHour": 316.0,
     "maxPerHourStr": "$316.00",
+    "ingredientCost": 260.0,
+    "netProfit": 56.0,
+    "netPerHour": 56.0,
     "xp": 38.0,
     "xpPerHour": 38.0,
-    "xpPerHourStr": "38.00"
+    "xpPerHourStr": "38.00",
+    "ingredients": [
+      {
+        "item": "Rice noodles",
+        "count": 2
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Lettuce",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Strawberry cake",
@@ -2698,9 +5774,31 @@
     "timeHours": 3.0,
     "maxPerHour": 105.33,
     "maxPerHourStr": "$105.33",
+    "ingredientCost": 129.0,
+    "netProfit": 187.0,
+    "netPerHour": 62.33,
     "xp": 38.0,
     "xpPerHour": 12.67,
-    "xpPerHourStr": "12.67"
+    "xpPerHourStr": "12.67",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Strawberry",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Pomegranate cake",
@@ -2712,9 +5810,31 @@
     "timeHours": 2.6667,
     "maxPerHour": 118.5,
     "maxPerHourStr": "$118.50",
+    "ingredientCost": 265.0,
+    "netProfit": 51.0,
+    "netPerHour": 19.12,
     "xp": 38.0,
     "xpPerHour": 14.25,
-    "xpPerHourStr": "14.25"
+    "xpPerHourStr": "14.25",
+    "ingredients": [
+      {
+        "item": "Pomegranate",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Cream",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 6
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Hot chocolate",
@@ -2726,9 +5846,31 @@
     "timeHours": 0.4167,
     "maxPerHour": 758.4,
     "maxPerHourStr": "$758.40",
+    "ingredientCost": 304.0,
+    "netProfit": 12.0,
+    "netPerHour": 28.8,
     "xp": 38.0,
     "xpPerHour": 91.2,
-    "xpPerHourStr": "91.20"
+    "xpPerHourStr": "91.20",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Honey tea",
@@ -2740,9 +5882,23 @@
     "timeHours": 0.6667,
     "maxPerHour": 469.5,
     "maxPerHourStr": "$469.50",
+    "ingredientCost": 184.0,
+    "netProfit": 129.0,
+    "netPerHour": 193.5,
     "xp": 37.0,
     "xpPerHour": 55.5,
-    "xpPerHourStr": "55.50"
+    "xpPerHourStr": "55.50",
+    "ingredients": [
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Tea leaf",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Pomegranate tea",
@@ -2754,9 +5910,23 @@
     "timeHours": 0.5667,
     "maxPerHour": 552.35,
     "maxPerHourStr": "$552.35",
+    "ingredientCost": 151.0,
+    "netProfit": 162.0,
+    "netPerHour": 285.88,
     "xp": 37.0,
     "xpPerHour": 65.29,
-    "xpPerHourStr": "65.29"
+    "xpPerHourStr": "65.29",
+    "ingredients": [
+      {
+        "item": "Pomegranate",
+        "count": 1
+      },
+      {
+        "item": "Tea leaf",
+        "count": 4
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Black sesame smoothie",
@@ -2768,9 +5938,27 @@
     "timeHours": 0.75,
     "maxPerHour": 417.33,
     "maxPerHourStr": "$417.33",
+    "ingredientCost": 394.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 37.0,
     "xpPerHour": 49.33,
-    "xpPerHourStr": "49.33"
+    "xpPerHourStr": "49.33",
+    "ingredients": [
+      {
+        "item": "Sesame",
+        "count": 3
+      },
+      {
+        "item": "Banana",
+        "count": 1
+      },
+      {
+        "item": "Goat milk",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Sprinkled Donut",
@@ -2782,9 +5970,23 @@
     "timeHours": 0.3333,
     "maxPerHour": 939.0,
     "maxPerHourStr": "$939.00",
+    "ingredientCost": 301.0,
+    "netProfit": 12.0,
+    "netPerHour": 36.0,
     "xp": 37.0,
     "xpPerHour": 111.0,
-    "xpPerHourStr": "111.00"
+    "xpPerHourStr": "111.00",
+    "ingredients": [
+      {
+        "item": "Plain Donut",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Snack mix",
@@ -2796,9 +5998,27 @@
     "timeHours": 0.75,
     "maxPerHour": 412.0,
     "maxPerHourStr": "$412.00",
+    "ingredientCost": 302.0,
+    "netProfit": 7.0,
+    "netPerHour": 9.33,
     "xp": 50.0,
     "xpPerHour": 66.67,
-    "xpPerHourStr": "66.67"
+    "xpPerHourStr": "66.67",
+    "ingredients": [
+      {
+        "item": "Corn",
+        "count": 2
+      },
+      {
+        "item": "Sesame",
+        "count": 1
+      },
+      {
+        "item": "Peanuts",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Wooly chaps",
@@ -2810,9 +6030,23 @@
     "timeHours": 1.5,
     "maxPerHour": 206.0,
     "maxPerHourStr": "$206.00",
+    "ingredientCost": 270.0,
+    "netProfit": 39.0,
+    "netPerHour": 26.0,
     "xp": 37.0,
     "xpPerHour": 24.67,
-    "xpPerHourStr": "24.67"
+    "xpPerHourStr": "24.67",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 1
+      },
+      {
+        "item": "Wool",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Potato feta cake",
@@ -2824,9 +6058,27 @@
     "timeHours": 2.0,
     "maxPerHour": 154.5,
     "maxPerHourStr": "$154.50",
+    "ingredientCost": 270.0,
+    "netProfit": 39.0,
+    "netPerHour": 19.5,
     "xp": 37.0,
     "xpPerHour": 18.5,
-    "xpPerHourStr": "18.50"
+    "xpPerHourStr": "18.50",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 4
+      },
+      {
+        "item": "Goat cheese",
+        "count": 1
+      },
+      {
+        "item": "Potato",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Tofu stir fry",
@@ -2838,9 +6090,31 @@
     "timeHours": 1.25,
     "maxPerHour": 244.8,
     "maxPerHourStr": "$244.80",
+    "ingredientCost": 330.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 37.0,
     "xpPerHour": 29.6,
-    "xpPerHourStr": "29.60"
+    "xpPerHourStr": "29.60",
+    "ingredients": [
+      {
+        "item": "Soybean",
+        "count": 3
+      },
+      {
+        "item": "Onion",
+        "count": 3
+      },
+      {
+        "item": "Broccoli",
+        "count": 3
+      },
+      {
+        "item": "Sesame",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Onion dog",
@@ -2852,9 +6126,31 @@
     "timeHours": 1.25,
     "maxPerHour": 244.8,
     "maxPerHourStr": "$244.80",
+    "ingredientCost": 265.0,
+    "netProfit": 41.0,
+    "netPerHour": 32.8,
     "xp": 36.0,
     "xpPerHour": 28.8,
-    "xpPerHourStr": "28.80"
+    "xpPerHourStr": "28.80",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Bread",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Onion",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Asparagus quiche",
@@ -2866,9 +6162,31 @@
     "timeHours": 2.0,
     "maxPerHour": 151.0,
     "maxPerHourStr": "$151.00",
+    "ingredientCost": 190.0,
+    "netProfit": 112.0,
+    "netPerHour": 56.0,
     "xp": 36.0,
     "xpPerHour": 18.0,
-    "xpPerHourStr": "18.00"
+    "xpPerHourStr": "18.00",
+    "ingredients": [
+      {
+        "item": "Asparagus",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 4
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Bacon fries",
@@ -2880,9 +6198,31 @@
     "timeHours": 0.4167,
     "maxPerHour": 724.8,
     "maxPerHourStr": "$724.80",
+    "ingredientCost": 294.0,
+    "netProfit": 8.0,
+    "netPerHour": 19.2,
     "xp": 36.0,
     "xpPerHour": 86.4,
-    "xpPerHourStr": "86.40"
+    "xpPerHourStr": "86.40",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Potato",
+        "count": 4
+      },
+      {
+        "item": "Garlic",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Goat cheese toast",
@@ -2894,9 +6234,27 @@
     "timeHours": 0.8333,
     "maxPerHour": 362.4,
     "maxPerHourStr": "$362.40",
+    "ingredientCost": 213.0,
+    "netProfit": 89.0,
+    "netPerHour": 106.8,
     "xp": 36.0,
     "xpPerHour": 43.2,
-    "xpPerHourStr": "43.20"
+    "xpPerHourStr": "43.20",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 1
+      },
+      {
+        "item": "Goat cheese",
+        "count": 1
+      },
+      {
+        "item": "Grapes",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Soft bouquet",
@@ -2908,9 +6266,27 @@
     "timeHours": 0.5,
     "maxPerHour": 596.0,
     "maxPerHourStr": "$596.00",
+    "ingredientCost": 424.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 36.0,
     "xpPerHour": 72.0,
-    "xpPerHourStr": "72.00"
+    "xpPerHourStr": "72.00",
+    "ingredients": [
+      {
+        "item": "Peony",
+        "count": 4
+      },
+      {
+        "item": "Cotton",
+        "count": 1
+      },
+      {
+        "item": "Cotton fabric",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Baked potato",
@@ -2922,9 +6298,31 @@
     "timeHours": 0.5833,
     "maxPerHour": 510.86,
     "maxPerHourStr": "$510.86",
+    "ingredientCost": 280.0,
+    "netProfit": 18.0,
+    "netPerHour": 30.86,
     "xp": 36.0,
     "xpPerHour": 61.71,
-    "xpPerHourStr": "61.71"
+    "xpPerHourStr": "61.71",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Potato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fish soup",
@@ -2936,9 +6334,31 @@
     "timeHours": 3.0,
     "maxPerHour": 99.33,
     "maxPerHourStr": "$99.33",
+    "ingredientCost": 255.0,
+    "netProfit": 43.0,
+    "netPerHour": 14.33,
     "xp": 35.0,
     "xpPerHour": 11.67,
-    "xpPerHourStr": "11.67"
+    "xpPerHourStr": "11.67",
+    "ingredients": [
+      {
+        "item": "Carrot",
+        "count": 1
+      },
+      {
+        "item": "Fish fillet",
+        "count": 2
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "Potato",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Winter stew",
@@ -2950,9 +6370,31 @@
     "timeHours": 2.3333,
     "maxPerHour": 126.43,
     "maxPerHourStr": "$126.43",
+    "ingredientCost": 250.0,
+    "netProfit": 45.0,
+    "netPerHour": 19.29,
     "xp": 7.0,
     "xpPerHour": 3.0,
-    "xpPerHourStr": "3.00"
+    "xpPerHourStr": "3.00",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 1
+      },
+      {
+        "item": "Potato",
+        "count": 3
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      },
+      {
+        "item": "Mushroom",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Hand pies",
@@ -2964,9 +6406,27 @@
     "timeHours": 0.3333,
     "maxPerHour": 885.0,
     "maxPerHourStr": "$885.00",
+    "ingredientCost": 270.0,
+    "netProfit": 25.0,
+    "netPerHour": 75.0,
     "xp": 35.0,
     "xpPerHour": 105.0,
-    "xpPerHourStr": "105.00"
+    "xpPerHourStr": "105.00",
+    "ingredients": [
+      {
+        "item": "Apple jam",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 5
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Flower shawl",
@@ -2978,9 +6438,27 @@
     "timeHours": 1.5,
     "maxPerHour": 196.67,
     "maxPerHourStr": "$196.67",
+    "ingredientCost": 220.0,
+    "netProfit": 75.0,
+    "netPerHour": 50.0,
     "xp": 35.0,
     "xpPerHour": 23.33,
-    "xpPerHourStr": "23.33"
+    "xpPerHourStr": "23.33",
+    "ingredients": [
+      {
+        "item": "Wool",
+        "count": 2
+      },
+      {
+        "item": "Sunflower",
+        "count": 3
+      },
+      {
+        "item": "Blackberry",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Caffè mocha",
@@ -2992,9 +6470,27 @@
     "timeHours": 0.25,
     "maxPerHour": 1164.0,
     "maxPerHourStr": "$1164.00",
+    "ingredientCost": 286.0,
+    "netProfit": 5.0,
+    "netPerHour": 20.0,
     "xp": 35.0,
     "xpPerHour": 140.0,
-    "xpPerHourStr": "140.00"
+    "xpPerHourStr": "140.00",
+    "ingredients": [
+      {
+        "item": "Coffee bean",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Cacao",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Tart dressing",
@@ -3006,9 +6502,27 @@
     "timeHours": 0.5,
     "maxPerHour": 576.0,
     "maxPerHourStr": "$576.00",
+    "ingredientCost": 246.0,
+    "netProfit": 42.0,
+    "netPerHour": 84.0,
     "xp": 34.0,
     "xpPerHour": 68.0,
-    "xpPerHourStr": "68.00"
+    "xpPerHourStr": "68.00",
+    "ingredients": [
+      {
+        "item": "Passion fruit",
+        "count": 2
+      },
+      {
+        "item": "Chili pepper",
+        "count": 2
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Red scarf",
@@ -3020,9 +6534,23 @@
     "timeHours": 2.5,
     "maxPerHour": 115.2,
     "maxPerHourStr": "$115.20",
+    "ingredientCost": 128.0,
+    "netProfit": 160.0,
+    "netPerHour": 64.0,
     "xp": 34.0,
     "xpPerHour": 13.6,
-    "xpPerHourStr": "13.60"
+    "xpPerHourStr": "13.60",
+    "ingredients": [
+      {
+        "item": "Strawberry",
+        "count": 2
+      },
+      {
+        "item": "Wool",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Lemon essential oil",
@@ -3034,9 +6562,19 @@
     "timeHours": 0.1667,
     "maxPerHour": 1728.0,
     "maxPerHourStr": "$1728.00",
+    "ingredientCost": 279.0,
+    "netProfit": 9.0,
+    "netPerHour": 54.0,
     "xp": 34.0,
     "xpPerHour": 204.0,
-    "xpPerHourStr": "204.00"
+    "xpPerHourStr": "204.00",
+    "ingredients": [
+      {
+        "item": "Lemon",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Mint ice cream",
@@ -3048,9 +6586,31 @@
     "timeHours": 2.25,
     "maxPerHour": 128.0,
     "maxPerHourStr": "$128.00",
+    "ingredientCost": 206.0,
+    "netProfit": 82.0,
+    "netPerHour": 36.44,
     "xp": 34.0,
     "xpPerHour": 15.11,
-    "xpPerHourStr": "15.11"
+    "xpPerHourStr": "15.11",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      },
+      {
+        "item": "Mint",
+        "count": 2
+      },
+      {
+        "item": "Cacao",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Potato bread",
@@ -3062,9 +6622,31 @@
     "timeHours": 0.75,
     "maxPerHour": 378.67,
     "maxPerHourStr": "$378.67",
+    "ingredientCost": 258.0,
+    "netProfit": 26.0,
+    "netPerHour": 34.67,
     "xp": 34.0,
     "xpPerHour": 45.33,
-    "xpPerHourStr": "45.33"
+    "xpPerHourStr": "45.33",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 3
+      },
+      {
+        "item": "Potato",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cheesecake",
@@ -3076,9 +6658,23 @@
     "timeHours": 4.0,
     "maxPerHour": 71.0,
     "maxPerHourStr": "$71.00",
+    "ingredientCost": 226.0,
+    "netProfit": 58.0,
+    "netPerHour": 14.5,
     "xp": 34.0,
     "xpPerHour": 8.5,
-    "xpPerHourStr": "8.50"
+    "xpPerHourStr": "8.50",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Cookie",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Pineapple coconut bars",
@@ -3090,9 +6686,31 @@
     "timeHours": 0.6667,
     "maxPerHour": 426.0,
     "maxPerHourStr": "$426.00",
+    "ingredientCost": 352.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 34.0,
     "xpPerHour": 51.0,
-    "xpPerHourStr": "51.00"
+    "xpPerHourStr": "51.00",
+    "ingredients": [
+      {
+        "item": "Coconut",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 2
+      },
+      {
+        "item": "Oats",
+        "count": 3
+      },
+      {
+        "item": "Pineapple",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chickpea stew",
@@ -3104,9 +6722,27 @@
     "timeHours": 1.5,
     "maxPerHour": 189.33,
     "maxPerHourStr": "$189.33",
+    "ingredientCost": 224.0,
+    "netProfit": 60.0,
+    "netPerHour": 40.0,
     "xp": 34.0,
     "xpPerHour": 22.67,
-    "xpPerHourStr": "22.67"
+    "xpPerHourStr": "22.67",
+    "ingredients": [
+      {
+        "item": "Coconut",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      },
+      {
+        "item": "Chickpea",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Plain cupcake",
@@ -3118,9 +6754,31 @@
     "timeHours": 0.6667,
     "maxPerHour": 420.0,
     "maxPerHourStr": "$420.00",
+    "ingredientCost": 247.0,
+    "netProfit": 33.0,
+    "netPerHour": 49.5,
     "xp": 34.0,
     "xpPerHour": 51.0,
-    "xpPerHourStr": "51.00"
+    "xpPerHourStr": "51.00",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 2
+      },
+      {
+        "item": "White sugar",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 5
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mushroom pasta",
@@ -3132,9 +6790,27 @@
     "timeHours": 1.25,
     "maxPerHour": 224.0,
     "maxPerHourStr": "$224.00",
+    "ingredientCost": 243.0,
+    "netProfit": 37.0,
+    "netPerHour": 29.6,
     "xp": 33.0,
     "xpPerHour": 26.4,
-    "xpPerHourStr": "26.40"
+    "xpPerHourStr": "26.40",
+    "ingredients": [
+      {
+        "item": "Mushroom",
+        "count": 5
+      },
+      {
+        "item": "Fresh pasta",
+        "count": 3
+      },
+      {
+        "item": "Goat milk",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Shepherd's pie",
@@ -3146,9 +6822,31 @@
     "timeHours": 1.6667,
     "maxPerHour": 168.0,
     "maxPerHourStr": "$168.00",
+    "ingredientCost": 250.0,
+    "netProfit": 30.0,
+    "netPerHour": 18.0,
     "xp": 34.0,
     "xpPerHour": 20.4,
-    "xpPerHourStr": "20.40"
+    "xpPerHourStr": "20.40",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Potato",
+        "count": 2
+      },
+      {
+        "item": "Pumpkin",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Olive oil",
@@ -3160,9 +6858,19 @@
     "timeHours": 0.75,
     "maxPerHour": 369.33,
     "maxPerHourStr": "$369.33",
+    "ingredientCost": 246.0,
+    "netProfit": 31.0,
+    "netPerHour": 41.33,
     "xp": 33.0,
     "xpPerHour": 44.0,
-    "xpPerHourStr": "44.00"
+    "xpPerHourStr": "44.00",
+    "ingredients": [
+      {
+        "item": "Olive",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Hummus",
@@ -3174,9 +6882,27 @@
     "timeHours": 0.5,
     "maxPerHour": 554.0,
     "maxPerHourStr": "$554.00",
+    "ingredientCost": 230.0,
+    "netProfit": 47.0,
+    "netPerHour": 94.0,
     "xp": 33.0,
     "xpPerHour": 66.0,
-    "xpPerHourStr": "66.00"
+    "xpPerHourStr": "66.00",
+    "ingredients": [
+      {
+        "item": "Chickpea",
+        "count": 3
+      },
+      {
+        "item": "Lemon",
+        "count": 2
+      },
+      {
+        "item": "Garlic",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Iced banana latte",
@@ -3188,9 +6914,27 @@
     "timeHours": 0.3333,
     "maxPerHour": 831.0,
     "maxPerHourStr": "$831.00",
+    "ingredientCost": 264.0,
+    "netProfit": 13.0,
+    "netPerHour": 39.0,
     "xp": 33.0,
     "xpPerHour": 99.0,
-    "xpPerHourStr": "99.00"
+    "xpPerHourStr": "99.00",
+    "ingredients": [
+      {
+        "item": "Banana",
+        "count": 1
+      },
+      {
+        "item": "Coffee bean",
+        "count": 2
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Gingerbread cookie",
@@ -3202,9 +6946,31 @@
     "timeHours": 0.5,
     "maxPerHour": 546.0,
     "maxPerHourStr": "$546.00",
+    "ingredientCost": 207.0,
+    "netProfit": 66.0,
+    "netPerHour": 132.0,
     "xp": 33.0,
     "xpPerHour": 66.0,
-    "xpPerHourStr": "66.00"
+    "xpPerHourStr": "66.00",
+    "ingredients": [
+      {
+        "item": "Wheat",
+        "count": 5
+      },
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      },
+      {
+        "item": "Ginger",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Sesame brittle",
@@ -3216,9 +6982,27 @@
     "timeHours": 1.0,
     "maxPerHour": 270.0,
     "maxPerHourStr": "$270.00",
+    "ingredientCost": 326.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 32.0,
     "xpPerHour": 32.0,
-    "xpPerHourStr": "32.00"
+    "xpPerHourStr": "32.00",
+    "ingredients": [
+      {
+        "item": "Sesame",
+        "count": 3
+      },
+      {
+        "item": "Ginger",
+        "count": 1
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Potato Omelet",
@@ -3230,9 +7014,27 @@
     "timeHours": 1.25,
     "maxPerHour": 216.0,
     "maxPerHourStr": "$216.00",
+    "ingredientCost": 240.0,
+    "netProfit": 30.0,
+    "netPerHour": 24.0,
     "xp": 32.0,
     "xpPerHour": 25.6,
-    "xpPerHourStr": "25.60"
+    "xpPerHourStr": "25.60",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 3
+      },
+      {
+        "item": "Bacon",
+        "count": 3
+      },
+      {
+        "item": "Potato",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Cabbage soup",
@@ -3244,9 +7046,31 @@
     "timeHours": 1.5,
     "maxPerHour": 180.0,
     "maxPerHourStr": "$180.00",
+    "ingredientCost": 216.0,
+    "netProfit": 54.0,
+    "netPerHour": 36.0,
     "xp": 32.0,
     "xpPerHour": 21.33,
-    "xpPerHourStr": "21.33"
+    "xpPerHourStr": "21.33",
+    "ingredients": [
+      {
+        "item": "Cabbage",
+        "count": 3
+      },
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Potato",
+        "count": 2
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Strawberry jam",
@@ -3258,9 +7082,19 @@
     "timeHours": 7.5,
     "maxPerHour": 36.0,
     "maxPerHourStr": "$36.00",
+    "ingredientCost": 30.0,
+    "netProfit": 240.0,
+    "netPerHour": 32.0,
     "xp": 32.0,
     "xpPerHour": 4.27,
-    "xpPerHourStr": "4.27"
+    "xpPerHourStr": "4.27",
+    "ingredients": [
+      {
+        "item": "Strawberry",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Apple pie",
@@ -3272,9 +7106,31 @@
     "timeHours": 2.5,
     "maxPerHour": 108.0,
     "maxPerHourStr": "$108.00",
+    "ingredientCost": 231.0,
+    "netProfit": 39.0,
+    "netPerHour": 15.6,
     "xp": 32.0,
     "xpPerHour": 12.8,
-    "xpPerHourStr": "12.80"
+    "xpPerHourStr": "12.80",
+    "ingredients": [
+      {
+        "item": "Apple",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Syrup",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Pickles",
@@ -3286,9 +7142,27 @@
     "timeHours": 4.0,
     "maxPerHour": 67.5,
     "maxPerHourStr": "$67.50",
+    "ingredientCost": 303.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 32.0,
     "xpPerHour": 8.0,
-    "xpPerHourStr": "8.00"
+    "xpPerHourStr": "8.00",
+    "ingredients": [
+      {
+        "item": "Cucumber",
+        "count": 3
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cucumber smoothie",
@@ -3300,9 +7174,27 @@
     "timeHours": 0.6667,
     "maxPerHour": 399.0,
     "maxPerHourStr": "$399.00",
+    "ingredientCost": 463.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 32.0,
     "xpPerHour": 48.0,
-    "xpPerHourStr": "48.00"
+    "xpPerHourStr": "48.00",
+    "ingredients": [
+      {
+        "item": "Cucumber",
+        "count": 3
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Pineapple",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Veggie platter",
@@ -3314,9 +7206,31 @@
     "timeHours": 2.0,
     "maxPerHour": 133.0,
     "maxPerHourStr": "$133.00",
+    "ingredientCost": 222.0,
+    "netProfit": 44.0,
+    "netPerHour": 22.0,
     "xp": 32.0,
     "xpPerHour": 16.0,
-    "xpPerHourStr": "16.00"
+    "xpPerHourStr": "16.00",
+    "ingredients": [
+      {
+        "item": "Bell pepper",
+        "count": 2
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Dried fruit",
@@ -3328,9 +7242,31 @@
     "timeHours": 3.0,
     "maxPerHour": 88.67,
     "maxPerHourStr": "$88.67",
+    "ingredientCost": 163.0,
+    "netProfit": 103.0,
+    "netPerHour": 34.33,
     "xp": 32.0,
     "xpPerHour": 10.67,
-    "xpPerHourStr": "10.67"
+    "xpPerHourStr": "10.67",
+    "ingredients": [
+      {
+        "item": "Grapes",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      },
+      {
+        "item": "Strawberry",
+        "count": 1
+      },
+      {
+        "item": "Orange",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Rich soap",
@@ -3342,9 +7278,27 @@
     "timeHours": 1.1667,
     "maxPerHour": 228.0,
     "maxPerHourStr": "$228.00",
+    "ingredientCost": 239.0,
+    "netProfit": 27.0,
+    "netPerHour": 23.14,
     "xp": 32.0,
     "xpPerHour": 27.43,
-    "xpPerHourStr": "27.43"
+    "xpPerHourStr": "27.43",
+    "ingredients": [
+      {
+        "item": "Oats",
+        "count": 2
+      },
+      {
+        "item": "Pomegranate",
+        "count": 1
+      },
+      {
+        "item": "Coconut",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Pineapple cake",
@@ -3356,9 +7310,31 @@
     "timeHours": 1.25,
     "maxPerHour": 207.2,
     "maxPerHourStr": "$207.20",
+    "ingredientCost": 355.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 31.0,
     "xpPerHour": 24.8,
-    "xpPerHourStr": "24.80"
+    "xpPerHourStr": "24.80",
+    "ingredients": [
+      {
+        "item": "Pineapple",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Cherry",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 4
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Raspberry mocha",
@@ -3370,9 +7346,31 @@
     "timeHours": 0.5,
     "maxPerHour": 518.0,
     "maxPerHourStr": "$518.00",
+    "ingredientCost": 246.0,
+    "netProfit": 13.0,
+    "netPerHour": 26.0,
     "xp": 31.0,
     "xpPerHour": 62.0,
-    "xpPerHourStr": "62.00"
+    "xpPerHourStr": "62.00",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 1
+      },
+      {
+        "item": "Coffee bean",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Honey toast",
@@ -3384,9 +7382,31 @@
     "timeHours": 1.0,
     "maxPerHour": 255.0,
     "maxPerHourStr": "$255.00",
+    "ingredientCost": 225.0,
+    "netProfit": 30.0,
+    "netPerHour": 30.0,
     "xp": 31.0,
     "xpPerHour": 31.0,
-    "xpPerHourStr": "31.00"
+    "xpPerHourStr": "31.00",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Honey",
+        "count": 1
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Asparagus soup",
@@ -3398,9 +7418,23 @@
     "timeHours": 1.0,
     "maxPerHour": 255.0,
     "maxPerHourStr": "$255.00",
+    "ingredientCost": 130.0,
+    "netProfit": 125.0,
+    "netPerHour": 125.0,
     "xp": 30.0,
     "xpPerHour": 30.0,
-    "xpPerHourStr": "30.00"
+    "xpPerHourStr": "30.00",
+    "ingredients": [
+      {
+        "item": "Asparagus",
+        "count": 3
+      },
+      {
+        "item": "Cream",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Potato soup",
@@ -3412,9 +7446,27 @@
     "timeHours": 2.5,
     "maxPerHour": 102.0,
     "maxPerHourStr": "$102.00",
+    "ingredientCost": 212.0,
+    "netProfit": 43.0,
+    "netPerHour": 17.2,
     "xp": 31.0,
     "xpPerHour": 12.4,
-    "xpPerHourStr": "12.40"
+    "xpPerHourStr": "12.40",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      },
+      {
+        "item": "Potato",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Mint tea",
@@ -3426,9 +7478,27 @@
     "timeHours": 0.5833,
     "maxPerHour": 437.14,
     "maxPerHourStr": "$437.14",
+    "ingredientCost": 50.0,
+    "netProfit": 205.0,
+    "netPerHour": 351.43,
     "xp": 31.0,
     "xpPerHour": 53.14,
-    "xpPerHourStr": "53.14"
+    "xpPerHourStr": "53.14",
+    "ingredients": [
+      {
+        "item": "Tea leaf",
+        "count": 3
+      },
+      {
+        "item": "Mint",
+        "count": 1
+      },
+      {
+        "item": "Watermelon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Caramel apple",
@@ -3440,9 +7510,23 @@
     "timeHours": 2.0,
     "maxPerHour": 127.5,
     "maxPerHourStr": "$127.50",
+    "ingredientCost": 219.0,
+    "netProfit": 36.0,
+    "netPerHour": 18.0,
     "xp": 31.0,
     "xpPerHour": 15.5,
-    "xpPerHourStr": "15.50"
+    "xpPerHourStr": "15.50",
+    "ingredients": [
+      {
+        "item": "Apple",
+        "count": 1
+      },
+      {
+        "item": "Syrup",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Orange tea",
@@ -3454,9 +7538,23 @@
     "timeHours": 0.6667,
     "maxPerHour": 382.5,
     "maxPerHourStr": "$382.50",
+    "ingredientCost": 127.0,
+    "netProfit": 128.0,
+    "netPerHour": 192.0,
     "xp": 30.0,
     "xpPerHour": 45.0,
-    "xpPerHourStr": "45.00"
+    "xpPerHourStr": "45.00",
+    "ingredients": [
+      {
+        "item": "Orange",
+        "count": 1
+      },
+      {
+        "item": "Tea leaf",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Red berry cake",
@@ -3468,9 +7566,31 @@
     "timeHours": 1.0,
     "maxPerHour": 255.0,
     "maxPerHourStr": "$255.00",
+    "ingredientCost": 232.0,
+    "netProfit": 23.0,
+    "netPerHour": 23.0,
     "xp": 31.0,
     "xpPerHour": 31.0,
-    "xpPerHourStr": "31.00"
+    "xpPerHourStr": "31.00",
+    "ingredients": [
+      {
+        "item": "Cherry",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Salsa",
@@ -3482,9 +7602,27 @@
     "timeHours": 0.3333,
     "maxPerHour": 756.0,
     "maxPerHourStr": "$756.00",
+    "ingredientCost": 230.0,
+    "netProfit": 22.0,
+    "netPerHour": 66.0,
     "xp": 30.0,
     "xpPerHour": 90.0,
-    "xpPerHourStr": "90.00"
+    "xpPerHourStr": "90.00",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 2
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Raspberry jam",
@@ -3496,9 +7634,19 @@
     "timeHours": 7.0,
     "maxPerHour": 36.0,
     "maxPerHourStr": "$36.00",
+    "ingredientCost": 138.0,
+    "netProfit": 114.0,
+    "netPerHour": 16.29,
     "xp": 30.0,
     "xpPerHour": 4.29,
-    "xpPerHourStr": "4.29"
+    "xpPerHourStr": "4.29",
+    "ingredients": [
+      {
+        "item": "Raspberry",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Guava juice",
@@ -3510,9 +7658,19 @@
     "timeHours": 0.9167,
     "maxPerHour": 274.91,
     "maxPerHourStr": "$274.91",
+    "ingredientCost": 224.0,
+    "netProfit": 28.0,
+    "netPerHour": 30.55,
     "xp": 30.0,
     "xpPerHour": 32.73,
-    "xpPerHourStr": "32.73"
+    "xpPerHourStr": "32.73",
+    "ingredients": [
+      {
+        "item": "Guava",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Iced tea",
@@ -3524,9 +7682,23 @@
     "timeHours": 0.5,
     "maxPerHour": 504.0,
     "maxPerHourStr": "$504.00",
+    "ingredientCost": 130.0,
+    "netProfit": 122.0,
+    "netPerHour": 244.0,
     "xp": 30.0,
     "xpPerHour": 60.0,
-    "xpPerHourStr": "60.00"
+    "xpPerHourStr": "60.00",
+    "ingredients": [
+      {
+        "item": "Peach",
+        "count": 1
+      },
+      {
+        "item": "Tea leaf",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Espresso",
@@ -3538,9 +7710,23 @@
     "timeHours": 0.0833,
     "maxPerHour": 2976.0,
     "maxPerHourStr": "$2976.00",
+    "ingredientCost": 242.0,
+    "netProfit": 6.0,
+    "netPerHour": 72.0,
     "xp": 29.0,
     "xpPerHour": 348.0,
-    "xpPerHourStr": "348.00"
+    "xpPerHourStr": "348.00",
+    "ingredients": [
+      {
+        "item": "Coffee bean",
+        "count": 3
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Chocolate popcorn",
@@ -3552,9 +7738,23 @@
     "timeHours": 2.5,
     "maxPerHour": 99.2,
     "maxPerHourStr": "$99.20",
+    "ingredientCost": 186.0,
+    "netProfit": 62.0,
+    "netPerHour": 24.8,
     "xp": 29.0,
     "xpPerHour": 11.6,
-    "xpPerHourStr": "11.60"
+    "xpPerHourStr": "11.60",
+    "ingredients": [
+      {
+        "item": "Cacao",
+        "count": 2
+      },
+      {
+        "item": "Corn",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fish and chips",
@@ -3566,9 +7766,23 @@
     "timeHours": 1.5,
     "maxPerHour": 162.67,
     "maxPerHourStr": "$162.67",
+    "ingredientCost": 216.0,
+    "netProfit": 28.0,
+    "netPerHour": 18.67,
     "xp": 29.0,
     "xpPerHour": 19.33,
-    "xpPerHourStr": "19.33"
+    "xpPerHourStr": "19.33",
+    "ingredients": [
+      {
+        "item": "Fish fillet",
+        "count": 2
+      },
+      {
+        "item": "Potato",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cotton shirt",
@@ -3580,9 +7794,19 @@
     "timeHours": 0.75,
     "maxPerHour": 321.33,
     "maxPerHourStr": "$321.33",
+    "ingredientCost": 216.0,
+    "netProfit": 25.0,
+    "netPerHour": 33.33,
     "xp": 29.0,
     "xpPerHour": 38.67,
-    "xpPerHourStr": "38.67"
+    "xpPerHourStr": "38.67",
+    "ingredients": [
+      {
+        "item": "Cotton fabric",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Green tea",
@@ -3594,9 +7818,19 @@
     "timeHours": 0.5,
     "maxPerHour": 482.0,
     "maxPerHourStr": "$482.00",
+    "ingredientCost": 50.0,
+    "netProfit": 191.0,
+    "netPerHour": 382.0,
     "xp": 29.0,
     "xpPerHour": 58.0,
-    "xpPerHourStr": "58.00"
+    "xpPerHourStr": "58.00",
+    "ingredients": [
+      {
+        "item": "Tea leaf",
+        "count": 5
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Quesadilla",
@@ -3608,9 +7842,27 @@
     "timeHours": 1.0,
     "maxPerHour": 241.0,
     "maxPerHourStr": "$241.00",
+    "ingredientCost": 206.0,
+    "netProfit": 35.0,
+    "netPerHour": 35.0,
     "xp": 29.0,
     "xpPerHour": 29.0,
-    "xpPerHourStr": "29.00"
+    "xpPerHourStr": "29.00",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 4
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Lemon tea",
@@ -3622,9 +7874,23 @@
     "timeHours": 0.3333,
     "maxPerHour": 723.0,
     "maxPerHourStr": "$723.00",
+    "ingredientCost": 123.0,
+    "netProfit": 118.0,
+    "netPerHour": 354.0,
     "xp": 29.0,
     "xpPerHour": 87.0,
-    "xpPerHourStr": "87.00"
+    "xpPerHourStr": "87.00",
+    "ingredients": [
+      {
+        "item": "Lemon",
+        "count": 1
+      },
+      {
+        "item": "Tea leaf",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Broccoli soup",
@@ -3636,9 +7902,27 @@
     "timeHours": 1.25,
     "maxPerHour": 189.6,
     "maxPerHourStr": "$189.60",
+    "ingredientCost": 174.0,
+    "netProfit": 63.0,
+    "netPerHour": 50.4,
     "xp": 28.0,
     "xpPerHour": 22.4,
-    "xpPerHourStr": "22.40"
+    "xpPerHourStr": "22.40",
+    "ingredients": [
+      {
+        "item": "Broccoli",
+        "count": 3
+      },
+      {
+        "item": "Onion",
+        "count": 1
+      },
+      {
+        "item": "Potato",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Beetroot salad",
@@ -3650,9 +7934,23 @@
     "timeHours": 0.75,
     "maxPerHour": 312.0,
     "maxPerHourStr": "$312.00",
+    "ingredientCost": 270.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 28.0,
     "xpPerHour": 37.33,
-    "xpPerHourStr": "37.33"
+    "xpPerHourStr": "37.33",
+    "ingredients": [
+      {
+        "item": "Beetroot",
+        "count": 3
+      },
+      {
+        "item": "Goat Cheese",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Beeswax",
@@ -3664,9 +7962,19 @@
     "timeHours": 0.75,
     "maxPerHour": 312.0,
     "maxPerHourStr": "$312.00",
+    "ingredientCost": 204.0,
+    "netProfit": 30.0,
+    "netPerHour": 40.0,
     "xp": 28.0,
     "xpPerHour": 37.33,
-    "xpPerHourStr": "37.33"
+    "xpPerHourStr": "37.33",
+    "ingredients": [
+      {
+        "item": "Honeycomb",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Peanuts",
@@ -3678,9 +7986,14 @@
     "timeHours": 5.0,
     "maxPerHour": 46.8,
     "maxPerHourStr": "$46.80",
+    "ingredientCost": 0.0,
+    "netProfit": 234.0,
+    "netPerHour": 46.8,
     "xp": 43.0,
     "xpPerHour": 8.6,
-    "xpPerHourStr": "8.60"
+    "xpPerHourStr": "8.60",
+    "ingredients": [],
+    "bottleneck": "EASY"
   },
   {
     "name": "Plain yogurt",
@@ -3692,9 +8005,23 @@
     "timeHours": 2.0,
     "maxPerHour": 117.0,
     "maxPerHourStr": "$117.00",
+    "ingredientCost": 196.0,
+    "netProfit": 38.0,
+    "netPerHour": 19.0,
     "xp": 28.0,
     "xpPerHour": 14.0,
-    "xpPerHourStr": "14.00"
+    "xpPerHourStr": "14.00",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 3
+      },
+      {
+        "item": "Cream",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Orange juice",
@@ -3706,9 +8033,19 @@
     "timeHours": 2.0,
     "maxPerHour": 117.0,
     "maxPerHourStr": "$117.00",
+    "ingredientCost": 194.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 28.0,
     "xpPerHour": 14.0,
-    "xpPerHourStr": "14.00"
+    "xpPerHourStr": "14.00",
+    "ingredients": [
+      {
+        "item": "Orange",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cream Donut",
@@ -3720,9 +8057,27 @@
     "timeHours": 0.4167,
     "maxPerHour": 552.0,
     "maxPerHourStr": "$552.00",
+    "ingredientCost": 211.0,
+    "netProfit": 19.0,
+    "netPerHour": 45.6,
     "xp": 27.0,
     "xpPerHour": 64.8,
-    "xpPerHourStr": "64.80"
+    "xpPerHourStr": "64.80",
+    "ingredients": [
+      {
+        "item": "Plain donut",
+        "count": 1
+      },
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Brown sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Spring omelet",
@@ -3734,9 +8089,27 @@
     "timeHours": 0.6667,
     "maxPerHour": 345.0,
     "maxPerHourStr": "$345.00",
+    "ingredientCost": 138.0,
+    "netProfit": 92.0,
+    "netPerHour": 138.0,
     "xp": 27.0,
     "xpPerHour": 40.5,
-    "xpPerHourStr": "40.50"
+    "xpPerHourStr": "40.50",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Asparagus",
+        "count": 2
+      },
+      {
+        "item": "Butter",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mango juice",
@@ -3748,9 +8121,19 @@
     "timeHours": 0.8333,
     "maxPerHour": 276.0,
     "maxPerHourStr": "$276.00",
+    "ingredientCost": 200.0,
+    "netProfit": 30.0,
+    "netPerHour": 36.0,
     "xp": 27.0,
     "xpPerHour": 32.4,
-    "xpPerHourStr": "32.40"
+    "xpPerHourStr": "32.40",
+    "ingredients": [
+      {
+        "item": "Mango",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Tomato sauce",
@@ -3762,9 +8145,27 @@
     "timeHours": 0.5,
     "maxPerHour": 460.0,
     "maxPerHourStr": "$460.00",
+    "ingredientCost": 211.0,
+    "netProfit": 19.0,
+    "netPerHour": 38.0,
     "xp": 27.0,
     "xpPerHour": 54.0,
-    "xpPerHourStr": "54.00"
+    "xpPerHourStr": "54.00",
+    "ingredients": [
+      {
+        "item": "Brown sugar",
+        "count": 1
+      },
+      {
+        "item": "Lemon",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Falafel",
@@ -3776,9 +8177,31 @@
     "timeHours": 0.9167,
     "maxPerHour": 246.55,
     "maxPerHourStr": "$246.55",
+    "ingredientCost": 166.0,
+    "netProfit": 60.0,
+    "netPerHour": 65.45,
     "xp": 27.0,
     "xpPerHour": 29.45,
-    "xpPerHourStr": "29.45"
+    "xpPerHourStr": "29.45",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Chickpea",
+        "count": 3
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      },
+      {
+        "item": "Garlic",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cotton Candy",
@@ -3790,9 +8213,23 @@
     "timeHours": 0.5,
     "maxPerHour": 452.0,
     "maxPerHourStr": "$452.00",
+    "ingredientCost": 160.0,
+    "netProfit": 66.0,
+    "netPerHour": 132.0,
     "xp": 27.0,
     "xpPerHour": 54.0,
-    "xpPerHourStr": "54.00"
+    "xpPerHourStr": "54.00",
+    "ingredients": [
+      {
+        "item": "White sugar",
+        "count": 3
+      },
+      {
+        "item": "Strawberry",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Spicy pizza",
@@ -3804,9 +8241,31 @@
     "timeHours": 0.25,
     "maxPerHour": 904.0,
     "maxPerHourStr": "$904.00",
+    "ingredientCost": 207.0,
+    "netProfit": 19.0,
+    "netPerHour": 76.0,
     "xp": 27.0,
     "xpPerHour": 108.0,
-    "xpPerHourStr": "108.00"
+    "xpPerHourStr": "108.00",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Fish pie",
@@ -3818,9 +8277,27 @@
     "timeHours": 2.0,
     "maxPerHour": 113.0,
     "maxPerHourStr": "$113.00",
+    "ingredientCost": 186.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 27.0,
     "xpPerHour": 13.5,
-    "xpPerHourStr": "13.50"
+    "xpPerHourStr": "13.50",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Fish fillet",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Fish burger",
@@ -3832,9 +8309,27 @@
     "timeHours": 2.0,
     "maxPerHour": 113.0,
     "maxPerHourStr": "$113.00",
+    "ingredientCost": 186.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 27.0,
     "xpPerHour": 13.5,
-    "xpPerHourStr": "13.50"
+    "xpPerHourStr": "13.50",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Fish fillet",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Blackberry muffin",
@@ -3846,9 +8341,27 @@
     "timeHours": 0.75,
     "maxPerHour": 301.33,
     "maxPerHourStr": "$301.33",
+    "ingredientCost": 203.0,
+    "netProfit": 23.0,
+    "netPerHour": 30.67,
     "xp": 27.0,
     "xpPerHour": 36.0,
-    "xpPerHourStr": "36.00"
+    "xpPerHourStr": "36.00",
+    "ingredients": [
+      {
+        "item": "Blackberry",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Samosa",
@@ -3860,9 +8373,31 @@
     "timeHours": 1.25,
     "maxPerHour": 178.4,
     "maxPerHourStr": "$178.40",
+    "ingredientCost": 176.0,
+    "netProfit": 47.0,
+    "netPerHour": 37.6,
     "xp": 27.0,
     "xpPerHour": 21.6,
-    "xpPerHourStr": "21.60"
+    "xpPerHourStr": "21.60",
+    "ingredients": [
+      {
+        "item": "Chickpea",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 4
+      },
+      {
+        "item": "Chili Pepper",
+        "count": 1
+      },
+      {
+        "item": "Potato",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Feta pie",
@@ -3874,9 +8409,27 @@
     "timeHours": 1.5,
     "maxPerHour": 148.67,
     "maxPerHourStr": "$148.67",
+    "ingredientCost": 186.0,
+    "netProfit": 37.0,
+    "netPerHour": 24.67,
     "xp": 26.0,
     "xpPerHour": 17.33,
-    "xpPerHourStr": "17.33"
+    "xpPerHourStr": "17.33",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Goat cheese",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cream cake",
@@ -3888,9 +8441,27 @@
     "timeHours": 3.0,
     "maxPerHour": 73.0,
     "maxPerHourStr": "$73.00",
+    "ingredientCost": 115.0,
+    "netProfit": 104.0,
+    "netPerHour": 34.67,
     "xp": 26.0,
     "xpPerHour": 8.67,
-    "xpPerHourStr": "8.67"
+    "xpPerHourStr": "8.67",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 5
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Bacon pie",
@@ -3902,9 +8473,27 @@
     "timeHours": 3.0,
     "maxPerHour": 73.0,
     "maxPerHourStr": "$73.00",
+    "ingredientCost": 174.0,
+    "netProfit": 45.0,
+    "netPerHour": 15.0,
     "xp": 26.0,
     "xpPerHour": 8.67,
-    "xpPerHourStr": "8.67"
+    "xpPerHourStr": "8.67",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Kimchi",
@@ -3916,9 +8505,31 @@
     "timeHours": 5.0,
     "maxPerHour": 43.8,
     "maxPerHourStr": "$43.80",
+    "ingredientCost": 110.0,
+    "netProfit": 109.0,
+    "netPerHour": 21.8,
     "xp": 26.0,
     "xpPerHour": 5.2,
-    "xpPerHourStr": "5.20"
+    "xpPerHourStr": "5.20",
+    "ingredients": [
+      {
+        "item": "Cabbage",
+        "count": 5
+      },
+      {
+        "item": "Ginger",
+        "count": 1
+      },
+      {
+        "item": "Chili pepper",
+        "count": 1
+      },
+      {
+        "item": "Garlic",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Apple jam",
@@ -3930,9 +8541,19 @@
     "timeHours": 6.0,
     "maxPerHour": 36.5,
     "maxPerHourStr": "$36.50",
+    "ingredientCost": 117.0,
+    "netProfit": 102.0,
+    "netPerHour": 17.0,
     "xp": 26.0,
     "xpPerHour": 4.33,
-    "xpPerHourStr": "4.33"
+    "xpPerHourStr": "4.33",
+    "ingredients": [
+      {
+        "item": "Apple",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Caffè latte",
@@ -3944,9 +8565,27 @@
     "timeHours": 0.1667,
     "maxPerHour": 1314.0,
     "maxPerHourStr": "$1314.00",
+    "ingredientCost": 210.0,
+    "netProfit": 9.0,
+    "netPerHour": 54.0,
     "xp": 26.0,
     "xpPerHour": 156.0,
-    "xpPerHourStr": "156.00"
+    "xpPerHourStr": "156.00",
+    "ingredients": [
+      {
+        "item": "Coffee bean",
+        "count": 2
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Tea pot",
@@ -3958,9 +8597,27 @@
     "timeHours": 3.6667,
     "maxPerHour": 59.73,
     "maxPerHourStr": "$59.73",
+    "ingredientCost": 104.0,
+    "netProfit": 115.0,
+    "netPerHour": 31.36,
     "xp": 26.0,
     "xpPerHour": 7.09,
-    "xpPerHourStr": "7.09"
+    "xpPerHourStr": "7.09",
+    "ingredients": [
+      {
+        "item": "Clay",
+        "count": 3
+      },
+      {
+        "item": "Coffee bean",
+        "count": 1
+      },
+      {
+        "item": "Gold ore",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Mushroom salad",
@@ -3972,9 +8629,31 @@
     "timeHours": 1.0,
     "maxPerHour": 216.0,
     "maxPerHourStr": "$216.00",
+    "ingredientCost": 162.0,
+    "netProfit": 54.0,
+    "netPerHour": 54.0,
     "xp": 26.0,
     "xpPerHour": 26.0,
-    "xpPerHourStr": "26.00"
+    "xpPerHourStr": "26.00",
+    "ingredients": [
+      {
+        "item": "Mushroom",
+        "count": 3
+      },
+      {
+        "item": "Lettuce",
+        "count": 1
+      },
+      {
+        "item": "Potato",
+        "count": 2
+      },
+      {
+        "item": "Bacon",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Cherry juice",
@@ -3986,9 +8665,19 @@
     "timeHours": 2.5,
     "maxPerHour": 86.4,
     "maxPerHourStr": "$86.40",
+    "ingredientCost": 136.0,
+    "netProfit": 80.0,
+    "netPerHour": 32.0,
     "xp": 26.0,
     "xpPerHour": 10.4,
-    "xpPerHourStr": "10.40"
+    "xpPerHourStr": "10.40",
+    "ingredients": [
+      {
+        "item": "Cherry",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Clay mug",
@@ -4000,9 +8689,27 @@
     "timeHours": 3.3333,
     "maxPerHour": 63.6,
     "maxPerHourStr": "$63.60",
+    "ingredientCost": 152.0,
+    "netProfit": 60.0,
+    "netPerHour": 18.0,
     "xp": 25.0,
     "xpPerHour": 7.5,
-    "xpPerHourStr": "7.50"
+    "xpPerHourStr": "7.50",
+    "ingredients": [
+      {
+        "item": "Clay",
+        "count": 3
+      },
+      {
+        "item": "Indigo",
+        "count": 2
+      },
+      {
+        "item": "Peony",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Rustic bouquet",
@@ -4014,9 +8721,27 @@
     "timeHours": 0.75,
     "maxPerHour": 277.33,
     "maxPerHourStr": "$277.33",
+    "ingredientCost": 174.0,
+    "netProfit": 34.0,
+    "netPerHour": 45.33,
     "xp": 25.0,
     "xpPerHour": 33.33,
-    "xpPerHourStr": "33.33"
+    "xpPerHourStr": "33.33",
+    "ingredients": [
+      {
+        "item": "Wheat",
+        "count": 5
+      },
+      {
+        "item": "Indigo",
+        "count": 3
+      },
+      {
+        "item": "Cotton",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Blue sweater",
@@ -4028,9 +8753,23 @@
     "timeHours": 3.0,
     "maxPerHour": 69.33,
     "maxPerHourStr": "$69.33",
+    "ingredientCost": 158.0,
+    "netProfit": 50.0,
+    "netPerHour": 16.67,
     "xp": 25.0,
     "xpPerHour": 8.33,
-    "xpPerHourStr": "8.33"
+    "xpPerHourStr": "8.33",
+    "ingredients": [
+      {
+        "item": "Indigo",
+        "count": 2
+      },
+      {
+        "item": "Wool",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fried rice",
@@ -4042,9 +8781,23 @@
     "timeHours": 1.0,
     "maxPerHour": 205.0,
     "maxPerHourStr": "$205.00",
+    "ingredientCost": 180.0,
+    "netProfit": 25.0,
+    "netPerHour": 25.0,
     "xp": 24.0,
     "xpPerHour": 24.0,
-    "xpPerHourStr": "24.00"
+    "xpPerHourStr": "24.00",
+    "ingredients": [
+      {
+        "item": "Rice",
+        "count": 5
+      },
+      {
+        "item": "Egg",
+        "count": 5
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Platinum bar",
@@ -4056,9 +8809,19 @@
     "timeHours": 16.0,
     "maxPerHour": 12.81,
     "maxPerHourStr": "$12.81",
+    "ingredientCost": 30.0,
+    "netProfit": 175.0,
+    "netPerHour": 10.94,
     "xp": 24.0,
     "xpPerHour": 1.5,
-    "xpPerHourStr": "1.50"
+    "xpPerHourStr": "1.50",
+    "ingredients": [
+      {
+        "item": "Platinum ore",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Berry juice",
@@ -4070,9 +8833,23 @@
     "timeHours": 3.0,
     "maxPerHour": 68.33,
     "maxPerHourStr": "$68.33",
+    "ingredientCost": 128.0,
+    "netProfit": 77.0,
+    "netPerHour": 25.67,
     "xp": 24.0,
     "xpPerHour": 8.0,
-    "xpPerHourStr": "8.00"
+    "xpPerHourStr": "8.00",
+    "ingredients": [
+      {
+        "item": "Blackberry",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Lobster tail",
@@ -4084,9 +8861,19 @@
     "timeHours": 6.0,
     "maxPerHour": 33.5,
     "maxPerHourStr": "$33.50",
+    "ingredientCost": 10.0,
+    "netProfit": 191.0,
+    "netPerHour": 31.83,
     "xp": 24.0,
     "xpPerHour": 4.0,
-    "xpPerHourStr": "4.00"
+    "xpPerHourStr": "4.00",
+    "ingredients": [
+      {
+        "item": "Lobster",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Bacon and eggs",
@@ -4098,9 +8885,23 @@
     "timeHours": 1.0,
     "maxPerHour": 201.0,
     "maxPerHourStr": "$201.00",
+    "ingredientCost": 172.0,
+    "netProfit": 29.0,
+    "netPerHour": 29.0,
     "xp": 24.0,
     "xpPerHour": 24.0,
-    "xpPerHourStr": "24.00"
+    "xpPerHourStr": "24.00",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 4
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Garlic bread",
@@ -4112,9 +8913,27 @@
     "timeHours": 0.25,
     "maxPerHour": 792.0,
     "maxPerHourStr": "$792.00",
+    "ingredientCost": 180.0,
+    "netProfit": 18.0,
+    "netPerHour": 72.0,
     "xp": 24.0,
     "xpPerHour": 96.0,
-    "xpPerHourStr": "96.00"
+    "xpPerHourStr": "96.00",
+    "ingredients": [
+      {
+        "item": "Bread",
+        "count": 2
+      },
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Garlic",
+        "count": 4
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Plain waffles",
@@ -4126,9 +8945,27 @@
     "timeHours": 0.4167,
     "maxPerHour": 475.2,
     "maxPerHourStr": "$475.20",
+    "ingredientCost": 169.0,
+    "netProfit": 29.0,
+    "netPerHour": 69.6,
     "xp": 24.0,
     "xpPerHour": 57.6,
-    "xpPerHourStr": "57.60"
+    "xpPerHourStr": "57.60",
+    "ingredients": [
+      {
+        "item": "White sugar",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 5
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Winter veggies",
@@ -4140,9 +8977,31 @@
     "timeHours": 0.4167,
     "maxPerHour": 475.2,
     "maxPerHourStr": "$475.20",
+    "ingredientCost": 229.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 24.0,
     "xpPerHour": 57.6,
-    "xpPerHourStr": "57.60"
+    "xpPerHourStr": "57.60",
+    "ingredients": [
+      {
+        "item": "Beetroot",
+        "count": 2
+      },
+      {
+        "item": "Carrot",
+        "count": 3
+      },
+      {
+        "item": "Potato",
+        "count": 2
+      },
+      {
+        "item": "Pumpkin",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Grilled onion",
@@ -4154,9 +9013,23 @@
     "timeHours": 1.0,
     "maxPerHour": 190.0,
     "maxPerHourStr": "$190.00",
+    "ingredientCost": 154.0,
+    "netProfit": 36.0,
+    "netPerHour": 36.0,
     "xp": 23.0,
     "xpPerHour": 23.0,
-    "xpPerHourStr": "23.00"
+    "xpPerHourStr": "23.00",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Milk tea",
@@ -4168,9 +9041,23 @@
     "timeHours": 0.75,
     "maxPerHour": 253.33,
     "maxPerHourStr": "$253.33",
+    "ingredientCost": 62.0,
+    "netProfit": 128.0,
+    "netPerHour": 170.67,
     "xp": 23.0,
     "xpPerHour": 30.67,
-    "xpPerHourStr": "30.67"
+    "xpPerHourStr": "30.67",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "Tea leaf",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Pizza",
@@ -4182,9 +9069,27 @@
     "timeHours": 0.25,
     "maxPerHour": 760.0,
     "maxPerHourStr": "$760.00",
+    "ingredientCost": 171.0,
+    "netProfit": 19.0,
+    "netPerHour": 76.0,
     "xp": 23.0,
     "xpPerHour": 92.0,
-    "xpPerHourStr": "92.00"
+    "xpPerHourStr": "92.00",
+    "ingredients": [
+      {
+        "item": "Cheese",
+        "count": 1
+      },
+      {
+        "item": "Tomato",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Hamburger",
@@ -4196,9 +9101,23 @@
     "timeHours": 2.0,
     "maxPerHour": 90.0,
     "maxPerHourStr": "$90.00",
+    "ingredientCost": 142.0,
+    "netProfit": 38.0,
+    "netPerHour": 19.0,
     "xp": 22.0,
     "xpPerHour": 11.0,
-    "xpPerHourStr": "11.00"
+    "xpPerHourStr": "11.00",
+    "ingredients": [
+      {
+        "item": "Bacon",
+        "count": 2
+      },
+      {
+        "item": "Bread",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Gold bar",
@@ -4210,9 +9129,19 @@
     "timeHours": 12.0,
     "maxPerHour": 15.0,
     "maxPerHourStr": "$15.00",
+    "ingredientCost": 30.0,
+    "netProfit": 150.0,
+    "netPerHour": 12.5,
     "xp": 21.0,
     "xpPerHour": 1.75,
-    "xpPerHourStr": "1.75"
+    "xpPerHourStr": "1.75",
+    "ingredients": [
+      {
+        "item": "Gold ore",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Toffee",
@@ -4224,9 +9153,27 @@
     "timeHours": 1.5,
     "maxPerHour": 117.33,
     "maxPerHourStr": "$117.33",
+    "ingredientCost": 135.0,
+    "netProfit": 41.0,
+    "netPerHour": 27.33,
     "xp": 21.0,
     "xpPerHour": 14.0,
-    "xpPerHourStr": "14.00"
+    "xpPerHourStr": "14.00",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Sesame ice cream",
@@ -4238,9 +9185,27 @@
     "timeHours": 2.0,
     "maxPerHour": 88.0,
     "maxPerHourStr": "$88.00",
+    "ingredientCost": 244.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 21.0,
     "xpPerHour": 10.5,
-    "xpPerHourStr": "10.50"
+    "xpPerHourStr": "10.50",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Sesame",
+        "count": 3
+      },
+      {
+        "item": "Brown sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mushroom soup",
@@ -4252,9 +9217,27 @@
     "timeHours": 1.3333,
     "maxPerHour": 132.0,
     "maxPerHourStr": "$132.00",
+    "ingredientCost": 134.0,
+    "netProfit": 42.0,
+    "netPerHour": 31.5,
     "xp": 21.0,
     "xpPerHour": 15.75,
-    "xpPerHourStr": "15.75"
+    "xpPerHourStr": "15.75",
+    "ingredients": [
+      {
+        "item": "Mushroom",
+        "count": 3
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "Onion",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Fish skewer",
@@ -4266,9 +9249,31 @@
     "timeHours": 0.5,
     "maxPerHour": 352.0,
     "maxPerHourStr": "$352.00",
+    "ingredientCost": 202.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 21.0,
     "xpPerHour": 42.0,
-    "xpPerHourStr": "42.00"
+    "xpPerHourStr": "42.00",
+    "ingredients": [
+      {
+        "item": "Fish fillet",
+        "count": 1
+      },
+      {
+        "item": "Mushroom",
+        "count": 3
+      },
+      {
+        "item": "Ginger",
+        "count": 1
+      },
+      {
+        "item": "Sesame",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Mint essential oil",
@@ -4280,9 +9285,19 @@
     "timeHours": 0.25,
     "maxPerHour": 688.0,
     "maxPerHourStr": "$688.00",
+    "ingredientCost": 30.0,
+    "netProfit": 142.0,
+    "netPerHour": 568.0,
     "xp": 20.0,
     "xpPerHour": 80.0,
-    "xpPerHourStr": "80.00"
+    "xpPerHourStr": "80.00",
+    "ingredients": [
+      {
+        "item": "Mint",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Vanilla ice cream",
@@ -4294,9 +9309,27 @@
     "timeHours": 2.0,
     "maxPerHour": 86.0,
     "maxPerHourStr": "$86.00",
+    "ingredientCost": 132.0,
+    "netProfit": 40.0,
+    "netPerHour": 20.0,
     "xp": 20.0,
     "xpPerHour": 10.0,
-    "xpPerHourStr": "10.00"
+    "xpPerHourStr": "10.00",
+    "ingredients": [
+      {
+        "item": "Cream",
+        "count": 1
+      },
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Calming Diffuser",
@@ -4308,9 +9341,23 @@
     "timeHours": 0.4167,
     "maxPerHour": 405.6,
     "maxPerHourStr": "$405.60",
+    "ingredientCost": 147.0,
+    "netProfit": 22.0,
+    "netPerHour": 52.8,
     "xp": 20.0,
     "xpPerHour": 48.0,
-    "xpPerHourStr": "48.00"
+    "xpPerHourStr": "48.00",
+    "ingredients": [
+      {
+        "item": "Chamomile Essential Oil",
+        "count": 1
+      },
+      {
+        "item": "Indigo",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Apple ginger tea",
@@ -4322,9 +9369,27 @@
     "timeHours": 0.5,
     "maxPerHour": 338.0,
     "maxPerHourStr": "$338.00",
+    "ingredientCost": 98.0,
+    "netProfit": 71.0,
+    "netPerHour": 142.0,
     "xp": 20.0,
     "xpPerHour": 40.0,
-    "xpPerHourStr": "40.00"
+    "xpPerHourStr": "40.00",
+    "ingredients": [
+      {
+        "item": "Ginger",
+        "count": 1
+      },
+      {
+        "item": "Apple",
+        "count": 2
+      },
+      {
+        "item": "Tea leaf",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Carrot cake",
@@ -4336,9 +9401,27 @@
     "timeHours": 1.5,
     "maxPerHour": 110.0,
     "maxPerHourStr": "$110.00",
+    "ingredientCost": 128.0,
+    "netProfit": 37.0,
+    "netPerHour": 24.67,
     "xp": 20.0,
     "xpPerHour": 13.33,
-    "xpPerHourStr": "13.33"
+    "xpPerHourStr": "13.33",
+    "ingredients": [
+      {
+        "item": "Brown sugar",
+        "count": 1
+      },
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Mushroom pot pie",
@@ -4350,9 +9433,31 @@
     "timeHours": 1.0,
     "maxPerHour": 162.0,
     "maxPerHourStr": "$162.00",
+    "ingredientCost": 105.0,
+    "netProfit": 57.0,
+    "netPerHour": 57.0,
     "xp": 19.0,
     "xpPerHour": 19.0,
-    "xpPerHourStr": "19.00"
+    "xpPerHourStr": "19.00",
+    "ingredients": [
+      {
+        "item": "Mushroom",
+        "count": 3
+      },
+      {
+        "item": "Cabbage",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Ginger essential oil",
@@ -4364,9 +9469,19 @@
     "timeHours": 0.3333,
     "maxPerHour": 486.0,
     "maxPerHourStr": "$486.00",
+    "ingredientCost": 50.0,
+    "netProfit": 112.0,
+    "netPerHour": 336.0,
     "xp": 19.0,
     "xpPerHour": 57.0,
-    "xpPerHourStr": "57.00"
+    "xpPerHourStr": "57.00",
+    "ingredients": [
+      {
+        "item": "Ginger",
+        "count": 5
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Tomato juice",
@@ -4378,9 +9493,19 @@
     "timeHours": 1.5,
     "maxPerHour": 108.0,
     "maxPerHourStr": "$108.00",
+    "ingredientCost": 129.0,
+    "netProfit": 33.0,
+    "netPerHour": 22.0,
     "xp": 19.0,
     "xpPerHour": 12.67,
-    "xpPerHourStr": "12.67"
+    "xpPerHourStr": "12.67",
+    "ingredients": [
+      {
+        "item": "Tomato",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Grape jam",
@@ -4392,9 +9517,19 @@
     "timeHours": 6.5,
     "maxPerHour": 24.92,
     "maxPerHourStr": "$24.92",
+    "ingredientCost": 30.0,
+    "netProfit": 132.0,
+    "netPerHour": 20.31,
     "xp": 19.0,
     "xpPerHour": 2.92,
-    "xpPerHourStr": "2.92"
+    "xpPerHourStr": "2.92",
+    "ingredients": [
+      {
+        "item": "Grapes",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Goat cheese",
@@ -4406,9 +9541,19 @@
     "timeHours": 1.5,
     "maxPerHour": 108.0,
     "maxPerHourStr": "$108.00",
+    "ingredientCost": 128.0,
+    "netProfit": 34.0,
+    "netPerHour": 22.67,
     "xp": 19.0,
     "xpPerHour": 12.67,
-    "xpPerHourStr": "12.67"
+    "xpPerHourStr": "12.67",
+    "ingredients": [
+      {
+        "item": "Goat milk",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Pumpkin pie",
@@ -4420,9 +9565,27 @@
     "timeHours": 2.0,
     "maxPerHour": 79.0,
     "maxPerHourStr": "$79.00",
+    "ingredientCost": 120.0,
+    "netProfit": 38.0,
+    "netPerHour": 19.0,
     "xp": 19.0,
     "xpPerHour": 9.5,
-    "xpPerHourStr": "9.50"
+    "xpPerHourStr": "9.50",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Pumpkin",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Honey",
@@ -4434,9 +9597,19 @@
     "timeHours": 0.3333,
     "maxPerHour": 462.0,
     "maxPerHourStr": "$462.00",
+    "ingredientCost": 136.0,
+    "netProfit": 18.0,
+    "netPerHour": 54.0,
     "xp": 19.0,
     "xpPerHour": 57.0,
-    "xpPerHourStr": "57.00"
+    "xpPerHourStr": "57.00",
+    "ingredients": [
+      {
+        "item": "Honeycomb",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Soy sauce",
@@ -4448,9 +9621,23 @@
     "timeHours": 3.0,
     "maxPerHour": 51.33,
     "maxPerHourStr": "$51.33",
+    "ingredientCost": 93.0,
+    "netProfit": 61.0,
+    "netPerHour": 20.33,
     "xp": 19.0,
     "xpPerHour": 6.33,
-    "xpPerHourStr": "6.33"
+    "xpPerHourStr": "6.33",
+    "ingredients": [
+      {
+        "item": "Soybean",
+        "count": 9
+      },
+      {
+        "item": "Wheat",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Potted plant",
@@ -4462,9 +9649,23 @@
     "timeHours": 3.6667,
     "maxPerHour": 41.18,
     "maxPerHourStr": "$41.18",
+    "ingredientCost": 40.0,
+    "netProfit": 111.0,
+    "netPerHour": 30.27,
     "xp": 26.0,
     "xpPerHour": 7.09,
-    "xpPerHourStr": "7.09"
+    "xpPerHourStr": "7.09",
+    "ingredients": [
+      {
+        "item": "Clay",
+        "count": 3
+      },
+      {
+        "item": "Sunflower",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Sweater",
@@ -4476,9 +9677,19 @@
     "timeHours": 2.0,
     "maxPerHour": 75.5,
     "maxPerHourStr": "$75.50",
+    "ingredientCost": 108.0,
+    "netProfit": 43.0,
+    "netPerHour": 21.5,
     "xp": 18.0,
     "xpPerHour": 9.0,
-    "xpPerHourStr": "9.00"
+    "xpPerHourStr": "9.00",
+    "ingredients": [
+      {
+        "item": "Wool",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Silver bar",
@@ -4490,9 +9701,19 @@
     "timeHours": 8.0,
     "maxPerHour": 18.38,
     "maxPerHourStr": "$18.38",
+    "ingredientCost": 30.0,
+    "netProfit": 117.0,
+    "netPerHour": 14.62,
     "xp": 18.0,
     "xpPerHour": 2.25,
-    "xpPerHourStr": "2.25"
+    "xpPerHourStr": "2.25",
+    "ingredients": [
+      {
+        "item": "Silver ore",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chamomile Tea",
@@ -4504,9 +9725,23 @@
     "timeHours": 0.3333,
     "maxPerHour": 432.0,
     "maxPerHourStr": "$432.00",
+    "ingredientCost": 118.0,
+    "netProfit": 26.0,
+    "netPerHour": 78.0,
     "xp": 17.0,
     "xpPerHour": 51.0,
-    "xpPerHourStr": "51.00"
+    "xpPerHourStr": "51.00",
+    "ingredients": [
+      {
+        "item": "Chamomile",
+        "count": 5
+      },
+      {
+        "item": "Honeycomb",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Duck feather",
@@ -4518,9 +9753,19 @@
     "timeHours": 3.0,
     "maxPerHour": 46.67,
     "maxPerHourStr": "$46.67",
+    "ingredientCost": 10.0,
+    "netProfit": 130.0,
+    "netPerHour": 43.33,
     "xp": 17.0,
     "xpPerHour": 5.67,
-    "xpPerHourStr": "5.67"
+    "xpPerHourStr": "5.67",
+    "ingredients": [
+      {
+        "item": "Duck",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Raspberry muffin",
@@ -4532,9 +9777,27 @@
     "timeHours": 0.75,
     "maxPerHour": 186.67,
     "maxPerHourStr": "$186.67",
+    "ingredientCost": 116.0,
+    "netProfit": 24.0,
+    "netPerHour": 32.0,
     "xp": 17.0,
     "xpPerHour": 22.67,
-    "xpPerHourStr": "22.67"
+    "xpPerHourStr": "22.67",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Raspberry",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Colourful omelet",
@@ -4546,9 +9809,31 @@
     "timeHours": 1.0,
     "maxPerHour": 136.0,
     "maxPerHourStr": "$136.00",
+    "ingredientCost": 96.0,
+    "netProfit": 40.0,
+    "netPerHour": 40.0,
     "xp": 16.0,
     "xpPerHour": 16.0,
-    "xpPerHourStr": "16.00"
+    "xpPerHourStr": "16.00",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Bell pepper",
+        "count": 1
+      },
+      {
+        "item": "Cabbage",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Plain Donut",
@@ -4560,9 +9845,31 @@
     "timeHours": 0.25,
     "maxPerHour": 516.0,
     "maxPerHourStr": "$516.00",
+    "ingredientCost": 109.0,
+    "netProfit": 20.0,
+    "netPerHour": 80.0,
     "xp": 15.0,
     "xpPerHour": 60.0,
-    "xpPerHourStr": "60.00"
+    "xpPerHourStr": "60.00",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 1
+      },
+      {
+        "item": "White sugar",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Iron bar",
@@ -4574,9 +9881,19 @@
     "timeHours": 7.0,
     "maxPerHour": 18.43,
     "maxPerHourStr": "$18.43",
+    "ingredientCost": 30.0,
+    "netProfit": 99.0,
+    "netPerHour": 14.14,
     "xp": 15.0,
     "xpPerHour": 2.14,
-    "xpPerHourStr": "2.14"
+    "xpPerHourStr": "2.14",
+    "ingredients": [
+      {
+        "item": "Iron ore",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Apple juice",
@@ -4588,9 +9905,19 @@
     "timeHours": 2.0,
     "maxPerHour": 64.5,
     "maxPerHourStr": "$64.50",
+    "ingredientCost": 78.0,
+    "netProfit": 51.0,
+    "netPerHour": 25.5,
     "xp": 15.0,
     "xpPerHour": 7.5,
-    "xpPerHourStr": "7.50"
+    "xpPerHourStr": "7.50",
+    "ingredients": [
+      {
+        "item": "Apple",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Buttered popcorn",
@@ -4602,9 +9929,23 @@
     "timeHours": 1.0,
     "maxPerHour": 126.0,
     "maxPerHourStr": "$126.00",
+    "ingredientCost": 96.0,
+    "netProfit": 30.0,
+    "netPerHour": 30.0,
     "xp": 15.0,
     "xpPerHour": 15.0,
-    "xpPerHourStr": "15.00"
+    "xpPerHourStr": "15.00",
+    "ingredients": [
+      {
+        "item": "Butter",
+        "count": 1
+      },
+      {
+        "item": "Corn",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cheese",
@@ -4616,9 +9957,19 @@
     "timeHours": 1.0,
     "maxPerHour": 122.0,
     "maxPerHourStr": "$122.00",
+    "ingredientCost": 96.0,
+    "netProfit": 26.0,
+    "netPerHour": 26.0,
     "xp": 15.0,
     "xpPerHour": 15.0,
-    "xpPerHourStr": "15.00"
+    "xpPerHourStr": "15.00",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 3
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Chili popcorn",
@@ -4630,9 +9981,23 @@
     "timeHours": 2.0,
     "maxPerHour": 61.0,
     "maxPerHourStr": "$61.00",
+    "ingredientCost": 86.0,
+    "netProfit": 36.0,
+    "netPerHour": 18.0,
     "xp": 15.0,
     "xpPerHour": 7.5,
-    "xpPerHourStr": "7.50"
+    "xpPerHourStr": "7.50",
+    "ingredients": [
+      {
+        "item": "Chili pepper",
+        "count": 2
+      },
+      {
+        "item": "Corn",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Passion fruit jam",
@@ -4644,9 +10009,19 @@
     "timeHours": 5.3333,
     "maxPerHour": 22.12,
     "maxPerHourStr": "$22.12",
+    "ingredientCost": 30.0,
+    "netProfit": 88.0,
+    "netPerHour": 16.5,
     "xp": 14.0,
     "xpPerHour": 2.62,
-    "xpPerHourStr": "2.62"
+    "xpPerHourStr": "2.62",
+    "ingredients": [
+      {
+        "item": "Passion fruit",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Roasted tomatoes",
@@ -4658,9 +10033,19 @@
     "timeHours": 1.5,
     "maxPerHour": 78.67,
     "maxPerHourStr": "$78.67",
+    "ingredientCost": 86.0,
+    "netProfit": 32.0,
+    "netPerHour": 21.33,
     "xp": 14.0,
     "xpPerHour": 9.33,
-    "xpPerHourStr": "9.33"
+    "xpPerHourStr": "9.33",
+    "ingredients": [
+      {
+        "item": "Tomato",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Passion fruit pie",
@@ -4672,9 +10057,27 @@
     "timeHours": 0.8333,
     "maxPerHour": 133.2,
     "maxPerHourStr": "$133.20",
+    "ingredientCost": 54.0,
+    "netProfit": 57.0,
+    "netPerHour": 68.4,
     "xp": 13.0,
     "xpPerHour": 15.6,
-    "xpPerHourStr": "15.60"
+    "xpPerHourStr": "15.60",
+    "ingredients": [
+      {
+        "item": "Passion fruit",
+        "count": 3
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Blue woolly hat",
@@ -4686,9 +10089,23 @@
     "timeHours": 1.0,
     "maxPerHour": 111.0,
     "maxPerHourStr": "$111.00",
+    "ingredientCost": 79.0,
+    "netProfit": 32.0,
+    "netPerHour": 32.0,
     "xp": 13.0,
     "xpPerHour": 13.0,
-    "xpPerHourStr": "13.00"
+    "xpPerHourStr": "13.00",
+    "ingredients": [
+      {
+        "item": "Indigo",
+        "count": 1
+      },
+      {
+        "item": "Wool",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Pomegranate",
@@ -4700,9 +10117,14 @@
     "timeHours": 3.0,
     "maxPerHour": 37.0,
     "maxPerHourStr": "$37.00",
+    "ingredientCost": 0.0,
+    "netProfit": 111.0,
+    "netPerHour": 37.0,
     "xp": 22.0,
     "xpPerHour": 7.33,
-    "xpPerHourStr": "7.33"
+    "xpPerHourStr": "7.33",
+    "ingredients": [],
+    "bottleneck": "EASY"
   },
   {
     "name": "Pancake",
@@ -4714,9 +10136,23 @@
     "timeHours": 0.5,
     "maxPerHour": 216.0,
     "maxPerHourStr": "$216.00",
+    "ingredientCost": 86.0,
+    "netProfit": 22.0,
+    "netPerHour": 44.0,
     "xp": 13.0,
     "xpPerHour": 26.0,
-    "xpPerHourStr": "26.00"
+    "xpPerHourStr": "26.00",
+    "ingredients": [
+      {
+        "item": "Brown sugar",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 3
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Cotton fabric",
@@ -4728,9 +10164,19 @@
     "timeHours": 0.5,
     "maxPerHour": 216.0,
     "maxPerHourStr": "$216.00",
+    "ingredientCost": 84.0,
+    "netProfit": 24.0,
+    "netPerHour": 48.0,
     "xp": 13.0,
     "xpPerHour": 26.0,
-    "xpPerHourStr": "26.00"
+    "xpPerHourStr": "26.00",
+    "ingredients": [
+      {
+        "item": "Cotton",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Watermelon juice",
@@ -4742,9 +10188,19 @@
     "timeHours": 1.0,
     "maxPerHour": 108.0,
     "maxPerHourStr": "$108.00",
+    "ingredientCost": 20.0,
+    "netProfit": 88.0,
+    "netPerHour": 88.0,
     "xp": 13.0,
     "xpPerHour": 13.0,
-    "xpPerHourStr": "13.00"
+    "xpPerHourStr": "13.00",
+    "ingredients": [
+      {
+        "item": "Watermelon",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Refined coal",
@@ -4756,9 +10212,19 @@
     "timeHours": 6.0,
     "maxPerHour": 18.0,
     "maxPerHourStr": "$18.00",
+    "ingredientCost": 30.0,
+    "netProfit": 78.0,
+    "netPerHour": 13.0,
     "xp": 13.0,
     "xpPerHour": 2.17,
-    "xpPerHourStr": "2.17"
+    "xpPerHourStr": "2.17",
+    "ingredients": [
+      {
+        "item": "Coal",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cookie",
@@ -4770,9 +10236,27 @@
     "timeHours": 1.0,
     "maxPerHour": 104.0,
     "maxPerHourStr": "$104.00",
+    "ingredientCost": 74.0,
+    "netProfit": 30.0,
+    "netPerHour": 30.0,
     "xp": 13.0,
     "xpPerHour": 13.0,
-    "xpPerHourStr": "13.00"
+    "xpPerHourStr": "13.00",
+    "ingredients": [
+      {
+        "item": "Brown sugar",
+        "count": 1
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "HIGH"
   },
   {
     "name": "Grape juice",
@@ -4784,9 +10268,19 @@
     "timeHours": 2.5,
     "maxPerHour": 41.6,
     "maxPerHourStr": "$41.60",
+    "ingredientCost": 20.0,
+    "netProfit": 84.0,
+    "netPerHour": 33.6,
     "xp": 13.0,
     "xpPerHour": 5.2,
-    "xpPerHourStr": "5.20"
+    "xpPerHourStr": "5.20",
+    "ingredients": [
+      {
+        "item": "Grapes",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Rice noodles",
@@ -4798,9 +10292,19 @@
     "timeHours": 0.3333,
     "maxPerHour": 300.0,
     "maxPerHourStr": "$300.00",
+    "ingredientCost": 90.0,
+    "netProfit": 10.0,
+    "netPerHour": 30.0,
     "xp": 12.0,
     "xpPerHour": 36.0,
-    "xpPerHourStr": "36.00"
+    "xpPerHourStr": "36.00",
+    "ingredients": [
+      {
+        "item": "Rice",
+        "count": 5
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Syrup",
@@ -4812,9 +10316,19 @@
     "timeHours": 1.5,
     "maxPerHour": 60.0,
     "maxPerHourStr": "$60.00",
+    "ingredientCost": 56.0,
+    "netProfit": 34.0,
+    "netPerHour": 22.67,
     "xp": 11.0,
     "xpPerHour": 7.33,
-    "xpPerHourStr": "7.33"
+    "xpPerHourStr": "7.33",
+    "ingredients": [
+      {
+        "item": "Sugarcane",
+        "count": 4
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Carrot pie",
@@ -4826,9 +10340,27 @@
     "timeHours": 1.0,
     "maxPerHour": 82.0,
     "maxPerHourStr": "$82.00",
+    "ingredientCost": 45.0,
+    "netProfit": 37.0,
+    "netPerHour": 37.0,
     "xp": 10.0,
     "xpPerHour": 10.0,
-    "xpPerHourStr": "10.00"
+    "xpPerHourStr": "10.00",
+    "ingredients": [
+      {
+        "item": "Carrot",
+        "count": 3
+      },
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Butter",
@@ -4840,9 +10372,19 @@
     "timeHours": 0.5,
     "maxPerHour": 164.0,
     "maxPerHourStr": "$164.00",
+    "ingredientCost": 64.0,
+    "netProfit": 18.0,
+    "netPerHour": 36.0,
     "xp": 10.0,
     "xpPerHour": 20.0,
-    "xpPerHourStr": "20.00"
+    "xpPerHourStr": "20.00",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Blueberries",
@@ -4854,9 +10396,14 @@
     "timeHours": 10.0,
     "maxPerHour": 8.2,
     "maxPerHourStr": "$8.20",
+    "ingredientCost": 0.0,
+    "netProfit": 82.0,
+    "netPerHour": 8.2,
     "xp": 16.0,
     "xpPerHour": 1.6,
-    "xpPerHourStr": "1.60"
+    "xpPerHourStr": "1.60",
+    "ingredients": [],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chamomile Essential Oil",
@@ -4868,9 +10415,19 @@
     "timeHours": 0.1667,
     "maxPerHour": 432.0,
     "maxPerHourStr": "$432.00",
+    "ingredientCost": 50.0,
+    "netProfit": 22.0,
+    "netPerHour": 132.0,
     "xp": 8.0,
     "xpPerHour": 48.0,
-    "xpPerHourStr": "48.00"
+    "xpPerHourStr": "48.00",
+    "ingredients": [
+      {
+        "item": "Chamomile",
+        "count": 5
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Meat bucket",
@@ -4882,9 +10439,23 @@
     "timeHours": 0.75,
     "maxPerHour": 96.0,
     "maxPerHourStr": "$96.00",
+    "ingredientCost": 197.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 15.0,
     "xpPerHour": 20.0,
-    "xpPerHourStr": "20.00"
+    "xpPerHourStr": "20.00",
+    "ingredients": [
+      {
+        "item": "Fish Fillet",
+        "count": 3
+      },
+      {
+        "item": "Carrot",
+        "count": 5
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Corn bread",
@@ -4896,9 +10467,23 @@
     "timeHours": 0.5,
     "maxPerHour": 144.0,
     "maxPerHourStr": "$144.00",
+    "ingredientCost": 50.0,
+    "netProfit": 22.0,
+    "netPerHour": 44.0,
     "xp": 8.0,
     "xpPerHour": 16.0,
-    "xpPerHourStr": "16.00"
+    "xpPerHourStr": "16.00",
+    "ingredients": [
+      {
+        "item": "Corn",
+        "count": 2
+      },
+      {
+        "item": "Egg",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Honeycomb",
@@ -4910,9 +10495,14 @@
     "timeHours": 0.55,
     "maxPerHour": 123.64,
     "maxPerHourStr": "$123.64",
+    "ingredientCost": 0.0,
+    "netProfit": 68.0,
+    "netPerHour": 123.64,
     "xp": 8.0,
     "xpPerHour": 14.55,
-    "xpPerHourStr": "14.55"
+    "xpPerHourStr": "14.55",
+    "ingredients": [],
+    "bottleneck": "EASY"
   },
   {
     "name": "Pineapple juice",
@@ -4924,9 +10514,19 @@
     "timeHours": 0.75,
     "maxPerHour": 90.67,
     "maxPerHourStr": "$90.67",
+    "ingredientCost": 171.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 8.0,
     "xpPerHour": 10.67,
-    "xpPerHourStr": "10.67"
+    "xpPerHourStr": "10.67",
+    "ingredients": [
+      {
+        "item": "Pineapple",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Passion fruit juice",
@@ -4938,9 +10538,19 @@
     "timeHours": 0.75,
     "maxPerHour": 85.33,
     "maxPerHourStr": "$85.33",
+    "ingredientCost": 20.0,
+    "netProfit": 44.0,
+    "netPerHour": 58.67,
     "xp": 8.0,
     "xpPerHour": 10.67,
-    "xpPerHourStr": "10.67"
+    "xpPerHourStr": "10.67",
+    "ingredients": [
+      {
+        "item": "Passion fruit",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Goat milk",
@@ -4952,9 +10562,19 @@
     "timeHours": 8.0,
     "maxPerHour": 8.0,
     "maxPerHourStr": "$8.00",
+    "ingredientCost": 14.0,
+    "netProfit": 50.0,
+    "netPerHour": 6.25,
     "xp": 6.0,
     "xpPerHour": 0.75,
-    "xpPerHourStr": "0.75"
+    "xpPerHourStr": "0.75",
+    "ingredients": [
+      {
+        "item": "Goat Feed",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Wool",
@@ -4966,9 +10586,19 @@
     "timeHours": 6.0,
     "maxPerHour": 9.0,
     "maxPerHourStr": "$9.00",
+    "ingredientCost": 14.0,
+    "netProfit": 40.0,
+    "netPerHour": 6.67,
     "xp": 5.0,
     "xpPerHour": 0.83,
-    "xpPerHourStr": "0.83"
+    "xpPerHourStr": "0.83",
+    "ingredients": [
+      {
+        "item": "Sheep feed",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fish fillet",
@@ -4980,9 +10610,27 @@
     "timeHours": 20.0,
     "maxPerHour": 2.7,
     "maxPerHourStr": "$2.70",
+    "ingredientCost": 30.0,
+    "netProfit": 24.0,
+    "netPerHour": 1.2,
     "xp": 0.0,
     "xpPerHour": 0.0,
-    "xpPerHourStr": "0.00"
+    "xpPerHourStr": "0.00",
+    "ingredients": [
+      {
+        "item": "Lure",
+        "count": 1
+      },
+      {
+        "item": "Fishing net",
+        "count": 1
+      },
+      {
+        "item": "Fishing spot",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "White sugar",
@@ -4994,9 +10642,19 @@
     "timeHours": 0.6667,
     "maxPerHour": 75.0,
     "maxPerHourStr": "$75.00",
+    "ingredientCost": 28.0,
+    "netProfit": 22.0,
+    "netPerHour": 33.0,
     "xp": 6.0,
     "xpPerHour": 9.0,
-    "xpPerHourStr": "9.00"
+    "xpPerHourStr": "9.00",
+    "ingredients": [
+      {
+        "item": "Sugarcane",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Wheat bundle",
@@ -5008,9 +10666,19 @@
     "timeHours": 1.5,
     "maxPerHour": 33.33,
     "maxPerHourStr": "$33.33",
+    "ingredientCost": 225.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 10.0,
     "xpPerHour": 6.67,
-    "xpPerHourStr": "6.67"
+    "xpPerHourStr": "6.67",
+    "ingredients": [
+      {
+        "item": "Wheat",
+        "count": 75
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cream",
@@ -5022,9 +10690,19 @@
     "timeHours": 0.3333,
     "maxPerHour": 150.0,
     "maxPerHourStr": "$150.00",
+    "ingredientCost": 32.0,
+    "netProfit": 18.0,
+    "netPerHour": 54.0,
     "xp": 6.0,
     "xpPerHour": 18.0,
-    "xpPerHourStr": "18.00"
+    "xpPerHourStr": "18.00",
+    "ingredients": [
+      {
+        "item": "Milk",
+        "count": 1
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Bacon",
@@ -5036,9 +10714,19 @@
     "timeHours": 4.0,
     "maxPerHour": 12.5,
     "maxPerHourStr": "$12.50",
+    "ingredientCost": 14.0,
+    "netProfit": 36.0,
+    "netPerHour": 9.0,
     "xp": 5.0,
     "xpPerHour": 1.25,
-    "xpPerHourStr": "1.25"
+    "xpPerHourStr": "1.25",
+    "ingredients": [
+      {
+        "item": "Pig feed",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Carrot juice",
@@ -5050,9 +10738,19 @@
     "timeHours": 0.5,
     "maxPerHour": 92.0,
     "maxPerHourStr": "$92.00",
+    "ingredientCost": 21.0,
+    "netProfit": 25.0,
+    "netPerHour": 50.0,
     "xp": 6.0,
     "xpPerHour": 12.0,
-    "xpPerHourStr": "12.00"
+    "xpPerHourStr": "12.00",
+    "ingredients": [
+      {
+        "item": "Carrot",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Fresh pasta",
@@ -5064,9 +10762,23 @@
     "timeHours": 0.25,
     "maxPerHour": 172.0,
     "maxPerHourStr": "$172.00",
+    "ingredientCost": 24.0,
+    "netProfit": 19.0,
+    "netPerHour": 76.0,
     "xp": 5.0,
     "xpPerHour": 20.0,
-    "xpPerHourStr": "20.00"
+    "xpPerHourStr": "20.00",
+    "ingredients": [
+      {
+        "item": "Egg",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "MED"
   },
   {
     "name": "Popcorn",
@@ -5078,9 +10790,19 @@
     "timeHours": 0.5,
     "maxPerHour": 64.0,
     "maxPerHourStr": "$64.00",
+    "ingredientCost": 14.0,
+    "netProfit": 18.0,
+    "netPerHour": 36.0,
     "xp": 4.0,
     "xpPerHour": 8.0,
-    "xpPerHourStr": "8.00"
+    "xpPerHourStr": "8.00",
+    "ingredients": [
+      {
+        "item": "Corn",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Brown sugar",
@@ -5092,9 +10814,19 @@
     "timeHours": 0.3333,
     "maxPerHour": 96.0,
     "maxPerHourStr": "$96.00",
+    "ingredientCost": 14.0,
+    "netProfit": 18.0,
+    "netPerHour": 54.0,
     "xp": 4.0,
     "xpPerHour": 12.0,
-    "xpPerHourStr": "12.00"
+    "xpPerHourStr": "12.00",
+    "ingredients": [
+      {
+        "item": "Sugarcane",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Milk",
@@ -5106,9 +10838,19 @@
     "timeHours": 1.0,
     "maxPerHour": 32.0,
     "maxPerHourStr": "$32.00",
+    "ingredientCost": 14.0,
+    "netProfit": 18.0,
+    "netPerHour": 18.0,
     "xp": 3.0,
     "xpPerHour": 3.0,
-    "xpPerHourStr": "3.00"
+    "xpPerHourStr": "3.00",
+    "ingredients": [
+      {
+        "item": "Cow feed",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Bread",
@@ -5120,9 +10862,19 @@
     "timeHours": 0.0833,
     "maxPerHour": 252.0,
     "maxPerHourStr": "$252.00",
+    "ingredientCost": 9.0,
+    "netProfit": 12.0,
+    "netPerHour": 144.0,
     "xp": 3.0,
     "xpPerHour": 36.0,
-    "xpPerHourStr": "36.00"
+    "xpPerHourStr": "36.00",
+    "ingredients": [
+      {
+        "item": "Wheat",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Egg",
@@ -5134,9 +10886,19 @@
     "timeHours": 0.3333,
     "maxPerHour": 54.0,
     "maxPerHourStr": "$54.00",
+    "ingredientCost": 7.0,
+    "netProfit": 11.0,
+    "netPerHour": 33.0,
     "xp": 2.0,
     "xpPerHour": 6.0,
-    "xpPerHourStr": "6.00"
+    "xpPerHourStr": "6.00",
+    "ingredients": [
+      {
+        "item": "Chicken feed",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Cow feed",
@@ -5148,9 +10910,23 @@
     "timeHours": 0.1667,
     "maxPerHour": 84.0,
     "maxPerHourStr": "$84.00",
+    "ingredientCost": 27.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 2.0,
     "xpPerHour": 12.0,
-    "xpPerHourStr": "12.00"
+    "xpPerHourStr": "12.00",
+    "ingredients": [
+      {
+        "item": "Corn",
+        "count": 1
+      },
+      {
+        "item": "Soybean",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Pig feed",
@@ -5162,9 +10938,23 @@
     "timeHours": 0.3333,
     "maxPerHour": 42.0,
     "maxPerHourStr": "$42.00",
+    "ingredientCost": 24.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 2.0,
     "xpPerHour": 6.0,
-    "xpPerHourStr": "6.00"
+    "xpPerHourStr": "6.00",
+    "ingredients": [
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Soybean",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Sheep feed",
@@ -5176,9 +10966,23 @@
     "timeHours": 0.5,
     "maxPerHour": 28.0,
     "maxPerHourStr": "$28.00",
+    "ingredientCost": 19.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 3.0,
     "xpPerHour": 6.0,
-    "xpPerHourStr": "6.00"
+    "xpPerHourStr": "6.00",
+    "ingredients": [
+      {
+        "item": "Soybean",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 3
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Goat feed",
@@ -5190,9 +10994,27 @@
     "timeHours": 0.6667,
     "maxPerHour": 21.0,
     "maxPerHourStr": "$21.00",
+    "ingredientCost": 24.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 3.0,
     "xpPerHour": 4.5,
-    "xpPerHourStr": "4.50"
+    "xpPerHourStr": "4.50",
+    "ingredients": [
+      {
+        "item": "Carrot",
+        "count": 2
+      },
+      {
+        "item": "Corn",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 1
+      }
+    ],
+    "bottleneck": "EASY"
   },
   {
     "name": "Chicken feed",
@@ -5204,8 +11026,22 @@
     "timeHours": 0.0833,
     "maxPerHour": 84.0,
     "maxPerHourStr": "$84.00",
+    "ingredientCost": 13.0,
+    "netProfit": 0.0,
+    "netPerHour": 0.0,
     "xp": 1.0,
     "xpPerHour": 12.0,
-    "xpPerHourStr": "12.00"
+    "xpPerHourStr": "12.00",
+    "ingredients": [
+      {
+        "item": "Corn",
+        "count": 1
+      },
+      {
+        "item": "Wheat",
+        "count": 2
+      }
+    ],
+    "bottleneck": "EASY"
   }
 ]
