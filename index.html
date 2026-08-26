@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hay Day - Calculadora de Lucro da Vendinha</title>
+  <meta name="description" content="Descubra quais são os itens mais lucrativos para vender na vendinha do Hay Day com base no seu nível!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="brand">
+        <span class="brand-icon">🌾</span>
+        <div>
+          <h1>Hay Day Profit Master</h1>
+          <p class="subtitle">Descubra os melhores itens para lucrar na sua vendinha</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- Panel Controls -->
+    <section class="controls-card">
+      <div class="controls-grid">
+        <!-- Level Selector -->
+        <div class="control-group level-group">
+          <label for="level-input" class="label-with-icon">
+            <span>⭐ Nível da Fazenda:</span>
+            <span id="level-display" class="level-badge">Level 25</span>
+          </label>
+          <div class="level-slider-wrapper">
+            <input type="range" id="level-slider" min="1" max="130" value="25" class="slider">
+            <input type="number" id="level-input" min="1" max="130" value="25" class="number-input">
+          </div>
+        </div>
+
+        <!-- Strategy Selector -->
+        <div class="control-group">
+          <label for="sort-select" class="label-with-icon">⚡ Estratégia / Ordenação:</label>
+          <select id="sort-select" class="select-input">
+            <option value="maxPerHour" selected>⚡ Mais Lucrativos por Hora ($/Hr)</option>
+            <option value="maxPrice">💰 Maior Preço Unitário ($ Max)</option>
+            <option value="xpPerHour">⭐ Mais XP por Hora (XP/Hr)</option>
+            <option value="timeHours">⏱️ Menor Tempo de Produção</option>
+          </select>
+        </div>
+
+        <!-- Machine Filter -->
+        <div class="control-group">
+          <label for="building-select" class="label-with-icon">🏭 Máquina / Construção:</label>
+          <select id="building-select" class="select-input">
+            <option value="ALL">Todas as Máquinas</option>
+          </select>
+        </div>
+
+        <!-- Search Input -->
+        <div class="control-group">
+          <label for="search-input" class="label-with-icon">🔍 Buscar Item:</label>
+          <input type="text" id="search-input" placeholder="Ex: Bread, Muffin, Pizza..." class="search-input">
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Summary Banner -->
+    <div class="metrics-banner">
+      <div class="metric-item">
+        <span class="metric-value" id="count-unlocked">0</span>
+        <span class="metric-label">Itens Desbloqueados</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-value" id="top-item-name">-</span>
+        <span class="metric-label">Top Item Lucro/Hora</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-value" id="top-item-profit">$0/hr</span>
+        <span class="metric-label">Maior Rendimento/Hora</span>
+      </div>
+    </div>
+
+    <!-- Items Grid -->
+    <section>
+      <div id="items-grid" class="items-grid">
+        <!-- Cards injected dynamically via app.js -->
+      </div>
+      <div id="empty-state" class="empty-state hidden">
+        <span class="empty-icon">🌽</span>
+        <h3>Nenhum item encontrado</h3>
+        <p>Tente ajustar os filtros de busca ou alterar seu nível.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Criado para fazendeiros de <strong>Hay Day</strong> 🚜 | Dados atualizados para venda no valor máximo da vendinha.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
