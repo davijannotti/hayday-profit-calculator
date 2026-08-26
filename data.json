@@ -1,7 +1,7 @@
 [
   {
     "name": "Pineapple Coconut Bar",
-    "level": 15,
+    "level": 65,
     "building": "Bakery",
     "maxPrice": 284.0,
     "maxPriceStr": "$284",
@@ -92,7 +92,7 @@
   },
   {
     "name": "Gingerbrd Cookie",
-    "level": 10,
+    "level": 86,
     "building": "Bakery",
     "maxPrice": 273.0,
     "maxPriceStr": "$273",
@@ -417,7 +417,7 @@
   },
   {
     "name": "Winter Veggies",
-    "level": 36,
+    "level": 72,
     "building": "BBQ Grill",
     "maxPrice": 198.0,
     "maxPriceStr": "$198",
@@ -1652,7 +1652,7 @@
   },
   {
     "name": "Choc. Ice Cream",
-    "level": 6,
+    "level": 39,
     "building": "Ice Cream Maker",
     "maxPrice": 342.0,
     "maxPriceStr": "$342",
@@ -1717,7 +1717,7 @@
   },
   {
     "name": "PB Milkshake",
-    "level": 6,
+    "level": 68,
     "building": "Ice Cream Maker",
     "maxPrice": 619.0,
     "maxPriceStr": "$619",
@@ -1756,7 +1756,7 @@
   },
   {
     "name": "Strawbry Ice Cream",
-    "level": 6,
+    "level": 34,
     "building": "Ice Cream Maker",
     "maxPrice": 331.0,
     "maxPriceStr": "$331",
@@ -3043,7 +3043,7 @@
   },
   {
     "name": "Goat Cheese Tst",
-    "level": 12,
+    "level": 92,
     "building": "Sandwich Bar",
     "maxPrice": 302.0,
     "maxPriceStr": "$302",
