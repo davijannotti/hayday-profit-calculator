@@ -202,7 +202,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 20px;
-  align-items: stretch;
+  align-items: start; /* Each card takes natural height instead of stretching */
 }
 
 /* Item Card */
@@ -215,10 +215,8 @@ h1 {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
   overflow: hidden;
-  height: 100%;
 }
 
 .item-card:hover {
@@ -231,13 +229,12 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 12px;
 }
 
 .card-body-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-top: auto;
 }
 
 .card-top {
@@ -268,10 +265,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
   gap: 8px;
   flex-wrap: wrap;
-  min-height: 24px;
 }
 
 .item-building {
