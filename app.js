@@ -30,7 +30,7 @@ async function loadData() {
   }
 }
 
-// Populate building select options dynamically
+// Populate building select options dynamically based on selected category
 function populateBuildingFilter() {
   const selectedCategory = categorySelect.value;
   buildingSelect.innerHTML = '<option value="ALL">Todas as Origens</option>';
@@ -98,8 +98,20 @@ function render() {
   // 1. Filter items
   let filtered = allItems.filter(item => {
     const isUnlocked = item.level <= currentLevel;
-    const matchesCategory = currentCategory === 'ALL' || item.category === currentCategory;
-    const matchesBuilding = currentBuilding === 'ALL' || item.building === currentBuilding;
+    
+    // Category check
+    let matchesCategory = true;
+    if (currentCategory !== 'ALL') {
+      matchesCategory = item.category === currentCategory;
+    }
+
+    // Building/Origin check
+    let matchesBuilding = true;
+    if (currentBuilding !== 'ALL') {
+      matchesBuilding = item.building === currentBuilding;
+    }
+
+    // Search check
     const matchesSearch = !searchText || item.name.toLowerCase().includes(searchText);
 
     return isUnlocked && matchesCategory && matchesBuilding && matchesSearch;
@@ -145,7 +157,7 @@ function render() {
     const icon = getCategoryIcon(item.category);
 
     const toolBadge = item.toolReq 
-      ? `<div class="stat-row tool-warning"><span class="stat-label">🧰 Ferramenta de Remoção:</span><span class="tool-val">${item.toolReq}</span></div>`
+      ? `<div class="stat-row tool-warning"><span class="stat-label">🧰 Remoção:</span><span class="tool-val">${item.toolReq}</span></div>`
       : '';
 
     card.innerHTML = `
